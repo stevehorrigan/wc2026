@@ -215,7 +215,7 @@ Capped at 55 players per team. Retired players excluded via `scripts/exclusions.
 
 12. **Live-ish Group Standings** — update group tables as results come in (manual JSON updates or connect to a free API like football-data.org)
 
-13. **Knockout Bracket** — visual bracket from R32 to Final, updating as results come in
+13. **Knockout Bracket** — ✅ visual bracket from R32 to Final. Recursive tree layout with connector lines, desktop fits one screen, mobile round-by-round. Candidate opponents shown via FIFA rankings
 
 14. **"What does this result mean"** — during group stages, show qualification scenarios. "If England beat Croatia AND France draw with Senegal, then..."
 

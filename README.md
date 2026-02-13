@@ -21,6 +21,9 @@ A "Follow My Team" World Cup 2026 companion website. Pick your country and get a
 - **Multi-format Calendar Export** — ICS download, Google Calendar link, and Outlook.com link for your team's fixtures.
 - **Venue Local Time** — Option to show kick-off times in the host stadium's local timezone, useful for fans attending in person.
 
+### Phase 3 — Tournament Mode
+- **Tournament Bracket** — Full wallchart-style bracket from Round of 32 to Final. Recursive tree layout with connector lines. Desktop fits on one screen; mobile shows round-by-round. Knockout path candidates shown based on FIFA rankings.
+
 ### Polish
 - **Cross-linking** — Team names are clickable links throughout fixtures, group tables, map popups, and venue pages.
 - **Club Info** — Squad tables show each player's current club.
