@@ -107,7 +107,8 @@ class WikiTableParser(HTMLParser):
         self.current_row = []
         self.current_cell = ""
         self.in_cell = False
-        self.skip_hidden = False
+        self.sup_depth = 0       # Inside <sup> (footnotes) — skip all content
+        self.hidden_span = False  # Inside display:none <span>
 
     def handle_starttag(self, tag, attrs):
         attrs_dict = dict(attrs)
@@ -116,15 +117,14 @@ class WikiTableParser(HTMLParser):
         elif tag in ("td", "th"):
             self.in_cell = True
             self.current_cell = ""
+        elif tag == "sup":
+            self.sup_depth += 1
         elif tag == "span":
             style = attrs_dict.get("style", "")
             if "display:none" in style or "display: none" in style:
-                self.skip_hidden = True
+                self.hidden_span = True
             if "bday" in attrs_dict.get("class", ""):
-                self.skip_hidden = False
-        elif tag == "sup":
-            # Skip footnote references
-            self.skip_hidden = True
+                self.hidden_span = False
 
     def handle_endtag(self, tag):
         if tag in ("td", "th"):
@@ -134,13 +134,17 @@ class WikiTableParser(HTMLParser):
         elif tag == "tr":
             if self.current_row:
                 self.rows.append(self.current_row)
-        elif tag == "span":
-            self.skip_hidden = False
         elif tag == "sup":
-            self.skip_hidden = False
+            self.sup_depth = max(0, self.sup_depth - 1)
+        elif tag == "span":
+            self.hidden_span = False
+
+    @property
+    def _skip(self):
+        return self.sup_depth > 0 or self.hidden_span
 
     def handle_data(self, data):
-        if self.in_cell and not self.skip_hidden:
+        if self.in_cell and not self._skip:
             self.current_cell += data
 
 
