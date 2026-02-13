@@ -1,0 +1,62 @@
+{
+  "eng": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Thomas Tuchel",
+    "players": []
+  },
+  "bra": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Dorival Júnior",
+    "players": []
+  },
+  "fra": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Didier Deschamps",
+    "players": []
+  },
+  "arg": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Lionel Scaloni",
+    "players": []
+  },
+  "esp": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Luis de la Fuente",
+    "players": []
+  },
+  "deu": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Julian Nagelsmann",
+    "players": []
+  },
+  "prt": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Roberto Martínez",
+    "players": []
+  },
+  "nld": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Ronald Koeman",
+    "players": []
+  },
+  "usa": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Mauricio Pochettino",
+    "players": []
+  },
+  "mex": {
+    "lastUpdated": "2026-02-13",
+    "status": "preliminary",
+    "manager": "Javier Aguirre",
+    "players": []
+  }
+}

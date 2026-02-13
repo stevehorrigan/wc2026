@@ -1,0 +1,482 @@
+[
+  {
+    "id": "mex",
+    "name": "Mexico",
+    "shortName": "MEX",
+    "group": "A",
+    "confederation": "CONCACAF",
+    "fifaRanking": 16,
+    "flagUrl": "https://flagcdn.com/w80/mx.png",
+    "qualified": true
+  },
+  {
+    "id": "rsa",
+    "name": "South Africa",
+    "shortName": "RSA",
+    "group": "A",
+    "confederation": "CAF",
+    "fifaRanking": 60,
+    "flagUrl": "https://flagcdn.com/w80/za.png",
+    "qualified": true
+  },
+  {
+    "id": "kor",
+    "name": "Korea Republic",
+    "shortName": "KOR",
+    "group": "A",
+    "confederation": "AFC",
+    "fifaRanking": 22,
+    "flagUrl": "https://flagcdn.com/w80/kr.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-ued",
+    "name": "UEFA Playoff D Winner",
+    "shortName": "TBD",
+    "group": "A",
+    "confederation": "UEFA",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "can",
+    "name": "Canada",
+    "shortName": "CAN",
+    "group": "B",
+    "confederation": "CONCACAF",
+    "fifaRanking": 29,
+    "flagUrl": "https://flagcdn.com/w80/ca.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-uea",
+    "name": "UEFA Playoff A Winner",
+    "shortName": "TBD",
+    "group": "B",
+    "confederation": "UEFA",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "qat",
+    "name": "Qatar",
+    "shortName": "QAT",
+    "group": "B",
+    "confederation": "AFC",
+    "fifaRanking": 57,
+    "flagUrl": "https://flagcdn.com/w80/qa.png",
+    "qualified": true
+  },
+  {
+    "id": "sui",
+    "name": "Switzerland",
+    "shortName": "SUI",
+    "group": "B",
+    "confederation": "UEFA",
+    "fifaRanking": 18,
+    "flagUrl": "https://flagcdn.com/w80/ch.png",
+    "qualified": true
+  },
+  {
+    "id": "bra",
+    "name": "Brazil",
+    "shortName": "BRA",
+    "group": "C",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 5,
+    "flagUrl": "https://flagcdn.com/w80/br.png",
+    "qualified": true
+  },
+  {
+    "id": "mar",
+    "name": "Morocco",
+    "shortName": "MAR",
+    "group": "C",
+    "confederation": "CAF",
+    "fifaRanking": 8,
+    "flagUrl": "https://flagcdn.com/w80/ma.png",
+    "qualified": true
+  },
+  {
+    "id": "sco",
+    "name": "Scotland",
+    "shortName": "SCO",
+    "group": "C",
+    "confederation": "UEFA",
+    "fifaRanking": 38,
+    "flagUrl": "https://flagcdn.com/w80/gb-sct.png",
+    "qualified": true
+  },
+  {
+    "id": "hti",
+    "name": "Haiti",
+    "shortName": "HAI",
+    "group": "C",
+    "confederation": "CONCACAF",
+    "fifaRanking": 83,
+    "flagUrl": "https://flagcdn.com/w80/ht.png",
+    "qualified": true
+  },
+  {
+    "id": "usa",
+    "name": "United States",
+    "shortName": "USA",
+    "group": "D",
+    "confederation": "CONCACAF",
+    "fifaRanking": 15,
+    "flagUrl": "https://flagcdn.com/w80/us.png",
+    "qualified": true
+  },
+  {
+    "id": "pry",
+    "name": "Paraguay",
+    "shortName": "PAR",
+    "group": "D",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 40,
+    "flagUrl": "https://flagcdn.com/w80/py.png",
+    "qualified": true
+  },
+  {
+    "id": "aus",
+    "name": "Australia",
+    "shortName": "AUS",
+    "group": "D",
+    "confederation": "AFC",
+    "fifaRanking": 27,
+    "flagUrl": "https://flagcdn.com/w80/au.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-uec",
+    "name": "UEFA Playoff C Winner",
+    "shortName": "TBD",
+    "group": "D",
+    "confederation": "UEFA",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "deu",
+    "name": "Germany",
+    "shortName": "GER",
+    "group": "E",
+    "confederation": "UEFA",
+    "fifaRanking": 10,
+    "flagUrl": "https://flagcdn.com/w80/de.png",
+    "qualified": true
+  },
+  {
+    "id": "cuw",
+    "name": "Curacao",
+    "shortName": "CUW",
+    "group": "E",
+    "confederation": "CONCACAF",
+    "fifaRanking": 81,
+    "flagUrl": "https://flagcdn.com/w80/cw.png",
+    "qualified": true
+  },
+  {
+    "id": "civ",
+    "name": "Ivory Coast",
+    "shortName": "CIV",
+    "group": "E",
+    "confederation": "CAF",
+    "fifaRanking": 37,
+    "flagUrl": "https://flagcdn.com/w80/ci.png",
+    "qualified": true
+  },
+  {
+    "id": "ecu",
+    "name": "Ecuador",
+    "shortName": "ECU",
+    "group": "E",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 23,
+    "flagUrl": "https://flagcdn.com/w80/ec.png",
+    "qualified": true
+  },
+  {
+    "id": "nld",
+    "name": "Netherlands",
+    "shortName": "NED",
+    "group": "F",
+    "confederation": "UEFA",
+    "fifaRanking": 7,
+    "flagUrl": "https://flagcdn.com/w80/nl.png",
+    "qualified": true
+  },
+  {
+    "id": "jpn",
+    "name": "Japan",
+    "shortName": "JPN",
+    "group": "F",
+    "confederation": "AFC",
+    "fifaRanking": 19,
+    "flagUrl": "https://flagcdn.com/w80/jp.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-ueb",
+    "name": "UEFA Playoff B Winner",
+    "shortName": "TBD",
+    "group": "F",
+    "confederation": "UEFA",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "tun",
+    "name": "Tunisia",
+    "shortName": "TUN",
+    "group": "F",
+    "confederation": "CAF",
+    "fifaRanking": 47,
+    "flagUrl": "https://flagcdn.com/w80/tn.png",
+    "qualified": true
+  },
+  {
+    "id": "bel",
+    "name": "Belgium",
+    "shortName": "BEL",
+    "group": "G",
+    "confederation": "UEFA",
+    "fifaRanking": 9,
+    "flagUrl": "https://flagcdn.com/w80/be.png",
+    "qualified": true
+  },
+  {
+    "id": "egy",
+    "name": "Egypt",
+    "shortName": "EGY",
+    "group": "G",
+    "confederation": "CAF",
+    "fifaRanking": 31,
+    "flagUrl": "https://flagcdn.com/w80/eg.png",
+    "qualified": true
+  },
+  {
+    "id": "irn",
+    "name": "Iran",
+    "shortName": "IRN",
+    "group": "G",
+    "confederation": "AFC",
+    "fifaRanking": 20,
+    "flagUrl": "https://flagcdn.com/w80/ir.png",
+    "qualified": true
+  },
+  {
+    "id": "nzl",
+    "name": "New Zealand",
+    "shortName": "NZL",
+    "group": "G",
+    "confederation": "OFC",
+    "fifaRanking": 85,
+    "flagUrl": "https://flagcdn.com/w80/nz.png",
+    "qualified": true
+  },
+  {
+    "id": "esp",
+    "name": "Spain",
+    "shortName": "ESP",
+    "group": "H",
+    "confederation": "UEFA",
+    "fifaRanking": 1,
+    "flagUrl": "https://flagcdn.com/w80/es.png",
+    "qualified": true
+  },
+  {
+    "id": "cpv",
+    "name": "Cape Verde",
+    "shortName": "CPV",
+    "group": "H",
+    "confederation": "CAF",
+    "fifaRanking": 67,
+    "flagUrl": "https://flagcdn.com/w80/cv.png",
+    "qualified": true
+  },
+  {
+    "id": "sau",
+    "name": "Saudi Arabia",
+    "shortName": "KSA",
+    "group": "H",
+    "confederation": "AFC",
+    "fifaRanking": 61,
+    "flagUrl": "https://flagcdn.com/w80/sa.png",
+    "qualified": true
+  },
+  {
+    "id": "ury",
+    "name": "Uruguay",
+    "shortName": "URU",
+    "group": "H",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 17,
+    "flagUrl": "https://flagcdn.com/w80/uy.png",
+    "qualified": true
+  },
+  {
+    "id": "fra",
+    "name": "France",
+    "shortName": "FRA",
+    "group": "I",
+    "confederation": "UEFA",
+    "fifaRanking": 3,
+    "flagUrl": "https://flagcdn.com/w80/fr.png",
+    "qualified": true
+  },
+  {
+    "id": "sen",
+    "name": "Senegal",
+    "shortName": "SEN",
+    "group": "I",
+    "confederation": "CAF",
+    "fifaRanking": 12,
+    "flagUrl": "https://flagcdn.com/w80/sn.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-ip2",
+    "name": "FIFA Intercontinental Playoff 2 Winner",
+    "shortName": "TBD",
+    "group": "I",
+    "confederation": "TBD",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "nor",
+    "name": "Norway",
+    "shortName": "NOR",
+    "group": "I",
+    "confederation": "UEFA",
+    "fifaRanking": 32,
+    "flagUrl": "https://flagcdn.com/w80/no.png",
+    "qualified": true
+  },
+  {
+    "id": "arg",
+    "name": "Argentina",
+    "shortName": "ARG",
+    "group": "J",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 2,
+    "flagUrl": "https://flagcdn.com/w80/ar.png",
+    "qualified": true
+  },
+  {
+    "id": "dza",
+    "name": "Algeria",
+    "shortName": "ALG",
+    "group": "J",
+    "confederation": "CAF",
+    "fifaRanking": 28,
+    "flagUrl": "https://flagcdn.com/w80/dz.png",
+    "qualified": true
+  },
+  {
+    "id": "aut",
+    "name": "Austria",
+    "shortName": "AUT",
+    "group": "J",
+    "confederation": "UEFA",
+    "fifaRanking": 24,
+    "flagUrl": "https://flagcdn.com/w80/at.png",
+    "qualified": true
+  },
+  {
+    "id": "jor",
+    "name": "Jordan",
+    "shortName": "JOR",
+    "group": "J",
+    "confederation": "AFC",
+    "fifaRanking": 64,
+    "flagUrl": "https://flagcdn.com/w80/jo.png",
+    "qualified": true
+  },
+  {
+    "id": "prt",
+    "name": "Portugal",
+    "shortName": "POR",
+    "group": "K",
+    "confederation": "UEFA",
+    "fifaRanking": 6,
+    "flagUrl": "https://flagcdn.com/w80/pt.png",
+    "qualified": true
+  },
+  {
+    "id": "playoff-ip1",
+    "name": "FIFA Intercontinental Playoff 1 Winner",
+    "shortName": "TBD",
+    "group": "K",
+    "confederation": "TBD",
+    "fifaRanking": null,
+    "flagUrl": "",
+    "qualified": false
+  },
+  {
+    "id": "uzb",
+    "name": "Uzbekistan",
+    "shortName": "UZB",
+    "group": "K",
+    "confederation": "AFC",
+    "fifaRanking": 53,
+    "flagUrl": "https://flagcdn.com/w80/uz.png",
+    "qualified": true
+  },
+  {
+    "id": "col",
+    "name": "Colombia",
+    "shortName": "COL",
+    "group": "K",
+    "confederation": "CONMEBOL",
+    "fifaRanking": 14,
+    "flagUrl": "https://flagcdn.com/w80/co.png",
+    "qualified": true
+  },
+  {
+    "id": "eng",
+    "name": "England",
+    "shortName": "ENG",
+    "group": "L",
+    "confederation": "UEFA",
+    "fifaRanking": 4,
+    "flagUrl": "https://flagcdn.com/w80/gb-eng.png",
+    "qualified": true
+  },
+  {
+    "id": "hrv",
+    "name": "Croatia",
+    "shortName": "CRO",
+    "group": "L",
+    "confederation": "UEFA",
+    "fifaRanking": 11,
+    "flagUrl": "https://flagcdn.com/w80/hr.png",
+    "qualified": true
+  },
+  {
+    "id": "gha",
+    "name": "Ghana",
+    "shortName": "GHA",
+    "group": "L",
+    "confederation": "CAF",
+    "fifaRanking": 72,
+    "flagUrl": "https://flagcdn.com/w80/gh.png",
+    "qualified": true
+  },
+  {
+    "id": "pan",
+    "name": "Panama",
+    "shortName": "PAN",
+    "group": "L",
+    "confederation": "CONCACAF",
+    "fifaRanking": 33,
+    "flagUrl": "https://flagcdn.com/w80/pa.png",
+    "qualified": true
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "A": ["mex", "rsa", "kor", "playoff-ued"],
+  "B": ["can", "playoff-uea", "qat", "sui"],
+  "C": ["bra", "mar", "sco", "hti"],
+  "D": ["usa", "pry", "aus", "playoff-uec"],
+  "E": ["deu", "cuw", "civ", "ecu"],
+  "F": ["nld", "jpn", "playoff-ueb", "tun"],
+  "G": ["bel", "egy", "irn", "nzl"],
+  "H": ["esp", "cpv", "sau", "ury"],
+  "I": ["fra", "sen", "playoff-ip2", "nor"],
+  "J": ["arg", "dza", "aut", "jor"],
+  "K": ["prt", "playoff-ip1", "uzb", "col"],
+  "L": ["eng", "hrv", "gha", "pan"]
+}
