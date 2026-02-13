@@ -89,21 +89,15 @@ const BORDER = 'border-slate-300 dark:border-slate-600';
 
 function ConnectorPair({ direction = 'right', span }) {
   // A single bracket connector: two inputs → one output
-  // Uses CSS borders so it aligns perfectly with flex siblings
-  if (direction === 'right') {
-    return (
-      <div className="flex flex-col" style={{ flex: span }}>
-        {/* Top half: bottom-right corner */}
-        <div className={`flex-1 border-r border-b ${BORDER}`} />
-        {/* Bottom half: top-right corner, with output line */}
-        <div className={`flex-1 border-r border-t ${BORDER}`} />
-      </div>
-    );
-  }
+  // 4 quarters: spacer, top arm, bottom arm, spacer
+  // The vertical line only spans the middle 50% (between match centres)
+  const side = direction === 'right' ? 'border-r' : 'border-l';
   return (
     <div className="flex flex-col" style={{ flex: span }}>
-      <div className={`flex-1 border-l border-b ${BORDER}`} />
-      <div className={`flex-1 border-l border-t ${BORDER}`} />
+      <div className="flex-1" />
+      <div className={`flex-1 ${side} border-b ${BORDER}`} />
+      <div className={`flex-1 ${side} border-t ${BORDER}`} />
+      <div className="flex-1" />
     </div>
   );
 }
