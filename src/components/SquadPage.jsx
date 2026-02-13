@@ -37,22 +37,14 @@ function PlayerTable({ players, hasCapsData }) {
     <>
       {/* Desktop table */}
       <div className="hidden sm:block overflow-x-auto">
-        <table className="w-full text-left text-sm table-fixed">
-          <colgroup>
-            <col className="w-12" />
-            <col />
-            <col className="w-32" />
-            <col className="w-14" />
-            {hasCapsData && <col className="w-14" />}
-            {hasCapsData && <col className="w-14" />}
-          </colgroup>
+        <table className="w-full text-left text-sm">
           <thead>
             <tr className="border-b border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400">
-              <th className="py-2 pr-2 font-medium">#</th>
-              <th className="py-2 pr-2 font-medium">Name</th>
-              <th className="py-2 pr-2 font-medium">Club</th>
-              <th className="py-2 pr-2 font-medium text-center">Age</th>
-              {hasCapsData && <th className="py-2 pr-2 font-medium text-center">Caps</th>}
+              <th className="py-2 pr-3 font-medium">#</th>
+              <th className="py-2 pr-3 font-medium">Name</th>
+              <th className="py-2 pr-3 font-medium">Club</th>
+              <th className="py-2 pr-3 font-medium text-center">Age</th>
+              {hasCapsData && <th className="py-2 pr-3 font-medium text-center">Caps</th>}
               {hasCapsData && <th className="py-2 font-medium text-center">Goals</th>}
             </tr>
           </thead>
@@ -62,25 +54,25 @@ function PlayerTable({ players, hasCapsData }) {
                 key={player.name + idx}
                 className="border-b border-slate-100 dark:border-slate-700/50 hover:bg-slate-100 dark:hover:bg-slate-700/30 transition-colors"
               >
-                <td className="py-2.5 pr-2 text-slate-500 dark:text-slate-400 tabular-nums">
+                <td className="py-2.5 pr-3 text-slate-500 dark:text-slate-400 tabular-nums whitespace-nowrap">
                   {player.number || '—'}
                 </td>
-                <td className="py-2.5 pr-2 font-medium text-slate-900 dark:text-white truncate">
+                <td className="py-2.5 pr-3 font-medium text-slate-900 dark:text-white whitespace-nowrap">
                   {player.name}
                 </td>
-                <td className="py-2.5 pr-2 text-slate-500 dark:text-slate-400 truncate">
+                <td className="py-2.5 pr-3 text-slate-500 dark:text-slate-400">
                   {player.club || '—'}
                 </td>
-                <td className="py-2.5 pr-2 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                <td className="py-2.5 pr-3 text-center tabular-nums text-slate-700 dark:text-slate-300 whitespace-nowrap">
                   {player.age ?? '—'}
                 </td>
                 {hasCapsData && (
-                  <td className="py-2.5 pr-2 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                  <td className="py-2.5 pr-3 text-center tabular-nums text-slate-700 dark:text-slate-300 whitespace-nowrap">
                     {player.caps || '—'}
                   </td>
                 )}
                 {hasCapsData && (
-                  <td className="py-2.5 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                  <td className="py-2.5 text-center tabular-nums text-slate-700 dark:text-slate-300 whitespace-nowrap">
                     {player.goals || '—'}
                   </td>
                 )}
