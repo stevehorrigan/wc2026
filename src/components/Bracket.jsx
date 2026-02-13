@@ -1,172 +1,247 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { getAllFixtures, getVenueById, getTeamName, getTeamFlag, getTeamById, getRoundLabel } from '../utils/fixtures';
+import { getAllFixtures, getVenueById, getTeamName, getTeamFlag, getTeamById } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
-/**
- * Trace the bracket tree from a given match number recursively.
- * Returns an object keyed by round, with arrays of fixtures.
- */
+// ── Bracket tree tracing ────────────────────────────────────────────────────
+
 function traceBracketHalf(matchNumber, fixtureMap) {
   const fixture = fixtureMap.get(matchNumber);
   if (!fixture) return {};
-
   const result = { [fixture.round]: [fixture] };
-
-  for (const teamRef of [fixture.homeTeam, fixture.awayTeam]) {
-    const winMatch = /^W(\d+)$/.exec(teamRef);
-    if (winMatch) {
-      const feederNum = parseInt(winMatch[1], 10);
-      const sub = traceBracketHalf(feederNum, fixtureMap);
+  for (const ref of [fixture.homeTeam, fixture.awayTeam]) {
+    const m = /^W(\d+)$/.exec(ref);
+    if (m) {
+      const sub = traceBracketHalf(parseInt(m[1], 10), fixtureMap);
       for (const [round, matches] of Object.entries(sub)) {
         result[round] = (result[round] || []).concat(matches);
       }
     }
   }
-
   return result;
 }
 
-/**
- * Sort fixtures within a round by their match number to maintain
- * bracket ordering (adjacent pairs feed into the same next-round match).
- */
-function sortByMatch(fixtures) {
-  return [...fixtures].sort((a, b) => a.matchNumber - b.matchNumber);
+function sortByMatch(arr) {
+  return [...arr].sort((a, b) => a.matchNumber - b.matchNumber);
 }
 
-// --- MatchCard ---
+// ── Compact match card ──────────────────────────────────────────────────────
 
 function TeamRow({ teamId }) {
   const team = getTeamById(teamId);
   const flag = getTeamFlag(teamId);
   const name = getTeamName(teamId);
-
   const inner = (
     <>
       {flag ? (
-        <img src={flag} alt="" className="w-4 h-3 object-cover rounded-sm flex-shrink-0" />
+        <img src={flag} alt="" className="w-4 h-2.5 object-cover rounded-sm shrink-0" />
       ) : (
-        <span className="w-4 h-3 bg-slate-200 dark:bg-slate-700 rounded-sm flex-shrink-0" />
+        <span className="w-4 h-2.5 bg-slate-200 dark:bg-slate-700 rounded-sm shrink-0" />
       )}
-      <span className="font-medium text-slate-900 dark:text-white truncate flex-1 text-xs">
-        {name}
-      </span>
+      <span className="truncate">{name}</span>
     </>
   );
-
   if (team) {
     return (
-      <Link to={`/team/${teamId}`} className="flex items-center gap-1.5 mb-1 hover:text-teal-400 transition-colors">
+      <Link to={`/team/${teamId}`} className="flex items-center gap-1 hover:text-teal-400 transition-colors">
         {inner}
       </Link>
     );
   }
-
-  return <div className="flex items-center gap-1.5 mb-1">{inner}</div>;
+  return <div className="flex items-center gap-1">{inner}</div>;
 }
 
-function MatchCard({ fixture, timezone, isVenueLocal }) {
+function MatchCard({ fixture, timezone, isVenueLocal, compact }) {
   const venue = getVenueById(fixture.venue);
   const effectiveTz = isVenueLocal && venue ? venue.timezone : timezone;
 
   return (
-    <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-2 text-xs w-full">
-      <TeamRow teamId={fixture.homeTeam} />
-      <TeamRow teamId={fixture.awayTeam} />
-      <div className="text-[10px] text-slate-500 dark:text-slate-400 mt-0.5">
-        {formatMatchDate(fixture.date, effectiveTz)} &middot;{' '}
+    <div className={`bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded ${
+      compact ? 'px-1.5 py-1 text-[10px] leading-tight' : 'p-2 text-xs'
+    } w-full`}>
+      <div className={`font-medium text-slate-900 dark:text-white ${compact ? 'space-y-0' : 'space-y-0.5'}`}>
+        <TeamRow teamId={fixture.homeTeam} />
+        <TeamRow teamId={fixture.awayTeam} />
+      </div>
+      <div className={`text-slate-500 dark:text-slate-400 ${compact ? 'text-[8px] mt-0.5' : 'text-[10px] mt-0.5'}`}>
+        {formatMatchDate(fixture.date, effectiveTz)}{' · '}
         {formatMatchTime(fixture.date, fixture.timeUTC, effectiveTz)}
-        {isVenueLocal && venue && (
-          <span className="ml-1 text-teal-500 dark:text-teal-400">(local)</span>
+        {isVenueLocal && venue && <span className="ml-0.5 text-teal-500">(L)</span>}
+        {venue && !compact && (
+          <>
+            {' · '}
+            <Link to={`/venue/${venue.id}`} className="hover:text-teal-400 transition-colors">
+              {venue.displayCity}
+            </Link>
+          </>
         )}
       </div>
-      {venue && (
-        <Link
-          to={`/venue/${venue.id}`}
-          className="text-[10px] text-slate-400 dark:text-slate-500 truncate block hover:text-teal-400 transition-colors"
-        >
-          {venue.displayCity}
-        </Link>
-      )}
     </div>
   );
 }
 
-// --- Round column for desktop bracket ---
+// ── SVG connector lines ─────────────────────────────────────────────────────
 
-function RoundColumn({ label, fixtures, timezone, isVenueLocal, gap, labelColor }) {
+function Connectors({ count, direction = 'right' }) {
+  // Each connector bridges a pair of matches → 1 output
+  // count = number of pairs (e.g., 4 pairs of R32 → 4 R16 matches)
+  const pairs = count;
+  const pairHeight = 100 / pairs;
+
   return (
-    <div className={`flex flex-col justify-around w-48 flex-shrink-0 ${gap}`}>
-      <h4 className={`text-xs font-semibold text-center mb-2 ${labelColor || 'text-teal-400'}`}>
-        {label}
-      </h4>
-      {fixtures.map((f) => (
-        <MatchCard key={f.matchNumber} fixture={f} timezone={timezone} isVenueLocal={isVenueLocal} />
+    <svg className="w-5 shrink-0" viewBox={`0 0 20 ${pairs * 40}`} preserveAspectRatio="none" style={{ height: '100%' }}>
+      {Array.from({ length: pairs }).map((_, i) => {
+        const top = i * 40 + 8;
+        const bot = i * 40 + 32;
+        const mid = (top + bot) / 2;
+        const stroke = 'currentColor';
+        if (direction === 'right') {
+          return (
+            <g key={i} className="text-slate-300 dark:text-slate-600">
+              <line x1="0" y1={top} x2="10" y2={top} stroke={stroke} strokeWidth="1.5" />
+              <line x1="0" y1={bot} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
+              <line x1="10" y1={top} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
+              <line x1="10" y1={mid} x2="20" y2={mid} stroke={stroke} strokeWidth="1.5" />
+            </g>
+          );
+        }
+        return (
+          <g key={i} className="text-slate-300 dark:text-slate-600">
+            <line x1="20" y1={top} x2="10" y2={top} stroke={stroke} strokeWidth="1.5" />
+            <line x1="20" y1={bot} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
+            <line x1="10" y1={top} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
+            <line x1="10" y1={mid} x2="0" y2={mid} stroke={stroke} strokeWidth="1.5" />
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+// ── Round column using CSS Grid for proper alignment ────────────────────────
+
+function RoundCol({ matches, timezone, isVenueLocal, roundSpan }) {
+  // roundSpan: how many grid rows each match occupies (R32=1, R16=2, QF=4, SF=8)
+  return (
+    <div className="flex flex-col justify-around h-full gap-0" style={{ minWidth: '140px', maxWidth: '160px' }}>
+      {matches.map((f) => (
+        <div key={f.matchNumber} className="flex items-center" style={{ flex: roundSpan }}>
+          <MatchCard fixture={f} timezone={timezone} isVenueLocal={isVenueLocal} compact />
+        </div>
       ))}
     </div>
   );
 }
 
-// --- Main Bracket component ---
+// ── Desktop bracket ─────────────────────────────────────────────────────────
+
+function DesktopBracket({ leftR32, leftR16, leftQF, leftSF, rightR32, rightR16, rightQF, rightSF, finalMatch, thirdPlace, timezone, isVenueLocal }) {
+  return (
+    <div className="hidden xl:flex items-stretch" style={{ height: 'calc(100vh - 140px)', minHeight: '700px' }}>
+      {/* Left half: R32 → R16 → QF → SF */}
+      <RoundCol matches={leftR32} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={1} />
+      <div className="flex items-stretch shrink-0"><Connectors count={4} direction="right" /></div>
+      <RoundCol matches={leftR16} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={2} />
+      <div className="flex items-stretch shrink-0"><Connectors count={2} direction="right" /></div>
+      <RoundCol matches={leftQF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={4} />
+      <div className="flex items-stretch shrink-0"><Connectors count={1} direction="right" /></div>
+      <RoundCol matches={leftSF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={8} />
+
+      {/* Center: Final + 3rd Place */}
+      <div className="flex flex-col items-center justify-center gap-3 px-3 shrink-0" style={{ minWidth: '160px', maxWidth: '170px' }}>
+        {finalMatch && (
+          <div className="w-full">
+            <p className="text-[10px] font-bold text-center text-amber-400 mb-1">FINAL</p>
+            <MatchCard fixture={finalMatch} timezone={timezone} isVenueLocal={isVenueLocal} compact />
+          </div>
+        )}
+        {thirdPlace && (
+          <div className="w-full">
+            <p className="text-[10px] font-semibold text-center text-slate-400 mb-1">3RD PLACE</p>
+            <MatchCard fixture={thirdPlace} timezone={timezone} isVenueLocal={isVenueLocal} compact />
+          </div>
+        )}
+      </div>
+
+      {/* Right half: SF → QF → R16 → R32 */}
+      <RoundCol matches={rightSF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={8} />
+      <div className="flex items-stretch shrink-0"><Connectors count={1} direction="left" /></div>
+      <RoundCol matches={rightQF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={4} />
+      <div className="flex items-stretch shrink-0"><Connectors count={2} direction="left" /></div>
+      <RoundCol matches={rightR16} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={2} />
+      <div className="flex items-stretch shrink-0"><Connectors count={4} direction="left" /></div>
+      <RoundCol matches={rightR32} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={1} />
+    </div>
+  );
+}
+
+// ── Round headers for desktop ───────────────────────────────────────────────
+
+function RoundHeaders() {
+  const rounds = ['R32', 'R16', 'QF', 'SF', 'Final', 'SF', 'QF', 'R16', 'R32'];
+  return (
+    <div className="hidden xl:flex items-center mb-2">
+      {rounds.map((label, i) => (
+        <div
+          key={`${label}-${i}`}
+          className={`text-[10px] font-semibold text-center uppercase tracking-wider shrink-0 ${
+            label === 'Final' ? 'text-amber-400' : 'text-teal-500'
+          }`}
+          style={{
+            minWidth: label === 'Final' ? '160px' : '140px',
+            maxWidth: label === 'Final' ? '170px' : '160px',
+            flex: label === 'Final' ? undefined : 1,
+            // Add space for connectors
+            ...(i < 8 && label !== 'Final' ? { marginRight: '20px' } : {}),
+            ...(i > 0 && label !== 'Final' ? { marginLeft: i === 5 ? '0' : '0' } : {}),
+          }}
+        >
+          {label}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Main component ──────────────────────────────────────────────────────────
 
 export default function Bracket() {
   const { timezone, setTimezone } = useTimezone();
   useDocumentTitle('Tournament Bracket');
-
   const isVenueLocal = timezone === VENUE_LOCAL;
   const allFixtures = getAllFixtures();
 
-  // Build fixture map for tree traversal
   const fixtureMap = useMemo(() => {
     const map = new Map();
-    for (const f of allFixtures) {
-      map.set(f.matchNumber, f);
-    }
+    for (const f of allFixtures) map.set(f.matchNumber, f);
     return map;
   }, [allFixtures]);
 
-  // Get knockout fixtures
-  const knockoutFixtures = useMemo(() => {
-    return allFixtures.filter(f => f.round !== 'group');
-  }, [allFixtures]);
-
-  // Find final and 3rd-place matches
+  const knockoutFixtures = useMemo(() => allFixtures.filter(f => f.round !== 'group'), [allFixtures]);
   const finalMatch = knockoutFixtures.find(f => f.round === 'final');
   const thirdPlace = knockoutFixtures.find(f => f.round === '3rd');
 
-  // Trace left and right halves from the final's two semi-final feeders
   const { leftHalf, rightHalf } = useMemo(() => {
     if (!finalMatch) return { leftHalf: {}, rightHalf: {} };
-
-    // The final's homeTeam and awayTeam are W101 and W102 (the two SF winners)
-    const homeSfMatch = /^W(\d+)$/.exec(finalMatch.homeTeam);
-    const awaySfMatch = /^W(\d+)$/.exec(finalMatch.awayTeam);
-
-    const leftSfNum = homeSfMatch ? parseInt(homeSfMatch[1], 10) : null;
-    const rightSfNum = awaySfMatch ? parseInt(awaySfMatch[1], 10) : null;
-
-    const left = leftSfNum ? traceBracketHalf(leftSfNum, fixtureMap) : {};
-    const right = rightSfNum ? traceBracketHalf(rightSfNum, fixtureMap) : {};
-
+    const homeM = /^W(\d+)$/.exec(finalMatch.homeTeam);
+    const awayM = /^W(\d+)$/.exec(finalMatch.awayTeam);
+    const left = homeM ? traceBracketHalf(parseInt(homeM[1], 10), fixtureMap) : {};
+    const right = awayM ? traceBracketHalf(parseInt(awayM[1], 10), fixtureMap) : {};
     return { leftHalf: left, rightHalf: right };
   }, [finalMatch, fixtureMap]);
 
-  // Extract sorted arrays for each round/half
   const leftR32 = sortByMatch(leftHalf.r32 || []);
   const leftR16 = sortByMatch(leftHalf.r16 || []);
   const leftQF = sortByMatch(leftHalf.qf || []);
   const leftSF = sortByMatch(leftHalf.sf || []);
-
   const rightR32 = sortByMatch(rightHalf.r32 || []);
   const rightR16 = sortByMatch(rightHalf.r16 || []);
   const rightQF = sortByMatch(rightHalf.qf || []);
   const rightSF = sortByMatch(rightHalf.sf || []);
 
-  // Mobile round-by-round data
   const rounds = [
     { key: 'r32', label: 'Round of 32', fixtures: sortByMatch(knockoutFixtures.filter(f => f.round === 'r32')) },
     { key: 'r16', label: 'Round of 16', fixtures: sortByMatch(knockoutFixtures.filter(f => f.round === 'r16')) },
@@ -177,31 +252,25 @@ export default function Bracket() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className="mx-auto px-2 py-4" style={{ maxWidth: '1600px' }}>
       {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-4 px-2">
         <div>
-          <h1 className="text-2xl font-bold">Tournament Bracket</h1>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">
-            Round of 32 through to the Final &middot; 32 knockout matches
+          <h1 className="text-xl font-bold">Tournament Bracket</h1>
+          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+            32 knockout matches &middot; Round of 32 to Final
           </p>
         </div>
         <TimezoneSelector timezone={timezone} setTimezone={setTimezone} />
       </div>
 
-      {/* --- Mobile layout: round-by-round vertical scroll --- */}
-      <div className="lg:hidden space-y-8">
+      {/* Mobile: round-by-round */}
+      <div className="xl:hidden space-y-6 px-2">
         {rounds.map((round) => (
           <div key={round.key}>
-            <h3
-              className={`text-sm font-semibold mb-3 ${
-                round.key === 'final'
-                  ? 'text-amber-400'
-                  : round.key === '3rd'
-                  ? 'text-slate-400'
-                  : 'text-teal-400'
-              }`}
-            >
+            <h3 className={`text-sm font-semibold mb-2 ${
+              round.key === 'final' ? 'text-amber-400' : round.key === '3rd' ? 'text-slate-400' : 'text-teal-400'
+            }`}>
               {round.label}
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -213,145 +282,13 @@ export default function Bracket() {
         ))}
       </div>
 
-      {/* --- Desktop layout: horizontal bracket tree --- */}
-      <div className="hidden lg:block overflow-x-auto">
-        <div className="flex gap-4 min-w-max px-4 items-center" style={{ minHeight: '900px' }}>
-          {/* Left bracket: R32 -> R16 -> QF -> SF */}
-          <RoundColumn
-            label="Round of 32"
-            fixtures={leftR32}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-2"
-          />
-
-          {/* Connector visual */}
-          <div className="flex flex-col justify-around gap-2 w-4 flex-shrink-0" style={{ height: '100%' }}>
-            {leftR32.map((_, i) =>
-              i % 2 === 0 ? (
-                <div key={i} className="flex-1 flex items-center">
-                  <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-                </div>
-              ) : null
-            )}
-          </div>
-
-          <RoundColumn
-            label="Round of 16"
-            fixtures={leftR16}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-6"
-          />
-
-          <div className="flex flex-col justify-around w-4 flex-shrink-0">
-            {leftR16.map((_, i) =>
-              i % 2 === 0 ? (
-                <div key={i} className="flex-1 flex items-center">
-                  <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-                </div>
-              ) : null
-            )}
-          </div>
-
-          <RoundColumn
-            label="Quarter-finals"
-            fixtures={leftQF}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-16"
-          />
-
-          <div className="flex flex-col justify-around w-4 flex-shrink-0">
-            <div className="flex-1 flex items-center">
-              <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-            </div>
-          </div>
-
-          <RoundColumn
-            label="Semi-finals"
-            fixtures={leftSF}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-0"
-          />
-
-          {/* Center: Final + 3rd Place */}
-          <div className="flex flex-col items-center justify-center gap-6 px-6 flex-shrink-0 w-52">
-            {finalMatch && (
-              <div>
-                <h4 className="text-xs font-semibold text-center text-amber-400 mb-2">Final</h4>
-                <MatchCard fixture={finalMatch} timezone={timezone} isVenueLocal={isVenueLocal} />
-              </div>
-            )}
-            {thirdPlace && (
-              <div>
-                <h4 className="text-xs font-semibold text-center text-slate-400 mb-2">3rd Place</h4>
-                <MatchCard fixture={thirdPlace} timezone={timezone} isVenueLocal={isVenueLocal} />
-              </div>
-            )}
-          </div>
-
-          {/* Right bracket: SF -> QF -> R16 -> R32 (mirrored) */}
-          <RoundColumn
-            label="Semi-finals"
-            fixtures={rightSF}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-0"
-          />
-
-          <div className="flex flex-col justify-around w-4 flex-shrink-0">
-            <div className="flex-1 flex items-center">
-              <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-            </div>
-          </div>
-
-          <RoundColumn
-            label="Quarter-finals"
-            fixtures={rightQF}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-16"
-          />
-
-          <div className="flex flex-col justify-around w-4 flex-shrink-0">
-            {rightR16.map((_, i) =>
-              i % 2 === 0 ? (
-                <div key={i} className="flex-1 flex items-center">
-                  <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-                </div>
-              ) : null
-            )}
-          </div>
-
-          <RoundColumn
-            label="Round of 16"
-            fixtures={rightR16}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-6"
-          />
-
-          <div className="flex flex-col justify-around gap-2 w-4 flex-shrink-0" style={{ height: '100%' }}>
-            {rightR32.map((_, i) =>
-              i % 2 === 0 ? (
-                <div key={i} className="flex-1 flex items-center">
-                  <div className="w-full border-t-2 border-slate-300 dark:border-slate-600" />
-                </div>
-              ) : null
-            )}
-          </div>
-
-          <RoundColumn
-            label="Round of 32"
-            fixtures={rightR32}
-            timezone={timezone}
-            isVenueLocal={isVenueLocal}
-            gap="gap-2"
-          />
-        </div>
-      </div>
+      {/* Desktop: full bracket */}
+      <DesktopBracket
+        leftR32={leftR32} leftR16={leftR16} leftQF={leftQF} leftSF={leftSF}
+        rightR32={rightR32} rightR16={rightR16} rightQF={rightQF} rightSF={rightSF}
+        finalMatch={finalMatch} thirdPlace={thirdPlace}
+        timezone={timezone} isVenueLocal={isVenueLocal}
+      />
     </div>
   );
 }
