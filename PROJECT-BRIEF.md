@@ -179,6 +179,10 @@ Capped at 55 players per team. Retired players excluded via `scripts/exclusions.
 
 **Venue local time:** Timezone selector includes a "Venue local time" option that shows each fixture in its host stadium's local timezone — useful for fans attending matches in person.
 
+**Cross-linking:** Team names are clickable links throughout fixture lists, group tables, map popups, and venue pages — click any opponent to jump to their dashboard.
+
+**SEO:** Dynamic page titles on all routes (e.g. "England Fixtures & Schedule | World Cup 2026"). Code splitting via React.lazy() reduces initial bundle from 758KB to 284KB.
+
 ## Core features — build in this order
 
 ### Phase 1: MVP (build first — target: live by mid-March)
