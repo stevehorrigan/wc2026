@@ -168,12 +168,12 @@ Key fixtures to get right:
 }
 ```
 
-**Squad ladders (~50 players per team):** Extended pools sourced from FBRef national team pages via `scripts/scrape-squads.py`. Each player has a `tier` field:
-- `"core"` — Regular starters and recent call-ups (~26 players)
-- `"extended"` — Fringe players called up in last 1-2 years (~15 players)
-- `"potential"` — Emerging talents and wider pool (~10 players)
+**Squad ladders (~50 players per team):** Extended pools sourced from Wikipedia national team pages via `scripts/scrape-squads.py`. Each player has full name, DOB, caps, goals, club, and a `tier` field:
+- `"core"` — Current squad members (~23-28 players)
+- `"extended"` — Recent call-ups within the last 12 months (~13-35 players)
+- `"potential"` — Stale call-ups older than 12 months (auto-detected)
 
-Run `python scripts/scrape-squads.py` to refresh. The 6 TBD playoff teams are left empty until playoffs conclude.
+Capped at 55 players per team. Retired players excluded via `scripts/exclusions.json`. Run `python scripts/scrape-squads.py` to refresh (uses 24h HTML cache; add `--force` to bypass). Refreshed daily via GitHub Actions. The 6 TBD playoff teams are left empty until playoffs conclude.
 
 **Calendar export formats:** ICS download (Apple/Outlook desktop), Google Calendar URL, Outlook.com URL. All generated client-side.
 
