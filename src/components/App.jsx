@@ -24,6 +24,13 @@ export default function App() {
               All Fixtures
             </Link>
             <Link
+              to="/bracket"
+              className={`text-sm hover:text-teal-400 transition-colors
+                ${location.pathname === '/bracket' ? 'text-teal-400' : 'text-slate-400'}`}
+            >
+              Bracket
+            </Link>
+            <Link
               to="/how-it-works"
               className={`text-sm hover:text-teal-400 transition-colors
                 ${location.pathname === '/how-it-works' ? 'text-teal-400' : 'text-slate-400'}`}

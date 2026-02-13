@@ -1,5 +1,6 @@
 import fixtures from '../data/fixtures.json';
-import { getVenueById, getTeamName } from './fixtures';
+import groups from '../data/groups.json';
+import { getVenueById, getTeamName, getTeamById } from './fixtures';
 
 // Build lookup maps from the fixture data
 const fixtureMap = new Map(fixtures.map(f => [f.matchNumber, f]));
@@ -17,6 +18,40 @@ function findNextMatch(matchNumber) {
   return fixtures.find(
     f => f.homeTeam === winnerKey || f.awayTeam === winnerKey
   );
+}
+
+// Get likely candidate teams for a bracket position based on FIFA rankings
+function getCandidates(bracketPos) {
+  // Group position (e.g. "1A", "2B")
+  if (/^\d[A-L]$/.test(bracketPos)) {
+    const pos = parseInt(bracketPos[0]);
+    const group = bracketPos[1];
+    const teamIds = groups[group] || [];
+    const teamList = teamIds.map(id => {
+      const team = getTeamById(id);
+      return team;
+    }).filter(Boolean).sort((a, b) => (a.fifaRanking || 999) - (b.fifaRanking || 999));
+
+    // For 1st place, return top 2 by ranking; for 2nd, return middle 2
+    if (pos === 1) return teamList.slice(0, 2);
+    if (pos === 2) return teamList.slice(1, 3);
+    return teamList.slice(2);
+  }
+
+  // Third-place pools - get all 3rd-ranked teams from the listed groups
+  if (/^3[A-L]+$/.test(bracketPos)) {
+    const groupLetters = bracketPos.slice(1).split('');
+    const candidates = [];
+    for (const g of groupLetters) {
+      const teamIds = groups[g] || [];
+      const teamList = teamIds.map(id => getTeamById(id)).filter(Boolean)
+        .sort((a, b) => (a.fifaRanking || 999) - (b.fifaRanking || 999));
+      if (teamList.length >= 3) candidates.push(teamList[2]);
+    }
+    return candidates.sort((a, b) => (a.fifaRanking || 999) - (b.fifaRanking || 999));
+  }
+
+  return [];
 }
 
 // Trace a full path from a starting R32 match through to the final
@@ -55,16 +90,19 @@ function describeOpponent(bracketPos, excludePos) {
   if (/^\d[A-L]$/.test(bracketPos)) {
     const pos = bracketPos[0];
     const group = bracketPos[1];
-    if (pos === '1') return { label: `Winner of Group ${group}`, type: 'group-winner' };
-    if (pos === '2') return { label: `Runner-up of Group ${group}`, type: 'group-runnerup' };
+    const candidates = getCandidates(bracketPos);
+    if (pos === '1') return { label: `Winner of Group ${group}`, type: 'group-winner', candidates };
+    if (pos === '2') return { label: `Runner-up of Group ${group}`, type: 'group-runnerup', candidates };
   }
 
   // Third-place pool (3ABCDF etc.)
   if (/^3[A-L]+$/.test(bracketPos)) {
-    const groups = bracketPos.slice(1).split('');
+    const groupLetters = bracketPos.slice(1).split('');
+    const candidates = getCandidates(bracketPos);
     return {
-      label: `Best 3rd-place from ${groups.map(g => `Group ${g}`).join(' / ')}`,
+      label: `Best 3rd-place from ${groupLetters.map(g => `Group ${g}`).join(' / ')}`,
       type: 'third-place',
+      candidates,
     };
   }
 

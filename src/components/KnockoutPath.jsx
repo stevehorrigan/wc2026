@@ -32,6 +32,11 @@ function PathStep({ step, timezone, isLast }) {
             'TBD'
           )}
         </p>
+        {step.opponent?.candidates?.length > 0 && (
+          <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">
+            Likely: {step.opponent.candidates.map(t => t.name).join(', ')}
+          </p>
+        )}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5 mt-0.5 text-xs text-slate-500 dark:text-slate-400">
           <span>{formatMatchDate(step.date, effectiveTz)}</span>
           <span>
@@ -99,6 +104,11 @@ function ThirdPlaceScenarios({ scenarios, timezone }) {
             <p className="text-sm font-medium text-slate-900 dark:text-white">
               vs {scenario.opponent?.label || 'TBD'}
             </p>
+            {scenario.opponent?.candidates?.length > 0 && (
+              <p className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">
+                Likely: {scenario.opponent.candidates.map(t => t.name).join(', ')}
+              </p>
+            )}
             <div className="flex flex-wrap items-center gap-x-3 text-xs text-slate-500 dark:text-slate-400 mt-0.5">
               <span>
                 {formatMatchDate(scenario.date, effectiveTz)}
