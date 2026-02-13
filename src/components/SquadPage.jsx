@@ -29,21 +29,28 @@ function groupByPosition(players) {
   return groups;
 }
 
-function PlayerTable({ players }) {
+function PlayerTable({ players, hasCapsData }) {
   if (players.length === 0) return null;
 
   return (
     <>
       {/* Desktop table */}
       <div className="hidden sm:block overflow-x-auto">
-        <table className="w-full text-left text-sm">
+        <table className="w-full text-left text-sm table-fixed">
+          <colgroup>
+            <col className="w-12" />
+            <col />
+            <col className="w-16" />
+            {hasCapsData && <col className="w-16" />}
+            {hasCapsData && <col className="w-16" />}
+          </colgroup>
           <thead>
             <tr className="border-b border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400">
-              <th className="py-2 pr-4 font-medium">#</th>
-              <th className="py-2 pr-4 font-medium">Name</th>
-              <th className="py-2 pr-4 font-medium text-center">Age</th>
-              <th className="py-2 pr-4 font-medium text-center">Caps</th>
-              <th className="py-2 font-medium text-center">Goals</th>
+              <th className="py-2 pr-2 font-medium">#</th>
+              <th className="py-2 pr-2 font-medium">Name</th>
+              <th className="py-2 pr-2 font-medium text-center">Age</th>
+              {hasCapsData && <th className="py-2 pr-2 font-medium text-center">Caps</th>}
+              {hasCapsData && <th className="py-2 font-medium text-center">Goals</th>}
             </tr>
           </thead>
           <tbody>
@@ -52,21 +59,25 @@ function PlayerTable({ players }) {
                 key={player.name + idx}
                 className="border-b border-slate-100 dark:border-slate-700/50 hover:bg-slate-100 dark:hover:bg-slate-700/30 transition-colors"
               >
-                <td className="py-2.5 pr-4 text-slate-500 dark:text-slate-400 tabular-nums">
+                <td className="py-2.5 pr-2 text-slate-500 dark:text-slate-400 tabular-nums">
                   {player.number || '—'}
                 </td>
-                <td className="py-2.5 pr-4 font-medium text-slate-900 dark:text-white">
+                <td className="py-2.5 pr-2 font-medium text-slate-900 dark:text-white truncate">
                   {player.name}
                 </td>
-                <td className="py-2.5 pr-4 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                <td className="py-2.5 pr-2 text-center tabular-nums text-slate-700 dark:text-slate-300">
                   {player.age ?? '—'}
                 </td>
-                <td className="py-2.5 pr-4 text-center tabular-nums text-slate-700 dark:text-slate-300">
-                  {player.caps ?? '—'}
-                </td>
-                <td className="py-2.5 text-center tabular-nums text-slate-700 dark:text-slate-300">
-                  {player.goals ?? '—'}
-                </td>
+                {hasCapsData && (
+                  <td className="py-2.5 pr-2 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                    {player.caps || '—'}
+                  </td>
+                )}
+                {hasCapsData && (
+                  <td className="py-2.5 text-center tabular-nums text-slate-700 dark:text-slate-300">
+                    {player.goals || '—'}
+                  </td>
+                )}
               </tr>
             ))}
           </tbody>
@@ -90,8 +101,8 @@ function PlayerTable({ players }) {
             </div>
             <div className="flex gap-4 mt-1 text-xs text-slate-500 dark:text-slate-400">
               {player.age != null && <span>Age: {player.age}</span>}
-              {player.caps != null && <span>Caps: {player.caps}</span>}
-              {player.goals != null && <span>Goals: {player.goals}</span>}
+              {hasCapsData && player.caps > 0 && <span>Caps: {player.caps}</span>}
+              {hasCapsData && player.goals > 0 && <span>Goals: {player.goals}</span>}
             </div>
           </div>
         ))}
@@ -100,7 +111,7 @@ function PlayerTable({ players }) {
   );
 }
 
-function PositionGroup({ position, players }) {
+function PositionGroup({ position, players, hasCapsData }) {
   if (players.length === 0) return null;
 
   return (
@@ -108,12 +119,12 @@ function PositionGroup({ position, players }) {
       <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2">
         {POSITION_LABELS[position]} ({players.length})
       </h4>
-      <PlayerTable players={players} />
+      <PlayerTable players={players} hasCapsData={hasCapsData} />
     </div>
   );
 }
 
-function TierSection({ tier, players }) {
+function TierSection({ tier, players, hasCapsData }) {
   const config = TIER_CONFIG[tier];
   const [isOpen, setIsOpen] = useState(config.defaultOpen);
   const grouped = groupByPosition(players);
@@ -145,7 +156,7 @@ function TierSection({ tier, players }) {
       {isOpen && (
         <div className="px-4 sm:px-6 pb-4">
           {POSITION_ORDER.map(pos => (
-            <PositionGroup key={pos} position={pos} players={grouped[pos]} />
+            <PositionGroup key={pos} position={pos} players={grouped[pos]} hasCapsData={hasCapsData} />
           ))}
         </div>
       )}
@@ -178,6 +189,9 @@ export default function SquadPage() {
   const extended = players.filter(p => p.tier === 'extended');
   const potential = players.filter(p => p.tier === 'potential');
   const hasTiers = extended.length > 0 || potential.length > 0;
+
+  // Only show caps/goals columns if we have real data (not all zeros)
+  const hasCapsData = players.some(p => (p.caps || 0) > 0);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
@@ -235,15 +249,15 @@ export default function SquadPage() {
         </div>
       ) : hasTiers ? (
         <div className="space-y-4">
-          <TierSection tier="core" players={core} />
-          <TierSection tier="extended" players={extended} />
-          <TierSection tier="potential" players={potential} />
+          <TierSection tier="core" players={core} hasCapsData={hasCapsData} />
+          <TierSection tier="extended" players={extended} hasCapsData={hasCapsData} />
+          <TierSection tier="potential" players={potential} hasCapsData={hasCapsData} />
         </div>
       ) : (
         <div className="bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 rounded-xl p-4 sm:p-6">
           {POSITION_ORDER.map(pos => {
             const grouped = groupByPosition(players);
-            return <PositionGroup key={pos} position={pos} players={grouped[pos]} />;
+            return <PositionGroup key={pos} position={pos} players={grouped[pos]} hasCapsData={hasCapsData} />;
           })}
         </div>
       )}
@@ -251,7 +265,7 @@ export default function SquadPage() {
       {/* Disclaimer */}
       {players.length > 0 && (
         <p className="text-[11px] text-slate-400 dark:text-slate-500 mt-4 text-center">
-          Squad data sourced from API-Football. Preliminary squads based on recent call-ups. Final squads announced May 2026.
+          Preliminary squads based on recent international call-ups. Final squads announced May 2026.
         </p>
       )}
     </div>

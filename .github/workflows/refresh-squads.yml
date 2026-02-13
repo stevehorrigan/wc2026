@@ -2,7 +2,7 @@ name: Refresh Squad Data
 
 on:
   schedule:
-    # Run daily at 06:00 UTC (after API quota resets)
+    # Run daily at 06:00 UTC
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
@@ -20,8 +20,6 @@ jobs:
           python-version: '3.12'
 
       - name: Run squad scraper
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python scripts/scrape-squads.py
 
       - name: Check for changes
