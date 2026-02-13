@@ -1,9 +1,5 @@
-import { useEffect } from 'react';
-
-const SUFFIX = ' | World Cup 2026';
+import { useMetaTags } from './useMetaTags';
 
 export function useDocumentTitle(title) {
-  useEffect(() => {
-    document.title = title ? title + SUFFIX : 'World Cup 2026 Fan Companion';
-  }, [title]);
+  useMetaTags({ title });
 }

@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllTeams } from '../utils/fixtures';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 
 export default function TeamSelector() {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
   const teams = getAllTeams();
-  useDocumentTitle('Pick Your Team');
+  useMetaTags({ title: 'Pick Your Team', description: 'Choose from all 48 teams in the 2026 World Cup. Get personalised fixtures, kick-off times in your timezone, squad info, and an interactive venue map.' });
 
   const savedTeam = localStorage.getItem('wc2026-team');
 

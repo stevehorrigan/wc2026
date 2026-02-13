@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 
 function SectionHeading({ number, title }) {
   return (
@@ -70,7 +70,7 @@ function BracketArrow() {
 }
 
 export default function HowItWorks() {
-  useDocumentTitle('How the Tournament Works');
+  useMetaTags({ title: 'How the Tournament Works', description: '2026 World Cup format explained — 48 teams, 12 groups, third-place advancement rules, knockout bracket structure, and key dates.' });
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-2">How It Works</h1>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useOutletContext } from 'react-router-dom';
 import { getTeamById } from '../utils/fixtures';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 import squads from '../data/squads.json';
 
 const POSITION_ORDER = ['GK', 'DEF', 'MID', 'FWD'];
@@ -177,7 +177,10 @@ export default function SquadPage() {
   const { teamId } = useParams();
   const { isDark } = useOutletContext();
   const team = getTeamById(teamId);
-  useDocumentTitle(team ? team.name + ' Squad' : 'Squad Not Found');
+  useMetaTags(team ? {
+    title: team.name + ' Squad',
+    description: `${team.name} World Cup 2026 squad list — players, positions, clubs, caps, and goals. Manager: ${squads[teamId]?.manager || 'TBA'}.`,
+  } : { title: 'Squad Not Found' });
 
   if (!team) {
     return (

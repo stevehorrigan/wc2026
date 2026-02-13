@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { getTeamById, getTeamFixtures } from '../utils/fixtures';
 import { useTimezone } from '../hooks/useTimezone';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 import TimezoneSelector from './TimezoneSelector';
 import FixtureList from './FixtureList';
 import FixtureMap from './FixtureMap';
@@ -13,7 +13,10 @@ export default function Dashboard({ isDark }) {
   const { teamId } = useParams();
   const { timezone, setTimezone } = useTimezone();
   const team = getTeamById(teamId);
-  useDocumentTitle(team ? team.name + ' Fixtures & Schedule' : 'Team Not Found');
+  useMetaTags(team ? {
+    title: team.name + ' Fixtures & Schedule',
+    description: `${team.name} World Cup 2026 fixtures, kick-off times, group stage schedule, squad, and venue map. Group ${team.group}.`,
+  } : { title: 'Team Not Found' });
 
   if (!team) {
     return (

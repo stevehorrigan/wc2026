@@ -5,7 +5,7 @@ import L from 'leaflet';
 import { getVenueById, getVenueFixtures, getTeamName, getTeamFlag, getTeamById, getRoundLabel, getFixturesByDate } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 const COUNTRY_COLORS = {
@@ -61,7 +61,10 @@ export default function VenuePage() {
   const { isDark } = useOutletContext();
   const { timezone, setTimezone } = useTimezone();
   const venue = getVenueById(venueId);
-  useDocumentTitle(venue ? venue.name + ' — ' + venue.displayCity : 'Venue Not Found');
+  useMetaTags(venue ? {
+    title: venue.name + ' — ' + venue.displayCity,
+    description: `${venue.name} in ${venue.displayCity}, ${venue.country}. Capacity ${venue.capacity.toLocaleString()}. World Cup 2026 matches, location map, and travel info.`,
+  } : { title: 'Venue Not Found' });
 
   if (!venue) {
     return (

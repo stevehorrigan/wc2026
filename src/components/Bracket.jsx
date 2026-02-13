@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { getAllFixtures, getVenueById, getTeamName, getTeamFlag, getTeamById } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
-import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { useMetaTags } from '../hooks/useMetaTags';
 import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 // ── Compact match card ──────────────────────────────────────────────────────
@@ -187,7 +187,7 @@ function sortByMatch(arr) {
 
 export default function Bracket() {
   const { timezone, setTimezone } = useTimezone();
-  useDocumentTitle('Tournament Bracket');
+  useMetaTags({ title: 'Tournament Bracket', description: 'World Cup 2026 knockout bracket — Round of 32 to the Final. Full wallchart view with all 32 knockout matches.' });
   const isVenueLocal = timezone === VENUE_LOCAL;
   const allFixtures = getAllFixtures();
 
