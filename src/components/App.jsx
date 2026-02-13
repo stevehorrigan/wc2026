@@ -23,6 +23,13 @@ export default function App() {
             >
               All Fixtures
             </Link>
+            <Link
+              to="/how-it-works"
+              className={`text-sm hover:text-teal-400 transition-colors
+                ${location.pathname === '/how-it-works' ? 'text-teal-400' : 'text-slate-400'}`}
+            >
+              How It Works
+            </Link>
             <button
               onClick={toggleTheme}
               className="text-slate-500 dark:text-slate-400 hover:text-teal-500 dark:hover:text-white transition-colors text-lg cursor-pointer"
