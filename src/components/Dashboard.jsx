@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { getTeamById, getTeamFixtures } from '../utils/fixtures';
 import { useTimezone } from '../hooks/useTimezone';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import TimezoneSelector from './TimezoneSelector';
 import FixtureList from './FixtureList';
 import FixtureMap from './FixtureMap';
@@ -12,6 +13,7 @@ export default function Dashboard({ isDark }) {
   const { teamId } = useParams();
   const { timezone, setTimezone } = useTimezone();
   const team = getTeamById(teamId);
+  useDocumentTitle(team ? team.name + ' Fixtures & Schedule' : 'Team Not Found');
 
   if (!team) {
     return (

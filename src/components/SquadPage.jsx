@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, useOutletContext } from 'react-router-dom';
 import { getTeamById } from '../utils/fixtures';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import squads from '../data/squads.json';
 
 const POSITION_ORDER = ['GK', 'DEF', 'MID', 'FWD'];
@@ -40,14 +41,16 @@ function PlayerTable({ players, hasCapsData }) {
           <colgroup>
             <col className="w-12" />
             <col />
-            <col className="w-16" />
-            {hasCapsData && <col className="w-16" />}
-            {hasCapsData && <col className="w-16" />}
+            <col className="w-32" />
+            <col className="w-14" />
+            {hasCapsData && <col className="w-14" />}
+            {hasCapsData && <col className="w-14" />}
           </colgroup>
           <thead>
             <tr className="border-b border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400">
               <th className="py-2 pr-2 font-medium">#</th>
               <th className="py-2 pr-2 font-medium">Name</th>
+              <th className="py-2 pr-2 font-medium">Club</th>
               <th className="py-2 pr-2 font-medium text-center">Age</th>
               {hasCapsData && <th className="py-2 pr-2 font-medium text-center">Caps</th>}
               {hasCapsData && <th className="py-2 font-medium text-center">Goals</th>}
@@ -64,6 +67,9 @@ function PlayerTable({ players, hasCapsData }) {
                 </td>
                 <td className="py-2.5 pr-2 font-medium text-slate-900 dark:text-white truncate">
                   {player.name}
+                </td>
+                <td className="py-2.5 pr-2 text-slate-500 dark:text-slate-400 truncate">
+                  {player.club || '—'}
                 </td>
                 <td className="py-2.5 pr-2 text-center tabular-nums text-slate-700 dark:text-slate-300">
                   {player.age ?? '—'}
@@ -99,6 +105,9 @@ function PlayerTable({ players, hasCapsData }) {
                 </span>
               )}
             </div>
+            {player.club && (
+              <p className="text-xs text-slate-500 dark:text-slate-400">{player.club}</p>
+            )}
             <div className="flex gap-4 mt-1 text-xs text-slate-500 dark:text-slate-400">
               {player.age != null && <span>Age: {player.age}</span>}
               {hasCapsData && player.caps > 0 && <span>Caps: {player.caps}</span>}
@@ -168,6 +177,7 @@ export default function SquadPage() {
   const { teamId } = useParams();
   const { isDark } = useOutletContext();
   const team = getTeamById(teamId);
+  useDocumentTitle(team ? team.name + ' Squad' : 'Squad Not Found');
 
   if (!team) {
     return (

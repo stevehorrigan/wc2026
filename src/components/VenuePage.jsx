@@ -5,6 +5,7 @@ import L from 'leaflet';
 import { getVenueById, getVenueFixtures, getTeamName, getTeamFlag, getTeamById, getRoundLabel, getFixturesByDate } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 const COUNTRY_COLORS = {
@@ -60,6 +61,7 @@ export default function VenuePage() {
   const { isDark } = useOutletContext();
   const { timezone, setTimezone } = useTimezone();
   const venue = getVenueById(venueId);
+  useDocumentTitle(venue ? venue.name + ' — ' + venue.displayCity : 'Venue Not Found');
 
   if (!venue) {
     return (

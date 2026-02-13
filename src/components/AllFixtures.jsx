@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { getAllFixtures, getFixturesByDate, getVenueById, getTeamName, getTeamFlag, getTeamById, getRoundLabel } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 const ROUND_OPTIONS = [
@@ -45,6 +46,7 @@ function TeamLabel({ teamId }) {
 export default function AllFixtures() {
   const { timezone, setTimezone } = useTimezone();
   const [roundFilter, setRoundFilter] = useState('all');
+  useDocumentTitle('All Fixtures & Schedule');
 
   const isVenueLocal = timezone === VENUE_LOCAL;
   const allFixtures = getAllFixtures();

@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllTeams } from '../utils/fixtures';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export default function TeamSelector() {
   const [search, setSearch] = useState('');
   const navigate = useNavigate();
   const teams = getAllTeams();
+  useDocumentTitle('Pick Your Team');
 
   const savedTeam = localStorage.getItem('wc2026-team');
 
