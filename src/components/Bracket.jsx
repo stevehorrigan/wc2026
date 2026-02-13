@@ -83,52 +83,76 @@ function MatchCard({ fixture, timezone, isVenueLocal, compact }) {
   );
 }
 
-// ── SVG connector lines ─────────────────────────────────────────────────────
+// ── CSS connector lines (uses same flex layout as round columns) ────────────
 
-function Connectors({ count, direction = 'right' }) {
-  // Each connector bridges a pair of matches → 1 output
-  // count = number of pairs (e.g., 4 pairs of R32 → 4 R16 matches)
-  const pairs = count;
-  const pairHeight = 100 / pairs;
+const BORDER = 'border-slate-300 dark:border-slate-600';
 
+function ConnectorPair({ direction = 'right', span }) {
+  // A single bracket connector: two inputs → one output
+  // Uses CSS borders so it aligns perfectly with flex siblings
+  if (direction === 'right') {
+    return (
+      <div className="flex flex-col" style={{ flex: span }}>
+        {/* Top half: bottom-right corner */}
+        <div className={`flex-1 border-r border-b ${BORDER}`} />
+        {/* Bottom half: top-right corner, with output line */}
+        <div className={`flex-1 border-r border-t ${BORDER}`} />
+      </div>
+    );
+  }
   return (
-    <svg className="w-5 shrink-0" viewBox={`0 0 20 ${pairs * 40}`} preserveAspectRatio="none" style={{ height: '100%' }}>
-      {Array.from({ length: pairs }).map((_, i) => {
-        const top = i * 40 + 8;
-        const bot = i * 40 + 32;
-        const mid = (top + bot) / 2;
-        const stroke = 'currentColor';
-        if (direction === 'right') {
-          return (
-            <g key={i} className="text-slate-300 dark:text-slate-600">
-              <line x1="0" y1={top} x2="10" y2={top} stroke={stroke} strokeWidth="1.5" />
-              <line x1="0" y1={bot} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
-              <line x1="10" y1={top} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
-              <line x1="10" y1={mid} x2="20" y2={mid} stroke={stroke} strokeWidth="1.5" />
-            </g>
-          );
-        }
-        return (
-          <g key={i} className="text-slate-300 dark:text-slate-600">
-            <line x1="20" y1={top} x2="10" y2={top} stroke={stroke} strokeWidth="1.5" />
-            <line x1="20" y1={bot} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
-            <line x1="10" y1={top} x2="10" y2={bot} stroke={stroke} strokeWidth="1.5" />
-            <line x1="10" y1={mid} x2="0" y2={mid} stroke={stroke} strokeWidth="1.5" />
-          </g>
-        );
-      })}
-    </svg>
+    <div className="flex flex-col" style={{ flex: span }}>
+      <div className={`flex-1 border-l border-b ${BORDER}`} />
+      <div className={`flex-1 border-l border-t ${BORDER}`} />
+    </div>
   );
 }
 
-// ── Round column using CSS Grid for proper alignment ────────────────────────
-
-function RoundCol({ matches, timezone, isVenueLocal, roundSpan }) {
-  // roundSpan: how many grid rows each match occupies (R32=1, R16=2, QF=4, SF=8)
+function Connectors({ count, direction = 'right', span }) {
+  // count: number of connector pairs (R32→R16: 4 pairs, R16→QF: 2, QF→SF: 1)
+  // span: flex value per pair (matches the next round's flex per match)
   return (
-    <div className="flex flex-col justify-around h-full gap-0" style={{ minWidth: '140px', maxWidth: '160px' }}>
+    <div className="flex flex-col w-3 shrink-0 h-full">
+      {Array.from({ length: count }).map((_, i) => (
+        <ConnectorPair key={i} direction={direction} span={span} />
+      ))}
+    </div>
+  );
+}
+
+// Output lines from connector column to next round
+function OutputLines({ count, span }) {
+  return (
+    <div className="flex flex-col w-2 shrink-0 h-full">
+      {Array.from({ length: count }).map((_, i) => (
+        <div key={i} className="flex items-center" style={{ flex: span }}>
+          <div className={`w-full border-t ${BORDER}`} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// Input lines from round column into connector
+function InputLines({ count, span }) {
+  return (
+    <div className="flex flex-col w-2 shrink-0 h-full">
+      {Array.from({ length: count }).map((_, i) => (
+        <div key={i} className="flex items-center" style={{ flex: span }}>
+          <div className={`w-full border-t ${BORDER}`} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Round column ────────────────────────────────────────────────────────────
+
+function RoundCol({ matches, timezone, isVenueLocal, span }) {
+  return (
+    <div className="flex flex-col h-full" style={{ minWidth: '135px', maxWidth: '155px' }}>
       {matches.map((f) => (
-        <div key={f.matchNumber} className="flex items-center" style={{ flex: roundSpan }}>
+        <div key={f.matchNumber} className="flex items-center px-0.5" style={{ flex: span }}>
           <MatchCard fixture={f} timezone={timezone} isVenueLocal={isVenueLocal} compact />
         </div>
       ))}
@@ -136,22 +160,37 @@ function RoundCol({ matches, timezone, isVenueLocal, roundSpan }) {
   );
 }
 
+// ── Connector group: input lines + bracket + output lines ───────────────────
+
+function ConnectorGroup({ inputCount, inputSpan, pairCount, pairSpan, outputCount, outputSpan, direction }) {
+  return (
+    <div className="flex items-stretch shrink-0 h-full">
+      <InputLines count={inputCount} span={inputSpan} />
+      <Connectors count={pairCount} direction={direction} span={pairSpan} />
+      <OutputLines count={outputCount} span={outputSpan} />
+    </div>
+  );
+}
+
 // ── Desktop bracket ─────────────────────────────────────────────────────────
 
 function DesktopBracket({ leftR32, leftR16, leftQF, leftSF, rightR32, rightR16, rightQF, rightSF, finalMatch, thirdPlace, timezone, isVenueLocal }) {
+  // Flex spans: R32=1, R16=2, QF=4, SF=8
+  // Connectors bridge pairs: input lines use source span, bracket pairs use dest span, output lines use dest span
   return (
-    <div className="hidden xl:flex items-stretch" style={{ height: 'calc(100vh - 140px)', minHeight: '700px' }}>
+    <div className="hidden xl:flex items-stretch" style={{ height: 'calc(100vh - 130px)', minHeight: '700px' }}>
       {/* Left half: R32 → R16 → QF → SF */}
-      <RoundCol matches={leftR32} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={1} />
-      <div className="flex items-stretch shrink-0"><Connectors count={4} direction="right" /></div>
-      <RoundCol matches={leftR16} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={2} />
-      <div className="flex items-stretch shrink-0"><Connectors count={2} direction="right" /></div>
-      <RoundCol matches={leftQF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={4} />
-      <div className="flex items-stretch shrink-0"><Connectors count={1} direction="right" /></div>
-      <RoundCol matches={leftSF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={8} />
+      <RoundCol matches={leftR32} timezone={timezone} isVenueLocal={isVenueLocal} span={1} />
+      <ConnectorGroup inputCount={8} inputSpan={1} pairCount={4} pairSpan={2} outputCount={4} outputSpan={2} direction="right" />
+      <RoundCol matches={leftR16} timezone={timezone} isVenueLocal={isVenueLocal} span={2} />
+      <ConnectorGroup inputCount={4} inputSpan={2} pairCount={2} pairSpan={4} outputCount={2} outputSpan={4} direction="right" />
+      <RoundCol matches={leftQF} timezone={timezone} isVenueLocal={isVenueLocal} span={4} />
+      <ConnectorGroup inputCount={2} inputSpan={4} pairCount={1} pairSpan={8} outputCount={1} outputSpan={8} direction="right" />
+      <RoundCol matches={leftSF} timezone={timezone} isVenueLocal={isVenueLocal} span={8} />
 
-      {/* Center: Final + 3rd Place */}
-      <div className="flex flex-col items-center justify-center gap-3 px-3 shrink-0" style={{ minWidth: '160px', maxWidth: '170px' }}>
+      {/* Center: lines in → Final/3rd → lines out */}
+      <InputLines count={1} span={8} />
+      <div className="flex flex-col items-center justify-center gap-3 px-2 shrink-0" style={{ minWidth: '155px', maxWidth: '165px' }}>
         {finalMatch && (
           <div className="w-full">
             <p className="text-[10px] font-bold text-center text-amber-400 mb-1">FINAL</p>
@@ -165,15 +204,16 @@ function DesktopBracket({ leftR32, leftR16, leftQF, leftSF, rightR32, rightR16, 
           </div>
         )}
       </div>
+      <InputLines count={1} span={8} />
 
       {/* Right half: SF → QF → R16 → R32 */}
-      <RoundCol matches={rightSF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={8} />
-      <div className="flex items-stretch shrink-0"><Connectors count={1} direction="left" /></div>
-      <RoundCol matches={rightQF} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={4} />
-      <div className="flex items-stretch shrink-0"><Connectors count={2} direction="left" /></div>
-      <RoundCol matches={rightR16} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={2} />
-      <div className="flex items-stretch shrink-0"><Connectors count={4} direction="left" /></div>
-      <RoundCol matches={rightR32} timezone={timezone} isVenueLocal={isVenueLocal} roundSpan={1} />
+      <RoundCol matches={rightSF} timezone={timezone} isVenueLocal={isVenueLocal} span={8} />
+      <ConnectorGroup inputCount={1} inputSpan={8} pairCount={1} pairSpan={8} outputCount={2} outputSpan={4} direction="left" />
+      <RoundCol matches={rightQF} timezone={timezone} isVenueLocal={isVenueLocal} span={4} />
+      <ConnectorGroup inputCount={2} inputSpan={4} pairCount={2} pairSpan={4} outputCount={4} outputSpan={2} direction="left" />
+      <RoundCol matches={rightR16} timezone={timezone} isVenueLocal={isVenueLocal} span={2} />
+      <ConnectorGroup inputCount={4} inputSpan={2} pairCount={4} pairSpan={2} outputCount={8} outputSpan={1} direction="left" />
+      <RoundCol matches={rightR32} timezone={timezone} isVenueLocal={isVenueLocal} span={1} />
     </div>
   );
 }
