@@ -15,9 +15,11 @@ A "Follow My Team" World Cup 2026 companion website. Pick your country and get a
 
 ### Phase 2 — Content
 - **Venue Pages** — Dedicated page per stadium with capacity, location map, hosted fixtures, and travel affiliate placeholders.
-- **Squad Page** — Squad list grouped by position (GK/DEF/MID/FWD) with desktop table and mobile card views. Shows "not yet announced" state until squads are confirmed.
+- **Squad Ladders** — ~50 players per team (core squad, extended pool, potentials) sourced from FBRef. Grouped by position with desktop table and mobile card views. Run `python scripts/scrape-squads.py` to refresh.
 - **Knockout Path Scenarios** — Tabbed component on the team dashboard showing the bracket path to the Final for 1st, 2nd, and 3rd place finishes, with venues, dates, and opponent descriptions.
 - **How It Works** — Explainer page covering the 48-team format, group stage, third-place advancement, tiebreaker rules, knockout bracket diagram, and key tournament dates.
+- **Multi-format Calendar Export** — ICS download, Google Calendar link, and Outlook.com link for your team's fixtures.
+- **Venue Local Time** — Option to show kick-off times in the host stadium's local timezone, useful for fans attending in person.
 
 ## Tech Stack
 

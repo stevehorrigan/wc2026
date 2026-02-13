@@ -66,6 +66,7 @@ export function formatFullDate(date, timeUTC, timezone) {
 }
 
 export function getTimezoneAbbr(timezone) {
+  if (timezone === 'venue-local') return 'Local';
   try {
     const parts = new Intl.DateTimeFormat('en-GB', {
       timeZone: timezone,

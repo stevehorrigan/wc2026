@@ -1,0 +1,212 @@
+{
+  "sco": {
+    "apiId": 1108,
+    "name": "Scotland",
+    "code": "SCO"
+  },
+  "hti": {
+    "apiId": 2386,
+    "name": "Haiti",
+    "code": "HAI"
+  },
+  "usa": {
+    "apiId": 2384,
+    "name": "USA",
+    "code": "USA"
+  },
+  "pry": {
+    "apiId": 2380,
+    "name": "Paraguay",
+    "code": "PAR"
+  },
+  "aus": {
+    "apiId": 20,
+    "name": "Australia",
+    "code": "AUS"
+  },
+  "deu": {
+    "apiId": 25,
+    "name": "Germany",
+    "code": "GER"
+  },
+  "cuw": {
+    "apiId": 5530,
+    "name": "Cura\u00e7ao",
+    "code": null
+  },
+  "ecu": {
+    "apiId": 2382,
+    "name": "Ecuador",
+    "code": "ECU"
+  },
+  "nld": {
+    "apiId": 1118,
+    "name": "Netherlands",
+    "code": "NET"
+  },
+  "mex": {
+    "apiId": 16,
+    "name": "Mexico",
+    "code": "MEX"
+  },
+  "rsa": {
+    "apiId": 1531,
+    "name": "South Africa",
+    "code": "SOU"
+  },
+  "kor": {
+    "apiId": 17,
+    "name": "South Korea",
+    "code": "SOU"
+  },
+  "can": {
+    "apiId": 5529,
+    "name": "Canada",
+    "code": "CAN"
+  },
+  "qat": {
+    "apiId": 1569,
+    "name": "Qatar",
+    "code": "QAT"
+  },
+  "sui": {
+    "apiId": 15,
+    "name": "Switzerland",
+    "code": "SWI"
+  },
+  "bra": {
+    "apiId": 6,
+    "name": "Brazil",
+    "code": "BRA"
+  },
+  "mar": {
+    "apiId": 31,
+    "name": "Morocco",
+    "code": "MOR"
+  },
+  "civ": {
+    "apiId": 1501,
+    "name": "Ivory Coast",
+    "code": "IVO"
+  },
+  "jpn": {
+    "apiId": 12,
+    "name": "Japan",
+    "code": "JAP"
+  },
+  "tun": {
+    "apiId": 28,
+    "name": "Tunisia",
+    "code": "TUN"
+  },
+  "bel": {
+    "apiId": 1,
+    "name": "Belgium",
+    "code": "BEL"
+  },
+  "egy": {
+    "apiId": 32,
+    "name": "Egypt",
+    "code": "EGY"
+  },
+  "irn": {
+    "apiId": 22,
+    "name": "Iran",
+    "code": "IRA"
+  },
+  "nzl": {
+    "apiId": 4673,
+    "name": "New Zealand",
+    "code": "ZEA"
+  },
+  "esp": {
+    "apiId": 9,
+    "name": "Spain",
+    "code": "SPA"
+  },
+  "cpv": {
+    "apiId": 1533,
+    "name": "Cape Verde Islands",
+    "code": "CAP"
+  },
+  "sau": {
+    "apiId": 23,
+    "name": "Saudi Arabia",
+    "code": "SAU"
+  },
+  "uzb": {
+    "apiId": 1568,
+    "name": "Uzbekistan",
+    "code": "UZB"
+  },
+  "col": {
+    "apiId": 8,
+    "name": "Colombia",
+    "code": "COL"
+  },
+  "eng": {
+    "apiId": 10,
+    "name": "England",
+    "code": "ENG"
+  },
+  "hrv": {
+    "apiId": 3,
+    "name": "Croatia",
+    "code": "CRO"
+  },
+  "gha": {
+    "apiId": 1504,
+    "name": "Ghana",
+    "code": "GHA"
+  },
+  "pan": {
+    "apiId": 11,
+    "name": "Panama",
+    "code": "PAN"
+  },
+  "ury": {
+    "apiId": 7,
+    "name": "Uruguay",
+    "code": "URU"
+  },
+  "fra": {
+    "apiId": 2,
+    "name": "France",
+    "code": "FRA"
+  },
+  "sen": {
+    "apiId": 1530,
+    "name": "Senegal",
+    "code": "SEN"
+  },
+  "nor": {
+    "apiId": 1538,
+    "name": "Norway",
+    "code": "NOR"
+  },
+  "arg": {
+    "apiId": 26,
+    "name": "Argentina",
+    "code": "ARG"
+  },
+  "dza": {
+    "apiId": 1507,
+    "name": "Algeria",
+    "code": "ALG"
+  },
+  "aut": {
+    "apiId": 1109,
+    "name": "Austria",
+    "code": "AUT"
+  },
+  "jor": {
+    "apiId": 1570,
+    "name": "Jordan",
+    "code": "JOR"
+  },
+  "prt": {
+    "apiId": 27,
+    "name": "Portugal",
+    "code": "POR"
+  }
+}

@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import { getGroupTeams, getGroupFixtures, getVenueById, getTeamName, getTeamFlag } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
+import { VENUE_LOCAL } from './TimezoneSelector';
 
 export default function GroupTable({ group, teamId, timezone }) {
   const teams = getGroupTeams(group);
   const fixtures = getGroupFixtures(group);
+  const isVenueLocal = timezone === VENUE_LOCAL;
 
   const matchdays = [1, 2, 3];
 
@@ -60,6 +62,7 @@ export default function GroupTable({ group, teamId, timezone }) {
             <div className="space-y-2">
               {mdFixtures.map((fixture) => {
                 const venue = getVenueById(fixture.venue);
+                const effectiveTz = isVenueLocal && venue ? venue.timezone : timezone;
                 const homeFlag = getTeamFlag(fixture.homeTeam);
                 const awayFlag = getTeamFlag(fixture.awayTeam);
 
@@ -69,10 +72,13 @@ export default function GroupTable({ group, teamId, timezone }) {
                     className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded px-3 py-2 text-sm"
                   >
                     <span className="text-xs text-slate-500 w-16 shrink-0">
-                      {formatMatchDate(fixture.date, timezone)}
+                      {formatMatchDate(fixture.date, effectiveTz)}
                     </span>
-                    <span className="text-xs font-mono text-slate-700 dark:text-slate-300 w-12 shrink-0">
-                      {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
+                    <span className="text-xs font-mono text-slate-700 dark:text-slate-300 shrink-0">
+                      {formatMatchTime(fixture.date, fixture.timeUTC, effectiveTz)}
+                      {isVenueLocal && venue && (
+                        <span className="ml-1 text-teal-500 dark:text-teal-400 font-normal text-[10px]">(local)</span>
+                      )}
                     </span>
                     <div className="flex items-center gap-1 flex-1 min-w-0">
                       {homeFlag && <img src={homeFlag} alt="" className="w-4 h-3 object-cover rounded-sm" />}

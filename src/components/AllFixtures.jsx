@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { getAllFixtures, getFixturesByDate, getVenueById, getTeamName, getTeamFlag, getTeamById, getRoundLabel } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
-import TimezoneSelector from './TimezoneSelector';
+import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 const ROUND_OPTIONS = [
   { value: 'all', label: 'All Rounds' },
@@ -46,6 +46,7 @@ export default function AllFixtures() {
   const { timezone, setTimezone } = useTimezone();
   const [roundFilter, setRoundFilter] = useState('all');
 
+  const isVenueLocal = timezone === VENUE_LOCAL;
   const allFixtures = getAllFixtures();
   const filtered = roundFilter === 'all'
     ? allFixtures
@@ -82,11 +83,12 @@ export default function AllFixtures() {
         {grouped.map(([date, dayFixtures]) => (
           <div key={date}>
             <h2 className="text-sm font-semibold text-teal-400 mb-3 sticky top-0 bg-white dark:bg-[var(--color-dark-bg)] py-1 z-10">
-              {formatMatchDate(date, timezone)} · {date}
+              {formatMatchDate(date, isVenueLocal ? 'UTC' : timezone)} · {date}
             </h2>
             <div className="space-y-2">
               {dayFixtures.map((fixture) => {
                 const venue = getVenueById(fixture.venue);
+                const effectiveTz = isVenueLocal && venue ? venue.timezone : timezone;
                 const badge = fixture.group
                   ? `Group ${fixture.group}`
                   : getRoundLabel(fixture.round);
@@ -96,8 +98,13 @@ export default function AllFixtures() {
                     key={fixture.matchNumber}
                     className="flex items-center gap-3 bg-slate-50 border border-slate-200 dark:bg-slate-800/30 dark:border-slate-700/30 rounded-lg px-4 py-3 text-sm"
                   >
-                    <span className="text-base font-mono text-slate-900 dark:text-white w-12 shrink-0">
-                      {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
+                    <span className="shrink-0">
+                      <span className="text-base font-mono text-slate-900 dark:text-white">
+                        {formatMatchTime(fixture.date, fixture.timeUTC, effectiveTz)}
+                      </span>
+                      {isVenueLocal && venue && (
+                        <span className="ml-1 text-teal-500 dark:text-teal-400 text-[10px]">(local)</span>
+                      )}
                     </span>
                     <div className="flex-1 min-w-0 flex items-center gap-2 flex-wrap">
                       <TeamLabel teamId={fixture.homeTeam} />

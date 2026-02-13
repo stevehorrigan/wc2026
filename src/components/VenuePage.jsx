@@ -5,7 +5,7 @@ import L from 'leaflet';
 import { getVenueById, getVenueFixtures, getTeamName, getTeamFlag, getTeamById, getRoundLabel, getFixturesByDate } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { useTimezone } from '../hooks/useTimezone';
-import TimezoneSelector from './TimezoneSelector';
+import TimezoneSelector, { VENUE_LOCAL } from './TimezoneSelector';
 
 const COUNTRY_COLORS = {
   USA: '#3b82f6',
@@ -70,6 +70,8 @@ export default function VenuePage() {
     );
   }
 
+  const isVenueLocal = timezone === VENUE_LOCAL;
+  const effectiveTz = isVenueLocal ? venue.timezone : timezone;
   const fixtures = getVenueFixtures(venueId);
   const grouped = getFixturesByDate(fixtures);
 
@@ -170,7 +172,7 @@ export default function VenuePage() {
         {grouped.map(([date, dayFixtures]) => (
           <div key={date}>
             <h3 className="text-sm font-semibold text-teal-400 mb-2">
-              {formatMatchDate(date, timezone)} · {date}
+              {formatMatchDate(date, effectiveTz)} · {date}
             </h3>
             <div className="space-y-2">
               {dayFixtures.map((fixture) => {
@@ -183,8 +185,13 @@ export default function VenuePage() {
                     key={fixture.matchNumber}
                     className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg px-4 py-3 text-sm"
                   >
-                    <span className="text-base font-mono w-12 shrink-0">
-                      {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
+                    <span className="shrink-0">
+                      <span className="text-base font-mono">
+                        {formatMatchTime(fixture.date, fixture.timeUTC, effectiveTz)}
+                      </span>
+                      {isVenueLocal && (
+                        <span className="ml-1 text-teal-500 dark:text-teal-400 text-[10px]">(local)</span>
+                      )}
                     </span>
                     <div className="flex-1 min-w-0 flex items-center gap-2 flex-wrap">
                       <TeamLabel teamId={fixture.homeTeam} />

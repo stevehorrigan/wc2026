@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { getTeamById, getVenueById, getTeamName, getTeamFlag, getRoundLabel } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
+import { VENUE_LOCAL } from './TimezoneSelector';
 
 function TeamDisplay({ teamId, isHighlighted }) {
   const flag = getTeamFlag(teamId);
@@ -23,10 +24,13 @@ export default function FixtureList({ fixtures, teamId, timezone }) {
     return <p className="text-slate-500 text-sm">No fixtures found.</p>;
   }
 
+  const isVenueLocal = timezone === VENUE_LOCAL;
+
   return (
     <div className="space-y-3">
       {fixtures.map((fixture) => {
         const venue = getVenueById(fixture.venue);
+        const effectiveTz = isVenueLocal && venue ? venue.timezone : timezone;
         const roundLabel = fixture.group
           ? `Group ${fixture.group} · Matchday ${fixture.matchday}`
           : getRoundLabel(fixture.round);
@@ -47,10 +51,13 @@ export default function FixtureList({ fixtures, teamId, timezone }) {
               </div>
               <div className="px-4 text-center">
                 <div className="text-lg font-bold text-slate-900 dark:text-white">
-                  {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
+                  {formatMatchTime(fixture.date, fixture.timeUTC, effectiveTz)}
                 </div>
                 <div className="text-xs text-slate-400">
-                  {formatMatchDate(fixture.date, timezone)}
+                  {formatMatchDate(fixture.date, effectiveTz)}
+                  {isVenueLocal && venue && (
+                    <span className="ml-1 text-teal-500 dark:text-teal-400">(local)</span>
+                  )}
                 </div>
               </div>
               <div className="flex-1 flex justify-end">

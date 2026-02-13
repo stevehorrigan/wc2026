@@ -76,3 +76,76 @@ export function downloadICS(fixtures, teamId) {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
+
+/**
+ * Build event metadata from a single fixture for use in calendar URLs.
+ */
+function buildEventMeta(fixture) {
+  const venue = getVenueById(fixture.venue);
+  const home = getTeamName(fixture.homeTeam);
+  const away = getTeamName(fixture.awayTeam);
+  const title = `${home} vs ${away}`;
+  const location = venue ? `${venue.name}, ${venue.displayCity}` : '';
+  const roundLabel = fixture.group ? `Group ${fixture.group}` : (fixture.round || '');
+  const description = `World Cup 2026 - ${roundLabel}`;
+
+  const startDate = new Date(`${fixture.date}T${fixture.timeUTC}:00Z`);
+  const endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
+
+  return { title, location, description, startDate, endDate };
+}
+
+/**
+ * Format a Date to Google Calendar's compact UTC format: 20260611T210000Z
+ */
+function toGoogleDate(date) {
+  const y = date.getUTCFullYear();
+  const m = pad(date.getUTCMonth() + 1);
+  const d = pad(date.getUTCDate());
+  const h = pad(date.getUTCHours());
+  const min = pad(date.getUTCMinutes());
+  return `${y}${m}${d}T${h}${min}00Z`;
+}
+
+/**
+ * Format a Date to ISO 8601 for Outlook.com: 2026-06-11T21:00:00Z
+ */
+function toOutlookDate(date) {
+  return date.toISOString().replace(/\.\d{3}Z$/, 'Z');
+}
+
+/**
+ * Generate a Google Calendar event creation URL for a single fixture.
+ */
+export function generateGoogleCalendarUrl(fixture) {
+  const { title, location, description, startDate, endDate } = buildEventMeta(fixture);
+  const dates = `${toGoogleDate(startDate)}/${toGoogleDate(endDate)}`;
+
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: title,
+    dates,
+    details: description,
+    location,
+  });
+
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
+/**
+ * Generate an Outlook.com calendar event creation URL for a single fixture.
+ */
+export function generateOutlookUrl(fixture) {
+  const { title, location, description, startDate, endDate } = buildEventMeta(fixture);
+
+  const params = new URLSearchParams({
+    rru: 'addevent',
+    subject: title,
+    startdt: toOutlookDate(startDate),
+    enddt: toOutlookDate(endDate),
+    body: description,
+    location,
+  });
+
+  return `https://outlook.live.com/calendar/0/action/compose?${params.toString()}`;
+}

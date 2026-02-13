@@ -159,14 +159,25 @@ Key fixtures to get right:
         "club": "Everton",
         "caps": 65,
         "goals": 0,
-        "age": 32
+        "age": 32,
+        "number": 1,
+        "tier": "core"
       }
     ]
   }
 }
 ```
 
-Squad data can start mostly empty. Fill in as teams announce. Before the tournament, this will be speculative/preliminary squads from media reports. Final squads confirmed late May.
+**Squad ladders (~50 players per team):** Extended pools sourced from FBRef national team pages via `scripts/scrape-squads.py`. Each player has a `tier` field:
+- `"core"` — Regular starters and recent call-ups (~26 players)
+- `"extended"` — Fringe players called up in last 1-2 years (~15 players)
+- `"potential"` — Emerging talents and wider pool (~10 players)
+
+Run `python scripts/scrape-squads.py` to refresh. The 6 TBD playoff teams are left empty until playoffs conclude.
+
+**Calendar export formats:** ICS download (Apple/Outlook desktop), Google Calendar URL, Outlook.com URL. All generated client-side.
+
+**Venue local time:** Timezone selector includes a "Venue local time" option that shows each fixture in its host stadium's local timezone — useful for fans attending matches in person.
 
 ## Core features — build in this order
 

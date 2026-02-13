@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { getVenueById, getTeamName } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
+import { VENUE_LOCAL } from './TimezoneSelector';
 
 const COUNTRY_COLORS = {
   USA: '#3b82f6',
@@ -45,6 +46,7 @@ function FitBounds({ venues }) {
 }
 
 export default function FixtureMap({ fixtures, teamId, timezone, isDark }) {
+  const isVenueLocal = timezone === VENUE_LOCAL;
   const venueFixtures = {};
   for (const f of fixtures) {
     const venue = getVenueById(f.venue);
@@ -75,35 +77,41 @@ export default function FixtureMap({ fixtures, teamId, timezone, isDark }) {
           url={tileUrl}
         />
         <FitBounds venues={venues} />
-        {entries.map(({ venue, matches }) => (
-          <Marker
-            key={venue.id}
-            position={[venue.lat, venue.lng]}
-            icon={createMarkerIcon(venue.country)}
-          >
-            <Popup>
-              <div className="text-sm min-w-[200px]">
-                <div className="font-bold text-base mb-1">{venue.name}</div>
-                <div className="text-slate-500 dark:text-slate-400 mb-2">
-                  {venue.displayCity} · {venue.country}
-                </div>
-                {matches.map((m) => (
-                  <div key={m.matchNumber} className="border-t border-slate-200 dark:border-slate-600 pt-1 mt-1">
-                    <div className="font-medium">
-                      {getTeamName(m.homeTeam)} vs {getTeamName(m.awayTeam)}
-                    </div>
-                    <div className="text-xs text-slate-500 dark:text-slate-400">
-                      {formatMatchDate(m.date, timezone)} · {formatMatchTime(m.date, m.timeUTC, timezone)}
-                    </div>
+        {entries.map(({ venue, matches }) => {
+          const effectiveTz = isVenueLocal ? venue.timezone : timezone;
+          return (
+            <Marker
+              key={venue.id}
+              position={[venue.lat, venue.lng]}
+              icon={createMarkerIcon(venue.country)}
+            >
+              <Popup>
+                <div className="text-sm min-w-[200px]">
+                  <div className="font-bold text-base mb-1">{venue.name}</div>
+                  <div className="text-slate-500 dark:text-slate-400 mb-2">
+                    {venue.displayCity} · {venue.country}
                   </div>
-                ))}
-                <a href={`/venue/${venue.id}`} className="block text-xs text-teal-400 mt-2 hover:underline">
-                  View venue details →
-                </a>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
+                  {matches.map((m) => (
+                    <div key={m.matchNumber} className="border-t border-slate-200 dark:border-slate-600 pt-1 mt-1">
+                      <div className="font-medium">
+                        {getTeamName(m.homeTeam)} vs {getTeamName(m.awayTeam)}
+                      </div>
+                      <div className="text-xs text-slate-500 dark:text-slate-400">
+                        {formatMatchDate(m.date, effectiveTz)} · {formatMatchTime(m.date, m.timeUTC, effectiveTz)}
+                        {isVenueLocal && (
+                          <span className="ml-1 text-teal-500">(local)</span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                  <a href={`/venue/${venue.id}`} className="block text-xs text-teal-400 mt-2 hover:underline">
+                    View venue details →
+                  </a>
+                </div>
+              </Popup>
+            </Marker>
+          );
+        })}
       </MapContainer>
     </div>
   );

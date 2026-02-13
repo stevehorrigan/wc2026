@@ -1,9 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getKnockoutPaths, getRoundName } from '../utils/knockout';
+import { getVenueById } from '../utils/fixtures';
 import { formatMatchDate, formatMatchTime } from '../utils/timezone';
+import { VENUE_LOCAL } from './TimezoneSelector';
 
 function PathStep({ step, timezone, isLast }) {
+  const isVenueLocal = timezone === VENUE_LOCAL;
+  const stepVenue = getVenueById(step.venueId);
+  const effectiveTz = isVenueLocal && stepVenue ? stepVenue.timezone : timezone;
+
   return (
     <div className="flex gap-3">
       {/* Timeline connector */}
@@ -27,8 +33,13 @@ function PathStep({ step, timezone, isLast }) {
           )}
         </p>
         <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5 mt-0.5 text-xs text-slate-500 dark:text-slate-400">
-          <span>{formatMatchDate(step.date, timezone)}</span>
-          <span>{formatMatchTime(step.date, step.timeUTC, timezone)}</span>
+          <span>{formatMatchDate(step.date, effectiveTz)}</span>
+          <span>
+            {formatMatchTime(step.date, step.timeUTC, effectiveTz)}
+            {isVenueLocal && stepVenue && (
+              <span className="ml-1 text-teal-500 dark:text-teal-400">(local)</span>
+            )}
+          </span>
           <Link
             to={`/venue/${step.venueId}`}
             className="text-teal-500 hover:text-teal-400 hover:underline"
@@ -59,6 +70,8 @@ function PathTimeline({ path, timezone }) {
 }
 
 function ThirdPlaceScenarios({ scenarios, timezone }) {
+  const isVenueLocal = timezone === VENUE_LOCAL;
+
   if (!scenarios || scenarios.length === 0) {
     return (
       <p className="text-sm text-slate-500 dark:text-slate-400 italic">
@@ -72,30 +85,39 @@ function ThirdPlaceScenarios({ scenarios, timezone }) {
       <p className="text-xs text-slate-500 dark:text-slate-400">
         If your team finishes as one of the 8 best third-placed teams, they could face:
       </p>
-      {scenarios.map((scenario, i) => (
-        <div
-          key={scenario.r32Match}
-          className="bg-slate-100/50 dark:bg-slate-700/30 rounded-lg p-3"
-        >
-          <p className="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-1">
-            Scenario {i + 1}
-          </p>
-          <p className="text-sm font-medium text-slate-900 dark:text-white">
-            vs {scenario.opponent?.label || 'TBD'}
-          </p>
-          <div className="flex flex-wrap items-center gap-x-3 text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            <span>{formatMatchDate(scenario.date, timezone)}</span>
-            {scenario.venue && (
-              <Link
-                to={`/venue/${scenario.venue.id}`}
-                className="text-teal-500 hover:text-teal-400 hover:underline"
-              >
-                {scenario.venue.name}, {scenario.venue.displayCity}
-              </Link>
-            )}
+      {scenarios.map((scenario, i) => {
+        const effectiveTz = isVenueLocal && scenario.venue ? scenario.venue.timezone : timezone;
+
+        return (
+          <div
+            key={scenario.r32Match}
+            className="bg-slate-100/50 dark:bg-slate-700/30 rounded-lg p-3"
+          >
+            <p className="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wide mb-1">
+              Scenario {i + 1}
+            </p>
+            <p className="text-sm font-medium text-slate-900 dark:text-white">
+              vs {scenario.opponent?.label || 'TBD'}
+            </p>
+            <div className="flex flex-wrap items-center gap-x-3 text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+              <span>
+                {formatMatchDate(scenario.date, effectiveTz)}
+                {isVenueLocal && scenario.venue && (
+                  <span className="ml-1 text-teal-500 dark:text-teal-400">(local)</span>
+                )}
+              </span>
+              {scenario.venue && (
+                <Link
+                  to={`/venue/${scenario.venue.id}`}
+                  className="text-teal-500 hover:text-teal-400 hover:underline"
+                >
+                  {scenario.venue.name}, {scenario.venue.displayCity}
+                </Link>
+              )}
+            </div>
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
