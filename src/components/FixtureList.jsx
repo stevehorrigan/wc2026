@@ -4,10 +4,11 @@ import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 import { VENUE_LOCAL } from './TimezoneSelector';
 
 function TeamDisplay({ teamId, isHighlighted }) {
+  const team = getTeamById(teamId);
   const flag = getTeamFlag(teamId);
   const name = getTeamName(teamId);
 
-  return (
+  const content = (
     <div className={`flex items-center gap-2 ${isHighlighted ? 'font-semibold text-teal-400' : ''}`}>
       {flag ? (
         <img src={flag} alt="" className="w-6 h-4 object-cover rounded-sm" />
@@ -17,6 +18,15 @@ function TeamDisplay({ teamId, isHighlighted }) {
       <span className="text-sm">{name}</span>
     </div>
   );
+
+  if (team) {
+    return (
+      <Link to={`/team/${teamId}`} className="hover:opacity-80 transition-opacity">
+        {content}
+      </Link>
+    );
+  }
+  return content;
 }
 
 export default function FixtureList({ fixtures, teamId, timezone }) {

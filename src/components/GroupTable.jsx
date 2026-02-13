@@ -31,7 +31,7 @@ export default function GroupTable({ group, teamId, timezone }) {
                   ${team.id === teamId ? 'bg-teal-50 dark:bg-teal-900/20' : ''}`}
               >
                 <td className="py-2 px-3">
-                  <div className="flex items-center gap-2">
+                  <Link to={`/team/${team.id}`} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                     {team.flagUrl ? (
                       <img src={team.flagUrl} alt="" className="w-6 h-4 object-cover rounded-sm" />
                     ) : (
@@ -40,7 +40,7 @@ export default function GroupTable({ group, teamId, timezone }) {
                     <span className={team.id === teamId ? 'text-teal-400 font-medium' : ''}>
                       {team.name}
                     </span>
-                  </div>
+                  </Link>
                 </td>
                 <td className="py-2 px-3 text-right text-slate-500 dark:text-slate-400">
                   {team.fifaRanking ? `#${team.fifaRanking}` : '—'}
@@ -81,15 +81,19 @@ export default function GroupTable({ group, teamId, timezone }) {
                       )}
                     </span>
                     <div className="flex items-center gap-1 flex-1 min-w-0">
-                      {homeFlag && <img src={homeFlag} alt="" className="w-4 h-3 object-cover rounded-sm" />}
-                      <span className={fixture.homeTeam === teamId ? 'text-teal-400 font-medium' : ''}>
-                        {getTeamName(fixture.homeTeam)}
-                      </span>
+                      <Link to={`/team/${fixture.homeTeam}`} className="inline-flex items-center gap-1 hover:opacity-80 transition-opacity">
+                        {homeFlag && <img src={homeFlag} alt="" className="w-4 h-3 object-cover rounded-sm" />}
+                        <span className={fixture.homeTeam === teamId ? 'text-teal-400 font-medium' : ''}>
+                          {getTeamName(fixture.homeTeam)}
+                        </span>
+                      </Link>
                       <span className="text-slate-500 mx-1">v</span>
-                      {awayFlag && <img src={awayFlag} alt="" className="w-4 h-3 object-cover rounded-sm" />}
-                      <span className={fixture.awayTeam === teamId ? 'text-teal-400 font-medium' : ''}>
-                        {getTeamName(fixture.awayTeam)}
-                      </span>
+                      <Link to={`/team/${fixture.awayTeam}`} className="inline-flex items-center gap-1 hover:opacity-80 transition-opacity">
+                        {awayFlag && <img src={awayFlag} alt="" className="w-4 h-3 object-cover rounded-sm" />}
+                        <span className={fixture.awayTeam === teamId ? 'text-teal-400 font-medium' : ''}>
+                          {getTeamName(fixture.awayTeam)}
+                        </span>
+                      </Link>
                     </div>
                     {venue && (
                       <Link to={`/venue/${venue.id}`} className="text-xs text-slate-500 hover:text-teal-400 transition-colors hidden sm:inline">

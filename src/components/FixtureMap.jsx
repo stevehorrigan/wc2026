@@ -94,7 +94,9 @@ export default function FixtureMap({ fixtures, teamId, timezone, isDark }) {
                   {matches.map((m) => (
                     <div key={m.matchNumber} className="border-t border-slate-200 dark:border-slate-600 pt-1 mt-1">
                       <div className="font-medium">
-                        {getTeamName(m.homeTeam)} vs {getTeamName(m.awayTeam)}
+                        <a href={`/team/${m.homeTeam}`} className="hover:text-teal-500">{getTeamName(m.homeTeam)}</a>
+                        {' vs '}
+                        <a href={`/team/${m.awayTeam}`} className="hover:text-teal-500">{getTeamName(m.awayTeam)}</a>
                       </div>
                       <div className="text-xs text-slate-500 dark:text-slate-400">
                         {formatMatchDate(m.date, effectiveTz)} · {formatMatchTime(m.date, m.timeUTC, effectiveTz)}
