@@ -25,7 +25,7 @@ export default function App() {
             </Link>
             <button
               onClick={toggleTheme}
-              className="text-slate-400 hover:text-white transition-colors text-lg cursor-pointer"
+              className="text-slate-500 dark:text-slate-400 hover:text-teal-500 dark:hover:text-white transition-colors text-lg cursor-pointer"
               title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {isDark ? '☀️' : '🌙'}

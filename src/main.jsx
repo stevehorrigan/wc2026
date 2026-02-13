@@ -6,6 +6,7 @@ import App from './components/App.jsx'
 import TeamSelector from './components/TeamSelector.jsx'
 import DashboardWrapper from './components/DashboardWrapper.jsx'
 import AllFixtures from './components/AllFixtures.jsx'
+import VenuePage from './components/VenuePage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <TeamSelector /> },
       { path: 'team/:teamId', element: <DashboardWrapper /> },
       { path: 'fixtures', element: <AllFixtures /> },
+      { path: 'venue/:venueId', element: <VenuePage /> },
     ],
   },
 ])

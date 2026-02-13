@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { getTeamById, getVenueById, getTeamName, getTeamFlag, getRoundLabel } from '../utils/fixtures';
 import { formatMatchTime, formatMatchDate } from '../utils/timezone';
 
@@ -10,7 +11,7 @@ function TeamDisplay({ teamId, isHighlighted }) {
       {flag ? (
         <img src={flag} alt="" className="w-6 h-4 object-cover rounded-sm" />
       ) : (
-        <div className="w-6 h-4 bg-slate-700 rounded-sm" />
+        <div className="w-6 h-4 bg-slate-200 dark:bg-slate-700 rounded-sm" />
       )}
       <span className="text-sm">{name}</span>
     </div>
@@ -45,7 +46,7 @@ export default function FixtureList({ fixtures, teamId, timezone }) {
                 <TeamDisplay teamId={fixture.homeTeam} isHighlighted={fixture.homeTeam === teamId} />
               </div>
               <div className="px-4 text-center">
-                <div className="text-lg font-bold text-white">
+                <div className="text-lg font-bold text-slate-900 dark:text-white">
                   {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
                 </div>
                 <div className="text-xs text-slate-400">
@@ -59,7 +60,9 @@ export default function FixtureList({ fixtures, teamId, timezone }) {
 
             {venue && (
               <div className="text-xs text-slate-500 text-center">
-                {venue.name} · {venue.displayCity}
+                <Link to={`/venue/${venue.id}`} className="hover:text-teal-400 transition-colors">
+                  {venue.name} · {venue.displayCity}
+                </Link>
               </div>
             )}
           </div>

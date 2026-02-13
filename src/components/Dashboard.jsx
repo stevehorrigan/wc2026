@@ -29,13 +29,13 @@ export default function Dashboard({ isDark }) {
       {/* Team header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
         <div className="flex items-center gap-4">
-          <Link to="/" className="text-slate-500 hover:text-slate-300 text-sm">← Teams</Link>
+          <Link to="/" className="text-slate-600 dark:text-slate-500 hover:text-slate-800 dark:hover:text-slate-300 text-sm">← Teams</Link>
           {team.flagUrl && (
             <img src={team.flagUrl} alt={`${team.name} flag`} className="w-16 h-10 object-cover rounded shadow" />
           )}
           <div>
             <h1 className="text-2xl font-bold">{team.name}</h1>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-slate-500 dark:text-slate-400">
               Group {team.group} · FIFA #{team.fifaRanking} · {team.confederation}
             </p>
           </div>

@@ -26,7 +26,7 @@ function TeamLabel({ teamId }) {
       {flag ? (
         <img src={flag} alt="" className="w-5 h-3.5 object-cover rounded-sm inline-block" />
       ) : (
-        <span className="w-5 h-3.5 bg-slate-700 rounded-sm inline-block" />
+        <span className="w-5 h-3.5 bg-slate-200 dark:bg-slate-700 rounded-sm inline-block" />
       )}
       <span>{name}</span>
     </span>
@@ -94,9 +94,9 @@ export default function AllFixtures() {
                 return (
                   <div
                     key={fixture.matchNumber}
-                    className="flex items-center gap-3 bg-slate-800/30 border border-slate-700/30 rounded-lg px-4 py-3 text-sm"
+                    className="flex items-center gap-3 bg-slate-50 border border-slate-200 dark:bg-slate-800/30 dark:border-slate-700/30 rounded-lg px-4 py-3 text-sm"
                   >
-                    <span className="text-base font-mono text-white w-12 shrink-0">
+                    <span className="text-base font-mono text-slate-900 dark:text-white w-12 shrink-0">
                       {formatMatchTime(fixture.date, fixture.timeUTC, timezone)}
                     </span>
                     <div className="flex-1 min-w-0 flex items-center gap-2 flex-wrap">
@@ -104,10 +104,12 @@ export default function AllFixtures() {
                       <span className="text-slate-500">v</span>
                       <TeamLabel teamId={fixture.awayTeam} />
                     </div>
-                    <span className="text-xs text-slate-500 hidden sm:inline shrink-0">
-                      {venue?.displayCity}
-                    </span>
-                    <span className="text-xs bg-slate-700/50 text-slate-300 px-2 py-0.5 rounded shrink-0">
+                    {venue && (
+                      <Link to={`/venue/${venue.id}`} className="text-xs text-slate-500 hover:text-teal-400 transition-colors hidden sm:inline shrink-0">
+                        {venue.displayCity}
+                      </Link>
+                    )}
+                    <span className="text-xs bg-slate-200 dark:bg-slate-700/50 text-slate-600 dark:text-slate-300 px-2 py-0.5 rounded shrink-0">
                       {badge}
                     </span>
                   </div>

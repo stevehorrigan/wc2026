@@ -75,7 +75,7 @@ export default function TeamSelector() {
                 loading="lazy"
               />
             ) : (
-              <div className="w-12 h-8 bg-slate-700 rounded flex items-center justify-center text-xs text-slate-400">
+              <div className="w-12 h-8 bg-slate-200 dark:bg-slate-700 rounded flex items-center justify-center text-xs text-slate-500 dark:text-slate-400">
                 TBD
               </div>
             )}

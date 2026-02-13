@@ -32,6 +32,10 @@ export function getTeamFixtures(teamId) {
   );
 }
 
+export function getVenueFixtures(venueId) {
+  return fixtures.filter(f => f.venue === venueId);
+}
+
 export function getGroupFixtures(group) {
   return fixtures.filter(f => f.group === group);
 }

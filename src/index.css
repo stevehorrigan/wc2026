@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "leaflet/dist/leaflet.css";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-dark-bg: #0f172a;
   --color-dark-surface: #1e293b;
@@ -22,13 +24,25 @@ html:not(.dark) body {
   color: #0f172a;
 }
 
-/* Leaflet popup overrides for dark mode */
+/* Leaflet popup overrides */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+}
+
 .dark .leaflet-popup-content-wrapper {
   background: var(--color-dark-surface);
   color: #f1f5f9;
-  border-radius: 8px;
 }
 
 .dark .leaflet-popup-tip {
   background: var(--color-dark-surface);
+}
+
+html:not(.dark) .leaflet-popup-content-wrapper {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+html:not(.dark) .leaflet-popup-tip {
+  background: #ffffff;
 }

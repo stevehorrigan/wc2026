@@ -63,7 +63,7 @@ export default function FixtureMap({ fixtures, teamId, timezone, isDark }) {
     : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
 
   return (
-    <div className="rounded-lg overflow-hidden border border-slate-700/50" style={{ height: '400px' }}>
+    <div className="rounded-lg overflow-hidden border border-slate-200 dark:border-slate-700/50" style={{ height: '400px' }}>
       <MapContainer
         center={[39, -98]}
         zoom={4}
@@ -84,19 +84,22 @@ export default function FixtureMap({ fixtures, teamId, timezone, isDark }) {
             <Popup>
               <div className="text-sm min-w-[200px]">
                 <div className="font-bold text-base mb-1">{venue.name}</div>
-                <div className="text-slate-400 mb-2">
+                <div className="text-slate-500 dark:text-slate-400 mb-2">
                   {venue.displayCity} · {venue.country}
                 </div>
                 {matches.map((m) => (
-                  <div key={m.matchNumber} className="border-t border-slate-600 pt-1 mt-1">
+                  <div key={m.matchNumber} className="border-t border-slate-200 dark:border-slate-600 pt-1 mt-1">
                     <div className="font-medium">
                       {getTeamName(m.homeTeam)} vs {getTeamName(m.awayTeam)}
                     </div>
-                    <div className="text-xs text-slate-400">
+                    <div className="text-xs text-slate-500 dark:text-slate-400">
                       {formatMatchDate(m.date, timezone)} · {formatMatchTime(m.date, m.timeUTC, timezone)}
                     </div>
                   </div>
                 ))}
+                <a href={`/venue/${venue.id}`} className="block text-xs text-teal-400 mt-2 hover:underline">
+                  View venue details →
+                </a>
               </div>
             </Popup>
           </Marker>
