@@ -156,7 +156,7 @@ export default function VenuePage() {
       </div>
 
       {/* Travel links */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
         <a
           href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(venue.displayCity)}&aid=YOUR_BOOKING_AID`}
           target="_blank"
@@ -164,7 +164,7 @@ export default function VenuePage() {
           className="bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg p-4 text-center hover:border-teal-500 transition-colors group"
         >
           <p className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-teal-400 transition-colors mb-1">Hotels near {venue.name}</p>
-          <span className="text-xs text-slate-500 dark:text-slate-400">Find hotels on Booking.com</span>
+          <span className="text-xs text-slate-500 dark:text-slate-400">Booking.com</span>
           <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-2">Partner link</p>
         </a>
         <a
@@ -174,7 +174,7 @@ export default function VenuePage() {
           className="bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg p-4 text-center hover:border-teal-500 transition-colors group"
         >
           <p className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-teal-400 transition-colors mb-1">Flights to {venue.displayCity}</p>
-          <span className="text-xs text-slate-500 dark:text-slate-400">Search on Skyscanner</span>
+          <span className="text-xs text-slate-500 dark:text-slate-400">Skyscanner</span>
           <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-2">Partner link</p>
         </a>
         <a
@@ -184,7 +184,27 @@ export default function VenuePage() {
           className="bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg p-4 text-center hover:border-teal-500 transition-colors group"
         >
           <p className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-teal-400 transition-colors mb-1">eSIM for {venue.country}</p>
-          <span className="text-xs text-slate-500 dark:text-slate-400">Stay connected with Airalo</span>
+          <span className="text-xs text-slate-500 dark:text-slate-400">Airalo</span>
+          <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-2">Partner link</p>
+        </a>
+        <a
+          href="https://nordvpn.com/special/?ref=wc2026"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg p-4 text-center hover:border-teal-500 transition-colors group"
+        >
+          <p className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-teal-400 transition-colors mb-1">Stream matches abroad</p>
+          <span className="text-xs text-slate-500 dark:text-slate-400">NordVPN</span>
+          <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-2">Partner link</p>
+        </a>
+        <a
+          href="https://safetywing.com/nomad-insurance/?ref=wc2026"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="bg-slate-50 dark:bg-slate-800/30 border border-slate-200 dark:border-slate-700/30 rounded-lg p-4 text-center hover:border-teal-500 transition-colors group"
+        >
+          <p className="text-sm font-medium text-slate-700 dark:text-slate-300 group-hover:text-teal-400 transition-colors mb-1">Travel insurance</p>
+          <span className="text-xs text-slate-500 dark:text-slate-400">SafetyWing</span>
           <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-2">Partner link</p>
         </a>
       </div>
