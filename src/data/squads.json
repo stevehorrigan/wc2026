@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -12,6 +12,7 @@
         "caps": 81,
         "goals": 0,
         "club": "Everton",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -22,6 +23,7 @@
         "caps": 5,
         "goals": 0,
         "club": "Newcastle United",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -35,6 +37,17 @@
         "tier": "core"
       },
       {
+        "name": "James Trafford",
+        "position": "GK",
+        "age": 23,
+        "dob": "2002-10-10",
+        "caps": 1,
+        "goals": 0,
+        "club": "Manchester City",
+        "number": 22,
+        "tier": "core"
+      },
+      {
         "name": "Jason Steele",
         "position": "GK",
         "age": 35,
@@ -42,16 +55,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Brighton & Hove Albion",
-        "tier": "core"
-      },
-      {
-        "name": "James Trafford",
-        "position": "GK",
-        "age": 23,
-        "dob": "2002-10-10",
-        "caps": 0,
-        "goals": 0,
-        "club": "Manchester City",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -62,6 +66,7 @@
         "caps": 87,
         "goals": 3,
         "club": "Manchester City",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -69,9 +74,10 @@
         "position": "DEF",
         "age": 33,
         "dob": "1993-03-05",
-        "caps": 64,
+        "caps": 65,
         "goals": 7,
         "club": "Manchester United",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -95,6 +101,28 @@
         "tier": "core"
       },
       {
+        "name": "Fikayo Tomori",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1997-12-19",
+        "caps": 6,
+        "goals": 0,
+        "club": "AC Milan",
+        "number": 14,
+        "tier": "core"
+      },
+      {
+        "name": "Ben White",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1997-10-08",
+        "caps": 5,
+        "goals": 1,
+        "club": "Arsenal",
+        "number": 12,
+        "tier": "core"
+      },
+      {
         "name": "Dan Burn",
         "position": "DEF",
         "age": 33,
@@ -105,33 +133,14 @@
         "tier": "core"
       },
       {
-        "name": "Fikayo Tomori",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-12-19",
-        "caps": 5,
-        "goals": 0,
-        "club": "AC Milan",
-        "tier": "core"
-      },
-      {
-        "name": "Ben White",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-10-08",
-        "caps": 4,
-        "goals": 0,
-        "club": "Arsenal",
-        "tier": "core"
-      },
-      {
         "name": "Tino Livramento",
         "position": "DEF",
         "age": 23,
         "dob": "2002-11-12",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Newcastle United",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -139,9 +148,10 @@
         "position": "DEF",
         "age": 25,
         "dob": "2000-08-09",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Tottenham Hotspur",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -149,9 +159,10 @@
         "position": "DEF",
         "age": 21,
         "dob": "2004-09-08",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Newcastle United",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -169,9 +180,10 @@
         "position": "MID",
         "age": 35,
         "dob": "1990-06-17",
-        "caps": 88,
+        "caps": 89,
         "goals": 3,
         "club": "Brentford",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -199,9 +211,10 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-05-06",
-        "caps": 12,
+        "caps": 13,
         "goals": 2,
         "club": "Chelsea",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -219,9 +232,10 @@
         "position": "MID",
         "age": 20,
         "dob": "2005-04-19",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Manchester United",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -242,6 +256,7 @@
         "caps": 3,
         "goals": 0,
         "club": "Crystal Palace",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -249,9 +264,10 @@
         "position": "MID",
         "age": 25,
         "dob": "2001-03-13",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Everton",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -269,9 +285,21 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-10-31",
-        "caps": 68,
+        "caps": 69,
         "goals": 18,
         "club": "Barcelona",
+        "number": 11,
+        "tier": "core"
+      },
+      {
+        "name": "Phil Foden",
+        "position": "FWD",
+        "age": 25,
+        "dob": "2000-05-28",
+        "caps": 48,
+        "goals": 4,
+        "club": "Manchester City",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -285,23 +313,14 @@
         "tier": "core"
       },
       {
-        "name": "Phil Foden",
-        "position": "FWD",
-        "age": 25,
-        "dob": "2000-05-28",
-        "caps": 47,
-        "goals": 4,
-        "club": "Manchester City",
-        "tier": "core"
-      },
-      {
         "name": "Jarrod Bowen",
         "position": "FWD",
         "age": 29,
         "dob": "1996-12-20",
-        "caps": 20,
+        "caps": 21,
         "goals": 1,
         "club": "West Ham United",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -319,9 +338,10 @@
         "position": "FWD",
         "age": 29,
         "dob": "1997-03-16",
-        "caps": 11,
+        "caps": 12,
         "goals": 4,
         "club": "Leeds United",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -329,9 +349,10 @@
         "position": "FWD",
         "age": 24,
         "dob": "2002-03-10",
-        "caps": 9,
+        "caps": 10,
         "goals": 1,
         "club": "Arsenal",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -339,9 +360,10 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-09-14",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Tottenham Hotspur",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -349,9 +371,10 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-12-09",
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "club": "Newcastle United",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -507,7 +530,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -563,17 +586,6 @@
         "goals": 1,
         "club": "Flamengo",
         "number": 13,
-        "tier": "core"
-      },
-      {
-        "name": "Wesley",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2003-09-06",
-        "caps": 6,
-        "goals": 0,
-        "club": "Roma",
-        "number": 2,
         "tier": "core"
       },
       {
@@ -675,7 +687,7 @@
         "tier": "core"
       },
       {
-        "name": "Danilo Santos",
+        "name": "Danilo Oliveira",
         "position": "MID",
         "age": 24,
         "dob": "2001-04-29",
@@ -705,17 +717,6 @@
         "goals": 8,
         "club": "Real Madrid",
         "number": 10,
-        "tier": "core"
-      },
-      {
-        "name": "Raphinha",
-        "position": "FWD",
-        "age": 29,
-        "dob": "1996-12-14",
-        "caps": 37,
-        "goals": 11,
-        "club": "Barcelona",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -1084,11 +1085,31 @@
         "goals": 1,
         "club": "Nottingham Forest",
         "tier": "extended"
+      },
+      {
+        "name": "Vitor Roque",
+        "position": "FWD",
+        "age": 21,
+        "dob": "2005-02-28",
+        "caps": 2,
+        "goals": 0,
+        "club": "Palmeiras",
+        "tier": "extended"
+      },
+      {
+        "name": "Samuel Lino",
+        "position": "FWD",
+        "age": 26,
+        "dob": "1999-12-23",
+        "caps": 1,
+        "goals": 0,
+        "club": "Flamengo",
+        "tier": "extended"
       }
     ]
   },
   "fra": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1380,7 +1401,7 @@
       {
         "name": "Benjamin Pavard",
         "position": "DEF",
-        "age": 29,
+        "age": 30,
         "dob": "1996-03-28",
         "caps": 55,
         "goals": 5,
@@ -1506,21 +1527,11 @@
         "goals": 2,
         "club": "Crystal Palace",
         "tier": "extended"
-      },
-      {
-        "name": "Jonathan Clauss",
-        "position": "DEF",
-        "age": 33,
-        "dob": "1992-09-25",
-        "caps": 14,
-        "goals": 2,
-        "club": "Nice",
-        "tier": "potential"
       }
     ]
   },
   "arg": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -1529,7 +1540,7 @@
         "position": "GK",
         "age": 33,
         "dob": "1992-09-02",
-        "caps": 57,
+        "caps": 58,
         "goals": 0,
         "club": "Aston Villa",
         "number": 23,
@@ -1576,7 +1587,6 @@
         "caps": 74,
         "goals": 1,
         "club": "Lyon",
-        "number": 3,
         "tier": "core"
       },
       {
@@ -1584,7 +1594,7 @@
         "position": "DEF",
         "age": 34,
         "dob": "1991-10-28",
-        "caps": 61,
+        "caps": 62,
         "goals": 0,
         "club": "River Plate",
         "number": 8,
@@ -1595,7 +1605,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-06",
-        "caps": 56,
+        "caps": 57,
         "goals": 1,
         "club": "Atlético Madrid",
         "number": 26,
@@ -1606,7 +1616,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-27",
-        "caps": 47,
+        "caps": 48,
         "goals": 3,
         "club": "Tottenham Hotspur",
         "number": 13,
@@ -1628,20 +1638,21 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-05-10",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Bournemouth",
         "number": 6,
         "tier": "core"
       },
       {
-        "name": "Valentín Barco",
+        "name": "Gabriel Rojas",
         "position": "DEF",
-        "age": 21,
-        "dob": "2004-07-23",
-        "caps": 2,
+        "age": 28,
+        "dob": "1997-06-22",
+        "caps": 1,
         "goals": 0,
-        "club": "Strasbourg",
+        "club": "Racing",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -1649,9 +1660,20 @@
         "position": "DEF",
         "age": 22,
         "dob": "2004-01-16",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Palmeiras",
+        "number": 4,
+        "tier": "core"
+      },
+      {
+        "name": "Tomás Palacios",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2003-04-28",
+        "caps": 0,
+        "goals": 0,
+        "club": "Estudiantes",
         "tier": "core"
       },
       {
@@ -1659,7 +1681,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1994-05-24",
-        "caps": 83,
+        "caps": 84,
         "goals": 2,
         "club": "Inter Miami",
         "number": 7,
@@ -1681,7 +1703,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-12-24",
-        "caps": 42,
+        "caps": 43,
         "goals": 6,
         "club": "Liverpool",
         "number": 20,
@@ -1692,8 +1714,8 @@
         "position": "MID",
         "age": 25,
         "dob": "2001-01-17",
-        "caps": 38,
-        "goals": 5,
+        "caps": 39,
+        "goals": 6,
         "club": "Chelsea",
         "number": 24,
         "tier": "core"
@@ -1703,7 +1725,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-10-05",
-        "caps": 37,
+        "caps": 38,
         "goals": 0,
         "club": "Bayer Leverkusen",
         "number": 14,
@@ -1714,21 +1736,32 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-04-26",
-        "caps": 12,
+        "caps": 13,
         "goals": 4,
         "club": "Atlético Madrid",
         "number": 11,
         "tier": "core"
       },
       {
-        "name": "Nicolás Paz",
+        "name": "Nico Paz",
         "position": "MID",
         "age": 21,
         "dob": "2004-09-08",
-        "caps": 6,
-        "goals": 0,
+        "caps": 7,
+        "goals": 1,
         "club": "Como",
         "number": 18,
+        "tier": "core"
+      },
+      {
+        "name": "Valentín Barco",
+        "position": "MID",
+        "age": 21,
+        "dob": "2004-07-23",
+        "caps": 2,
+        "goals": 0,
+        "club": "Strasbourg",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -1739,6 +1772,7 @@
         "caps": 1,
         "goals": 0,
         "club": "Como",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -1746,7 +1780,7 @@
         "position": "FWD",
         "age": 38,
         "dob": "1987-06-24",
-        "caps": 196,
+        "caps": 197,
         "goals": 115,
         "club": "Inter Miami",
         "number": 10,
@@ -1757,7 +1791,7 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-01-31",
-        "caps": 49,
+        "caps": 50,
         "goals": 13,
         "club": "Atlético Madrid",
         "number": 9,
@@ -1768,7 +1802,7 @@
         "position": "FWD",
         "age": 27,
         "dob": "1998-04-06",
-        "caps": 48,
+        "caps": 49,
         "goals": 6,
         "club": "Atlético Madrid",
         "number": 15,
@@ -1779,7 +1813,7 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-12-18",
-        "caps": 9,
+        "caps": 10,
         "goals": 1,
         "club": "Atlético Madrid",
         "number": 17,
@@ -1790,10 +1824,10 @@
         "position": "FWD",
         "age": 18,
         "dob": "2007-08-14",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Real Madrid",
-        "number": 21,
+        "number": 22,
         "tier": "core"
       },
       {
@@ -1801,10 +1835,10 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-12-06",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Palmeiras",
-        "number": 16,
+        "number": 21,
         "tier": "core"
       },
       {
@@ -1815,17 +1849,6 @@
         "caps": 1,
         "goals": 0,
         "club": "Benfica",
-        "number": 25,
-        "tier": "core"
-      },
-      {
-        "name": "Joaquín Panichelli",
-        "position": "FWD",
-        "age": 23,
-        "dob": "2002-10-07",
-        "caps": 1,
-        "goals": 0,
-        "club": "Strasbourg",
         "tier": "core"
       },
       {
@@ -2027,11 +2050,21 @@
         "goals": 0,
         "club": "Racing",
         "tier": "extended"
+      },
+      {
+        "name": "Joaquín Panichelli",
+        "position": "FWD",
+        "age": 23,
+        "dob": "2002-10-07",
+        "caps": 1,
+        "goals": 0,
+        "club": "Strasbourg",
+        "tier": "extended"
       }
     ]
   },
   "esp": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2040,7 +2073,7 @@
         "position": "GK",
         "age": 28,
         "dob": "1997-06-11",
-        "caps": 56,
+        "caps": 57,
         "goals": 0,
         "club": "Athletic Bilbao",
         "number": 23,
@@ -2083,7 +2116,7 @@
         "position": "DEF",
         "age": 31,
         "dob": "1994-05-27",
-        "caps": 43,
+        "caps": 44,
         "goals": 2,
         "club": "Athletic Bilbao",
         "number": 14,
@@ -2094,7 +2127,7 @@
         "position": "DEF",
         "age": 31,
         "dob": "1995-01-30",
-        "caps": 22,
+        "caps": 23,
         "goals": 0,
         "club": "Atlético Madrid",
         "number": 5,
@@ -2105,7 +2138,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-07-22",
-        "caps": 22,
+        "caps": 23,
         "goals": 1,
         "club": "Chelsea",
         "number": 22,
@@ -2138,7 +2171,7 @@
         "position": "DEF",
         "age": 19,
         "dob": "2007-01-22",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Barcelona",
         "number": 4,
@@ -2160,7 +2193,7 @@
         "position": "DEF",
         "age": 21,
         "dob": "2004-06-27",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Arsenal",
         "tier": "core"
@@ -2170,10 +2203,21 @@
         "position": "MID",
         "age": 29,
         "dob": "1996-06-22",
-        "caps": 59,
+        "caps": 60,
         "goals": 4,
         "club": "Manchester City",
         "number": 16,
+        "tier": "core"
+      },
+      {
+        "name": "Dani Olmo",
+        "position": "MID",
+        "age": 27,
+        "dob": "1998-05-07",
+        "caps": 47,
+        "goals": 12,
+        "club": "Barcelona",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -2181,7 +2225,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-11-25",
-        "caps": 38,
+        "caps": 39,
         "goals": 5,
         "club": "Barcelona",
         "number": 20,
@@ -2192,10 +2236,32 @@
         "position": "MID",
         "age": 27,
         "dob": "1999-02-02",
-        "caps": 24,
+        "caps": 25,
         "goals": 3,
         "club": "Arsenal",
         "number": 18,
+        "tier": "core"
+      },
+      {
+        "name": "Lamine Yamal",
+        "position": "MID",
+        "age": 18,
+        "dob": "2007-07-13",
+        "caps": 24,
+        "goals": 6,
+        "club": "Barcelona",
+        "number": 19,
+        "tier": "core"
+      },
+      {
+        "name": "Yéremy Pino",
+        "position": "MID",
+        "age": 23,
+        "dob": "2002-10-20",
+        "caps": 20,
+        "goals": 4,
+        "club": "Crystal Palace",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -2203,7 +2269,7 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-07-20",
-        "caps": 14,
+        "caps": 15,
         "goals": 2,
         "club": "Atlético Madrid",
         "number": 15,
@@ -2224,10 +2290,31 @@
         "position": "MID",
         "age": 30,
         "dob": "1996-02-02",
-        "caps": 7,
+        "caps": 8,
         "goals": 1,
         "club": "Betis",
         "number": 17,
+        "tier": "core"
+      },
+      {
+        "name": "Fermín López",
+        "position": "MID",
+        "age": 22,
+        "dob": "2003-05-11",
+        "caps": 6,
+        "goals": 0,
+        "club": "Barcelona",
+        "number": 8,
+        "tier": "core"
+      },
+      {
+        "name": "Ander Barrenetxea",
+        "position": "MID",
+        "age": 24,
+        "dob": "2001-12-27",
+        "caps": 0,
+        "goals": 0,
+        "club": "Real Sociedad",
         "tier": "core"
       },
       {
@@ -2235,7 +2322,7 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-02-29",
-        "caps": 53,
+        "caps": 54,
         "goals": 23,
         "club": "Barcelona",
         "number": 7,
@@ -2246,54 +2333,10 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-04-21",
-        "caps": 51,
-        "goals": 22,
+        "caps": 52,
+        "goals": 24,
         "club": "Real Sociedad",
         "number": 21,
-        "tier": "core"
-      },
-      {
-        "name": "Dani Olmo",
-        "position": "FWD",
-        "age": 27,
-        "dob": "1998-05-07",
-        "caps": 46,
-        "goals": 12,
-        "club": "Barcelona",
-        "number": 10,
-        "tier": "core"
-      },
-      {
-        "name": "Lamine Yamal",
-        "position": "FWD",
-        "age": 18,
-        "dob": "2007-07-13",
-        "caps": 23,
-        "goals": 6,
-        "club": "Barcelona",
-        "number": 19,
-        "tier": "core"
-      },
-      {
-        "name": "Yéremy Pino",
-        "position": "FWD",
-        "age": 23,
-        "dob": "2002-10-20",
-        "caps": 19,
-        "goals": 4,
-        "club": "Crystal Palace",
-        "number": 11,
-        "tier": "core"
-      },
-      {
-        "name": "Fermín López",
-        "position": "FWD",
-        "age": 22,
-        "dob": "2003-05-11",
-        "caps": 5,
-        "goals": 0,
-        "club": "Barcelona",
-        "number": 8,
         "tier": "core"
       },
       {
@@ -2308,22 +2351,12 @@
         "tier": "core"
       },
       {
-        "name": "Ander Barrenetxea",
-        "position": "FWD",
-        "age": 24,
-        "dob": "2001-12-27",
-        "caps": 0,
-        "goals": 0,
-        "club": "Real Sociedad",
-        "tier": "core"
-      },
-      {
         "name": "Víctor Muñoz",
         "position": "FWD",
         "age": 22,
         "dob": "2003-07-13",
-        "caps": 0,
-        "goals": 0,
+        "caps": 1,
+        "goals": 1,
         "club": "Osasuna",
         "tier": "core"
       },
@@ -2398,6 +2431,16 @@
         "tier": "extended"
       },
       {
+        "name": "Nico Williams",
+        "position": "MID",
+        "age": 23,
+        "dob": "2002-07-12",
+        "caps": 30,
+        "goals": 6,
+        "club": "Athletic Bilbao",
+        "tier": "extended"
+      },
+      {
         "name": "Gavi",
         "position": "MID",
         "age": 21,
@@ -2428,6 +2471,16 @@
         "tier": "extended"
       },
       {
+        "name": "Jesús Rodríguez",
+        "position": "MID",
+        "age": 20,
+        "dob": "2005-11-21",
+        "caps": 1,
+        "goals": 0,
+        "club": "Como",
+        "tier": "extended"
+      },
+      {
         "name": "Álvaro Morata (Captain)",
         "position": "FWD",
         "age": 33,
@@ -2435,16 +2488,6 @@
         "caps": 87,
         "goals": 37,
         "club": "Como",
-        "tier": "extended"
-      },
-      {
-        "name": "Nico Williams",
-        "position": "FWD",
-        "age": 23,
-        "dob": "2002-07-12",
-        "caps": 30,
-        "goals": 6,
-        "club": "Athletic Bilbao",
         "tier": "extended"
       },
       {
@@ -2466,21 +2509,11 @@
         "goals": 0,
         "club": "Rayo Vallecano",
         "tier": "extended"
-      },
-      {
-        "name": "Jesús Rodríguez",
-        "position": "FWD",
-        "age": 20,
-        "dob": "2005-11-21",
-        "caps": 1,
-        "goals": 0,
-        "club": "Como",
-        "tier": "extended"
       }
     ]
   },
   "deu": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -2489,7 +2522,7 @@
         "position": "GK",
         "age": 35,
         "dob": "1990-06-02",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "TSG Hoffenheim",
         "number": 1,
@@ -2533,8 +2566,8 @@
         "position": "DEF",
         "age": 30,
         "dob": "1996-02-11",
-        "caps": 43,
-        "goals": 0,
+        "caps": 44,
+        "goals": 1,
         "club": "Bayern Munich",
         "number": 4,
         "tier": "core"
@@ -2544,7 +2577,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-22",
-        "caps": 34,
+        "caps": 35,
         "goals": 1,
         "club": "RB Leipzig",
         "number": 22,
@@ -2555,7 +2588,7 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-12-01",
-        "caps": 23,
+        "caps": 24,
         "goals": 0,
         "club": "Borussia Dortmund",
         "number": 15,
@@ -2610,7 +2643,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1995-02-08",
-        "caps": 106,
+        "caps": 107,
         "goals": 10,
         "club": "Bayern Munich",
         "number": 6,
@@ -2621,7 +2654,7 @@
         "position": "MID",
         "age": 30,
         "dob": "1996-01-11",
-        "caps": 72,
+        "caps": 73,
         "goals": 16,
         "club": "Galatasaray",
         "number": 19,
@@ -2632,7 +2665,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1995-02-06",
-        "caps": 67,
+        "caps": 68,
         "goals": 15,
         "club": "Bayern Munich",
         "number": 8,
@@ -2643,8 +2676,8 @@
         "position": "MID",
         "age": 30,
         "dob": "1995-07-14",
-        "caps": 57,
-        "goals": 25,
+        "caps": 58,
+        "goals": 26,
         "club": "Bayern Munich",
         "number": 20,
         "tier": "core"
@@ -2654,7 +2687,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-06-11",
-        "caps": 55,
+        "caps": 56,
         "goals": 20,
         "club": "Arsenal",
         "number": 7,
@@ -2665,8 +2698,8 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-05-03",
-        "caps": 37,
-        "goals": 8,
+        "caps": 38,
+        "goals": 10,
         "club": "Liverpool",
         "number": 17,
         "tier": "core"
@@ -2676,7 +2709,7 @@
         "position": "MID",
         "age": 34,
         "dob": "1991-06-15",
-        "caps": 16,
+        "caps": 17,
         "goals": 1,
         "club": "Brighton & Hove Albion",
         "number": 5,
@@ -2694,6 +2727,17 @@
         "tier": "core"
       },
       {
+        "name": "Angelo Stiller",
+        "position": "MID",
+        "age": 24,
+        "dob": "2001-04-04",
+        "caps": 6,
+        "goals": 0,
+        "club": "VfB Stuttgart",
+        "number": 16,
+        "tier": "core"
+      },
+      {
         "name": "Kevin Schade",
         "position": "MID",
         "age": 24,
@@ -2705,22 +2749,11 @@
         "tier": "core"
       },
       {
-        "name": "Angelo Stiller",
-        "position": "MID",
-        "age": 24,
-        "dob": "2001-04-04",
-        "caps": 5,
-        "goals": 0,
-        "club": "VfB Stuttgart",
-        "number": 16,
-        "tier": "core"
-      },
-      {
         "name": "Anton Stach",
         "position": "MID",
         "age": 27,
         "dob": "1998-11-15",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Leeds United",
         "number": 24,
@@ -2731,7 +2764,7 @@
         "position": "MID",
         "age": 18,
         "dob": "2008-02-22",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Bayern Munich",
         "number": 25,
@@ -2742,7 +2775,7 @@
         "position": "FWD",
         "age": 24,
         "dob": "2002-02-14",
-        "caps": 8,
+        "caps": 9,
         "goals": 4,
         "club": "Newcastle United",
         "number": 11,
@@ -2992,7 +3025,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3379,7 +3412,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3388,7 +3421,7 @@
         "position": "GK",
         "age": 23,
         "dob": "2002-08-18",
-        "caps": 26,
+        "caps": 27,
         "goals": 0,
         "club": "Brighton & Hove Albion",
         "number": 1,
@@ -3421,8 +3454,8 @@
         "position": "DEF",
         "age": 34,
         "dob": "1991-07-08",
-        "caps": 88,
-        "goals": 11,
+        "caps": 89,
+        "goals": 12,
         "club": "Liverpool",
         "number": 4,
         "tier": "core"
@@ -3432,7 +3465,7 @@
         "position": "DEF",
         "age": 34,
         "dob": "1992-02-05",
-        "caps": 77,
+        "caps": 78,
         "goals": 4,
         "club": "Internazionale",
         "number": 6,
@@ -3443,7 +3476,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-04-18",
-        "caps": 69,
+        "caps": 70,
         "goals": 11,
         "club": "Internazionale",
         "number": 22,
@@ -3476,7 +3509,7 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-04-19",
-        "caps": 17,
+        "caps": 18,
         "goals": 1,
         "club": "Tottenham Hotspur",
         "number": 15,
@@ -3498,7 +3531,7 @@
         "position": "DEF",
         "age": 25,
         "dob": "2000-06-08",
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "club": "Brighton & Hove Albion",
         "tier": "core"
@@ -3519,7 +3552,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-04-21",
-        "caps": 32,
+        "caps": 33,
         "goals": 6,
         "club": "Tottenham Hotspur",
         "number": 7,
@@ -3530,8 +3563,8 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-07-29",
-        "caps": 29,
-        "goals": 6,
+        "caps": 30,
+        "goals": 7,
         "club": "Manchester City",
         "number": 14,
         "tier": "core"
@@ -3541,7 +3574,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1998-02-28",
-        "caps": 25,
+        "caps": 26,
         "goals": 3,
         "club": "Juventus",
         "number": 20,
@@ -3552,7 +3585,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-05-16",
-        "caps": 24,
+        "caps": 25,
         "goals": 1,
         "club": "Liverpool",
         "number": 8,
@@ -3563,7 +3596,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-01-12",
-        "caps": 15,
+        "caps": 16,
         "goals": 0,
         "club": "PSV",
         "number": 16,
@@ -3574,10 +3607,21 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-06-17",
-        "caps": 8,
+        "caps": 9,
         "goals": 1,
         "club": "Marseille",
         "number": 21,
+        "tier": "core"
+      },
+      {
+        "name": "Kees Smit",
+        "position": "MID",
+        "age": 20,
+        "dob": "2006-01-20",
+        "caps": 1,
+        "goals": 0,
+        "club": "AZ",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -3588,17 +3632,6 @@
         "caps": 1,
         "goals": 0,
         "club": "Feyenoord",
-        "tier": "core"
-      },
-      {
-        "name": "Kees Smit",
-        "position": "MID",
-        "age": 20,
-        "dob": "2006-01-20",
-        "caps": 0,
-        "goals": 0,
-        "club": "AZ",
-        "number": 26,
         "tier": "core"
       },
       {
@@ -3617,7 +3650,7 @@
         "position": "FWD",
         "age": 33,
         "dob": "1992-08-07",
-        "caps": 49,
+        "caps": 50,
         "goals": 14,
         "club": "Ajax",
         "number": 9,
@@ -3628,7 +3661,7 @@
         "position": "FWD",
         "age": 27,
         "dob": "1999-01-19",
-        "caps": 49,
+        "caps": 50,
         "goals": 13,
         "club": "Roma",
         "number": 18,
@@ -3639,7 +3672,7 @@
         "position": "FWD",
         "age": 26,
         "dob": "1999-05-07",
-        "caps": 46,
+        "caps": 47,
         "goals": 19,
         "club": "Liverpool",
         "number": 11,
@@ -3661,7 +3694,7 @@
         "position": "FWD",
         "age": 24,
         "dob": "2002-02-01",
-        "caps": 8,
+        "caps": 9,
         "goals": 1,
         "club": "Sunderland",
         "number": 19,
@@ -3820,7 +3853,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -3897,7 +3930,7 @@
       {
         "name": "Chris Richards",
         "position": "DEF",
-        "age": 25,
+        "age": 26,
         "dob": "2000-03-28",
         "caps": 35,
         "goals": 3,
@@ -4377,7 +4410,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4874,7 +4907,7 @@
       {
         "name": "Alonso Aceves",
         "position": "DEF",
-        "age": 24,
+        "age": 25,
         "dob": "2001-03-28",
         "caps": 0,
         "goals": 0,
@@ -4934,7 +4967,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5371,7 +5404,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5788,7 +5821,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -5800,6 +5833,7 @@
         "caps": 30,
         "goals": 0,
         "club": "Cerro Porteño",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -5810,6 +5844,7 @@
         "caps": 4,
         "goals": 0,
         "club": "San Lorenzo",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -5817,9 +5852,10 @@
         "position": "GK",
         "age": 32,
         "dob": "1993-04-21",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Olimpia",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -5827,9 +5863,10 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-05-06",
-        "caps": 86,
+        "caps": 87,
         "goals": 4,
         "club": "Palmeiras",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -5837,9 +5874,10 @@
         "position": "DEF",
         "age": 33,
         "dob": "1993-02-09",
-        "caps": 68,
+        "caps": 69,
         "goals": 3,
         "club": "Atlético Mineiro",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -5850,6 +5888,7 @@
         "caps": 47,
         "goals": 2,
         "club": "Grêmio",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -5857,9 +5896,10 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-12-26",
-        "caps": 33,
+        "caps": 34,
         "goals": 3,
         "club": "Sunderland",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -5870,6 +5910,7 @@
         "caps": 15,
         "goals": 0,
         "club": "Dynamo Moscow",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -5877,9 +5918,10 @@
         "position": "DEF",
         "age": 34,
         "dob": "1991-04-17",
-        "caps": 11,
+        "caps": 12,
         "goals": 1,
         "club": "Cerro Porteño",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -5887,9 +5929,10 @@
         "position": "DEF",
         "age": 32,
         "dob": "1994-01-25",
-        "caps": 7,
+        "caps": 8,
         "goals": 0,
         "club": "Libertad",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -5897,9 +5940,10 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-07-20",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Lanús",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -5907,9 +5951,10 @@
         "position": "DEF",
         "age": 20,
         "dob": "2005-07-26",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Talleres",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -5917,9 +5962,10 @@
         "position": "MID",
         "age": 32,
         "dob": "1994-02-10",
-        "caps": 73,
+        "caps": 74,
         "goals": 9,
         "club": "Atlanta United",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -5937,9 +5983,10 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-08-31",
-        "caps": 27,
+        "caps": 28,
         "goals": 1,
         "club": "Palmeiras",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -5947,9 +5994,10 @@
         "position": "MID",
         "age": 23,
         "dob": "2003-03-27",
-        "caps": 21,
-        "goals": 2,
+        "caps": 22,
+        "goals": 3,
         "club": "Brighton & Hove Albion",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -5957,9 +6005,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-07-11",
-        "caps": 17,
+        "caps": 18,
         "goals": 1,
         "club": "São Paulo",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -5967,9 +6016,10 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-07-27",
-        "caps": 14,
+        "caps": 15,
         "goals": 0,
         "club": "Orlando City",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -5977,9 +6027,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2002-02-11",
-        "caps": 13,
+        "caps": 14,
         "goals": 2,
         "club": "Atlanta United",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -5987,19 +6038,21 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-08-29",
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "club": "Universidad de Chile",
+        "number": 14,
         "tier": "core"
       },
       {
-        "name": "Maurício",
+        "name": "Maurício Magalhães",
         "position": "MID",
         "age": 24,
         "dob": "2001-06-22",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Palmeiras",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -6007,9 +6060,10 @@
         "position": "FWD",
         "age": 30,
         "dob": "1996-03-04",
-        "caps": 45,
+        "caps": 46,
         "goals": 7,
         "club": "Cremonese",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -6017,9 +6071,10 @@
         "position": "FWD",
         "age": 22,
         "dob": "2004-01-23",
-        "caps": 29,
+        "caps": 30,
         "goals": 4,
         "club": "Strasbourg",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -6030,6 +6085,7 @@
         "caps": 21,
         "goals": 2,
         "club": "Independiente",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -6037,9 +6093,10 @@
         "position": "FWD",
         "age": 30,
         "dob": "1995-06-16",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Independiente Rivadavia",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -6047,9 +6104,10 @@
         "position": "FWD",
         "age": 24,
         "dob": "2001-09-21",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Portsmouth",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -6231,21 +6289,11 @@
         "goals": 0,
         "club": "LDU Quito",
         "tier": "extended"
-      },
-      {
-        "name": "Saúl Salcedo",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-08-29",
-        "caps": 6,
-        "goals": 1,
-        "club": "Newell's Old Boys",
-        "tier": "potential"
       }
     ]
   },
   "aus": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6254,9 +6302,10 @@
         "position": "GK",
         "age": 33,
         "dob": "1992-04-08",
-        "caps": 101,
+        "caps": 102,
         "goals": 0,
         "club": "Levante",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -6267,6 +6316,7 @@
         "caps": 4,
         "goals": 0,
         "club": "Randers",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -6277,6 +6327,7 @@
         "caps": 1,
         "goals": 0,
         "club": "Melbourne City",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -6287,6 +6338,7 @@
         "caps": 81,
         "goals": 3,
         "club": "Melbourne City",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -6294,9 +6346,20 @@
         "position": "DEF",
         "age": 31,
         "dob": "1994-04-28",
-        "caps": 54,
+        "caps": 55,
         "goals": 1,
         "club": "APOEL",
+        "number": 2,
+        "tier": "core"
+      },
+      {
+        "name": "Kye Rowles",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1998-06-24",
+        "caps": 28,
+        "goals": 1,
+        "club": "D.C. United",
         "tier": "core"
       },
       {
@@ -6304,9 +6367,10 @@
         "position": "DEF",
         "age": 23,
         "dob": "2002-10-29",
-        "caps": 23,
-        "goals": 2,
+        "caps": 24,
+        "goals": 3,
         "club": "Feyenoord",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -6314,19 +6378,10 @@
         "position": "DEF",
         "age": 30,
         "dob": "1995-10-21",
-        "caps": 23,
+        "caps": 24,
         "goals": 0,
         "club": "Swansea City",
-        "tier": "core"
-      },
-      {
-        "name": "Fran Karačić",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1996-05-12",
-        "caps": 15,
-        "goals": 1,
-        "club": "Osijek",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -6334,9 +6389,10 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-05-10",
-        "caps": 11,
+        "caps": 12,
         "goals": 0,
         "club": "Albirex Niigata",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -6344,9 +6400,10 @@
         "position": "DEF",
         "age": 22,
         "dob": "2003-10-10",
-        "caps": 9,
+        "caps": 10,
         "goals": 0,
         "club": "Parma",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -6354,9 +6411,10 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-07-30",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Grazer AK",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -6364,9 +6422,10 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-05-18",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "New York City",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -6374,9 +6433,10 @@
         "position": "DEF",
         "age": 18,
         "dob": "2007-07-05",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Colorado Rapids",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -6384,9 +6444,10 @@
         "position": "MID",
         "age": 29,
         "dob": "1996-07-05",
-        "caps": 34,
+        "caps": 35,
         "goals": 4,
         "club": "Heracles Almelo",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -6394,9 +6455,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-11-02",
-        "caps": 33,
+        "caps": 34,
         "goals": 1,
         "club": "Middlesbrough",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -6404,9 +6466,10 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-11-05",
-        "caps": 32,
+        "caps": 33,
         "goals": 1,
         "club": "FC St. Pauli",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -6414,9 +6477,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-07-04",
-        "caps": 27,
+        "caps": 28,
         "goals": 0,
         "club": "New York City",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -6424,9 +6488,10 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-04-05",
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "club": "Nashville SC",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -6434,9 +6499,10 @@
         "position": "MID",
         "age": 21,
         "dob": "2005-01-24",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Sydney FC",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -6447,6 +6513,7 @@
         "caps": 2,
         "goals": 0,
         "club": "Cardiff City",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -6454,9 +6521,10 @@
         "position": "FWD",
         "age": 32,
         "dob": "1993-04-25",
-        "caps": 40,
+        "caps": 41,
         "goals": 10,
         "club": "Hibernian",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -6464,9 +6532,10 @@
         "position": "FWD",
         "age": 30,
         "dob": "1995-09-15",
-        "caps": 35,
+        "caps": 36,
         "goals": 9,
         "club": "Castellón",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -6474,9 +6543,10 @@
         "position": "FWD",
         "age": 20,
         "dob": "2006-02-09",
-        "caps": 11,
+        "caps": 12,
         "goals": 3,
         "club": "Watford",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -6487,6 +6557,7 @@
         "caps": 5,
         "goals": 3,
         "club": "Melbourne Victory",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -6494,9 +6565,10 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-09-03",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Wisła Płock",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -6507,6 +6579,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Hibernian",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -6530,16 +6603,6 @@
         "tier": "extended"
       },
       {
-        "name": "Kye Rowles",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1998-06-24",
-        "caps": 28,
-        "goals": 1,
-        "club": "D.C. United",
-        "tier": "extended"
-      },
-      {
         "name": "Jason Davidson",
         "position": "DEF",
         "age": 34,
@@ -6557,6 +6620,16 @@
         "caps": 19,
         "goals": 1,
         "club": "Blackburn Rovers",
+        "tier": "extended"
+      },
+      {
+        "name": "Fran Karačić",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1996-05-12",
+        "caps": 15,
+        "goals": 1,
+        "club": "Osijek",
         "tier": "extended"
       },
       {
@@ -6802,7 +6875,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -6811,7 +6884,7 @@
         "position": "GK",
         "age": 37,
         "dob": "1989-02-06",
-        "caps": 68,
+        "caps": 69,
         "goals": 0,
         "club": "Miami FC",
         "number": 1,
@@ -6844,7 +6917,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-12-23",
-        "caps": 56,
+        "caps": 57,
         "goals": 1,
         "club": "Abha",
         "number": 3,
@@ -6855,7 +6928,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-06-09",
-        "caps": 25,
+        "caps": 26,
         "goals": 1,
         "club": "RKC Waalwijk",
         "number": 4,
@@ -6866,7 +6939,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-08-23",
-        "caps": 24,
+        "caps": 25,
         "goals": 0,
         "club": "PEC Zwolle",
         "number": 5,
@@ -6877,7 +6950,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1994-03-20",
-        "caps": 15,
+        "caps": 16,
         "goals": 1,
         "club": "Kayserispor",
         "number": 20,
@@ -6910,7 +6983,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-10-12",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Konyaspor",
         "tier": "core"
@@ -6931,7 +7004,7 @@
         "position": "MID",
         "age": 34,
         "dob": "1991-08-21",
-        "caps": 68,
+        "caps": 69,
         "goals": 16,
         "club": "Iğdır",
         "number": 10,
@@ -6943,7 +7016,7 @@
         "age": 28,
         "dob": "1997-08-07",
         "caps": 46,
-        "goals": 13,
+        "goals": 14,
         "club": "Gaziantep",
         "number": 7,
         "tier": "core"
@@ -6953,7 +7026,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-08-19",
-        "caps": 24,
+        "caps": 25,
         "goals": 1,
         "club": "RKC Waalwijk",
         "number": 6,
@@ -6964,7 +7037,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-11-11",
-        "caps": 17,
+        "caps": 18,
         "goals": 1,
         "club": "Den Bosch",
         "number": 21,
@@ -6975,7 +7048,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2004-02-03",
-        "caps": 16,
+        "caps": 17,
         "goals": 1,
         "club": "Zürich",
         "number": 8,
@@ -6997,7 +7070,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-09-11",
-        "caps": 3,
+        "caps": 4,
         "goals": 1,
         "club": "Telstar",
         "number": 17,
@@ -7008,7 +7081,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-12-04",
-        "caps": 2,
+        "caps": 3,
         "goals": 2,
         "club": "Sheffield United",
         "tier": "core"
@@ -7018,7 +7091,7 @@
         "position": "FWD",
         "age": 31,
         "dob": "1994-09-29",
-        "caps": 36,
+        "caps": 37,
         "goals": 6,
         "club": "Maccabi Haifa",
         "number": 14,
@@ -7029,7 +7102,7 @@
         "position": "FWD",
         "age": 33,
         "dob": "1992-09-19",
-        "caps": 32,
+        "caps": 33,
         "goals": 2,
         "club": "Volendam",
         "tier": "core"
@@ -7039,7 +7112,7 @@
         "position": "FWD",
         "age": 29,
         "dob": "1996-06-09",
-        "caps": 25,
+        "caps": 26,
         "goals": 9,
         "club": "Terengganu",
         "tier": "core"
@@ -7049,7 +7122,7 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-03-29",
-        "caps": 23,
+        "caps": 24,
         "goals": 3,
         "club": "Kifisia",
         "number": 11,
@@ -7060,7 +7133,7 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-04-10",
-        "caps": 19,
+        "caps": 20,
         "goals": 5,
         "club": "Beveren",
         "number": 16,
@@ -7082,7 +7155,7 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-05-18",
-        "caps": 3,
+        "caps": 4,
         "goals": 1,
         "club": "Middlesbrough",
         "number": 12,
@@ -7201,7 +7274,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7210,9 +7283,10 @@
         "position": "GK",
         "age": 38,
         "dob": "1987-03-30",
-        "caps": 33,
+        "caps": 34,
         "goals": 0,
         "club": "Huracán",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -7223,6 +7297,7 @@
         "caps": 6,
         "goals": 0,
         "club": "Kifisia",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -7233,6 +7308,7 @@
         "caps": 2,
         "goals": 0,
         "club": "LDU Quito",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -7250,19 +7326,10 @@
         "position": "DEF",
         "age": 28,
         "dob": "1998-02-18",
-        "caps": 51,
+        "caps": 52,
         "goals": 0,
         "club": "Atlético Mineiro",
-        "tier": "core"
-      },
-      {
-        "name": "Pervis Estupiñán",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1998-01-21",
-        "caps": 50,
-        "goals": 4,
-        "club": "Milan",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -7270,9 +7337,21 @@
         "position": "DEF",
         "age": 24,
         "dob": "2002-01-09",
-        "caps": 50,
+        "caps": 51,
         "goals": 3,
         "club": "Arsenal",
+        "number": 3,
+        "tier": "core"
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1998-01-21",
+        "caps": 51,
+        "goals": 4,
+        "club": "Milan",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -7283,6 +7362,7 @@
         "caps": 46,
         "goals": 5,
         "club": "Internacional",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -7290,9 +7370,10 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-10-16",
-        "caps": 32,
+        "caps": 33,
         "goals": 2,
         "club": "Paris Saint-Germain",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -7300,9 +7381,10 @@
         "position": "DEF",
         "age": 21,
         "dob": "2004-04-21",
-        "caps": 14,
+        "caps": 15,
         "goals": 0,
         "club": "Club Brugge",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -7323,6 +7405,7 @@
         "caps": 8,
         "goals": 0,
         "club": "Tijuana",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -7340,9 +7423,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-11-02",
-        "caps": 58,
+        "caps": 59,
         "goals": 3,
         "club": "Chelsea",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -7350,9 +7434,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-08-21",
-        "caps": 55,
+        "caps": 56,
         "goals": 1,
         "club": "Atlético Mineiro",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -7360,9 +7445,10 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-11-01",
-        "caps": 47,
+        "caps": 48,
         "goals": 8,
         "club": "Flamengo",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -7370,9 +7456,10 @@
         "position": "MID",
         "age": 18,
         "dob": "2007-05-04",
-        "caps": 23,
+        "caps": 24,
         "goals": 2,
         "club": "River Plate",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -7380,9 +7467,10 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-06-23",
-        "caps": 19,
-        "goals": 2,
+        "caps": 20,
+        "goals": 3,
         "club": "Venezia",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -7390,9 +7478,10 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-05-14",
-        "caps": 18,
+        "caps": 19,
         "goals": 2,
         "club": "Atlético Mineiro",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -7400,9 +7489,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2002-03-09",
-        "caps": 14,
+        "caps": 15,
         "goals": 1,
         "club": "UNAM",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -7410,19 +7500,10 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-08-05",
-        "caps": 7,
+        "caps": 8,
         "goals": 1,
         "club": "Independiente del Valle",
-        "tier": "core"
-      },
-      {
-        "name": "Denil Castillo",
-        "position": "MID",
-        "age": 22,
-        "dob": "2004-03-24",
-        "caps": 4,
-        "goals": 0,
-        "club": "Midtjylland",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -7433,6 +7514,17 @@
         "caps": 4,
         "goals": 0,
         "club": "Genk",
+        "number": 24,
+        "tier": "core"
+      },
+      {
+        "name": "Denil Castillo",
+        "position": "MID",
+        "age": 22,
+        "dob": "2004-03-24",
+        "caps": 4,
+        "goals": 0,
+        "club": "Midtjylland",
         "tier": "core"
       },
       {
@@ -7453,6 +7545,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Cincinnati",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -7460,9 +7553,10 @@
         "position": "FWD",
         "age": 36,
         "dob": "1989-11-04",
-        "caps": 103,
+        "caps": 104,
         "goals": 48,
         "club": "Pachuca",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -7470,9 +7564,10 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-03-04",
-        "caps": 29,
+        "caps": 30,
         "goals": 2,
         "club": "Union Saint-Gilloise",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -7483,6 +7578,7 @@
         "caps": 17,
         "goals": 3,
         "club": "Huracán",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -7513,6 +7609,7 @@
         "caps": 6,
         "goals": 0,
         "club": "Sparta Prague",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -7520,19 +7617,10 @@
         "position": "FWD",
         "age": 21,
         "dob": "2005-03-19",
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "club": "VfB Stuttgart",
-        "tier": "core"
-      },
-      {
-        "name": "Elías Legendre",
-        "position": "FWD",
-        "age": 17,
-        "dob": "2008-04-22",
-        "caps": 0,
-        "goals": 0,
-        "club": "Rennes",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -7543,6 +7631,17 @@
         "caps": 0,
         "goals": 0,
         "club": "Antwerp",
+        "number": 8,
+        "tier": "core"
+      },
+      {
+        "name": "Elías Legendre",
+        "position": "FWD",
+        "age": 17,
+        "dob": "2008-04-22",
+        "caps": 0,
+        "goals": 0,
+        "club": "Rennes",
         "tier": "core"
       },
       {
@@ -7628,7 +7727,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -7637,9 +7736,10 @@
         "position": "GK",
         "age": 34,
         "dob": "1992-01-21",
-        "caps": 60,
+        "caps": 61,
         "goals": 0,
         "club": "Mamelodi Sundowns",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -7650,6 +7750,7 @@
         "caps": 4,
         "goals": 0,
         "club": "Siwelele",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -7670,6 +7771,7 @@
         "caps": 2,
         "goals": 0,
         "club": "Sekhukhune United",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -7687,9 +7789,10 @@
         "position": "DEF",
         "age": 30,
         "dob": "1995-07-22",
-        "caps": 42,
+        "caps": 43,
         "goals": 3,
         "club": "Mamelodi Sundowns",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -7697,9 +7800,10 @@
         "position": "DEF",
         "age": 30,
         "dob": "1995-04-26",
-        "caps": 30,
+        "caps": 31,
         "goals": 1,
         "club": "Mamelodi Sundowns",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -7710,6 +7814,7 @@
         "caps": 19,
         "goals": 0,
         "club": "Orlando Pirates",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -7720,6 +7825,7 @@
         "caps": 9,
         "goals": 0,
         "club": "Chicago Fire FC",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -7727,19 +7833,10 @@
         "position": "DEF",
         "age": 22,
         "dob": "2004-02-20",
-        "caps": 5,
+        "caps": 6,
         "goals": 1,
         "club": "Hannover 96",
-        "tier": "core"
-      },
-      {
-        "name": "Samukele Kabini",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2004-03-15",
-        "caps": 4,
-        "goals": 0,
-        "club": "Molde",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -7747,9 +7844,32 @@
         "position": "DEF",
         "age": 22,
         "dob": "2004-02-05",
-        "caps": 4,
+        "caps": 5,
         "goals": 0,
         "club": "Mamelodi Sundowns",
+        "number": 3,
+        "tier": "core"
+      },
+      {
+        "name": "Samukele Kabini",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2004-03-15",
+        "caps": 5,
+        "goals": 0,
+        "club": "Molde",
+        "number": 18,
+        "tier": "core"
+      },
+      {
+        "name": "Thabang Matuludi",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1999-01-14",
+        "caps": 2,
+        "goals": 0,
+        "club": "Polokwane City",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -7760,16 +7880,6 @@
         "caps": 2,
         "goals": 0,
         "club": "Orlando Pirates",
-        "tier": "core"
-      },
-      {
-        "name": "Thabang Matuludi",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1999-01-14",
-        "caps": 1,
-        "goals": 0,
-        "club": "Polokwane City",
         "tier": "core"
       },
       {
@@ -7807,9 +7917,10 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-01-24",
-        "caps": 49,
+        "caps": 50,
         "goals": 9,
         "club": "Mamelodi Sundowns",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -7817,9 +7928,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1999-03-03",
-        "caps": 25,
+        "caps": 26,
         "goals": 1,
         "club": "Tondela",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -7827,9 +7939,10 @@
         "position": "MID",
         "age": 26,
         "dob": "2000-03-06",
-        "caps": 12,
+        "caps": 13,
         "goals": 3,
         "club": "Orlando Pirates",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -7847,9 +7960,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-05-05",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Mamelodi Sundowns",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -7877,9 +7991,10 @@
         "position": "FWD",
         "age": 36,
         "dob": "1989-08-03",
-        "caps": 51,
+        "caps": 52,
         "goals": 12,
         "club": "Mamelodi Sundowns",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -7897,9 +8012,10 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-05-09",
-        "caps": 24,
+        "caps": 25,
         "goals": 10,
         "club": "Burnley",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -7907,9 +8023,10 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-06-05",
-        "caps": 24,
+        "caps": 25,
         "goals": 6,
         "club": "Orlando Pirates",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -7917,9 +8034,10 @@
         "position": "FWD",
         "age": 24,
         "dob": "2001-08-25",
-        "caps": 23,
-        "goals": 7,
+        "caps": 24,
+        "goals": 8,
         "club": "Orlando Pirates",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -7930,6 +8048,7 @@
         "caps": 18,
         "goals": 4,
         "club": "Minnesota United FC",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -7947,9 +8066,10 @@
         "position": "FWD",
         "age": 21,
         "dob": "2004-10-23",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Orlando Pirates",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -7963,6 +8083,17 @@
         "tier": "core"
       },
       {
+        "name": "Tshepang Moremi",
+        "position": "FWD",
+        "age": 25,
+        "dob": "2000-10-02",
+        "caps": 8,
+        "goals": 1,
+        "club": "Orlando Pirates",
+        "number": 8,
+        "tier": "core"
+      },
+      {
         "name": "Thapelo Maseko",
         "position": "FWD",
         "age": 22,
@@ -7970,16 +8101,7 @@
         "caps": 8,
         "goals": 1,
         "club": "AEL Limassol",
-        "tier": "core"
-      },
-      {
-        "name": "Tshepang Moremi",
-        "position": "FWD",
-        "age": 25,
-        "dob": "2000-10-02",
-        "caps": 7,
-        "goals": 1,
-        "club": "Orlando Pirates",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -8185,7 +8307,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8768,7 +8890,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9346,7 +9468,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -9355,32 +9477,10 @@
         "position": "GK",
         "age": 37,
         "dob": "1988-12-18",
-        "caps": 74,
+        "caps": 75,
         "goals": 0,
         "club": "Al Ahly",
-        "number": 23,
-        "tier": "core"
-      },
-      {
-        "name": "Ahmed El Shenawy",
-        "position": "GK",
-        "age": 34,
-        "dob": "1991-05-14",
-        "caps": 30,
-        "goals": 0,
-        "club": "Pyramids",
         "number": 1,
-        "tier": "core"
-      },
-      {
-        "name": "Mohamed Sobhi",
-        "position": "GK",
-        "age": 26,
-        "dob": "1999-07-15",
-        "caps": 6,
-        "goals": 0,
-        "club": "Zamalek",
-        "number": 16,
         "tier": "core"
       },
       {
@@ -9388,10 +9488,32 @@
         "position": "GK",
         "age": 26,
         "dob": "2000-03-17",
-        "caps": 5,
+        "caps": 6,
         "goals": 0,
         "club": "Al Ahly",
+        "number": 23,
+        "tier": "core"
+      },
+      {
+        "name": "Mohamed Alaa",
+        "position": "GK",
+        "age": 27,
+        "dob": "1999-01-09",
+        "caps": 0,
+        "goals": 0,
+        "club": "El Gouna",
         "number": 26,
+        "tier": "core"
+      },
+      {
+        "name": "El Mahdy Soliman",
+        "position": "GK",
+        "age": 38,
+        "dob": "1987-06-08",
+        "caps": 0,
+        "goals": 0,
+        "club": "Zamalek",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -9399,7 +9521,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-05-20",
-        "caps": 42,
+        "caps": 43,
         "goals": 5,
         "club": "Al Ain",
         "number": 5,
@@ -9410,21 +9532,10 @@
         "position": "DEF",
         "age": 30,
         "dob": "1996-01-25",
-        "caps": 38,
+        "caps": 39,
         "goals": 0,
         "club": "Al Ahly",
         "number": 3,
-        "tier": "core"
-      },
-      {
-        "name": "Mohamed Hamdy",
-        "position": "DEF",
-        "age": 31,
-        "dob": "1995-03-15",
-        "caps": 36,
-        "goals": 1,
-        "club": "Pyramids",
-        "number": 12,
         "tier": "core"
       },
       {
@@ -9432,10 +9543,21 @@
         "position": "DEF",
         "age": 28,
         "dob": "1998-03-22",
-        "caps": 36,
+        "caps": 37,
         "goals": 1,
         "club": "Zamalek",
         "number": 13,
+        "tier": "core"
+      },
+      {
+        "name": "Mohamed Abdelmonem",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1999-02-01",
+        "caps": 34,
+        "goals": 3,
+        "club": "Nice",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -9443,10 +9565,10 @@
         "position": "DEF",
         "age": 33,
         "dob": "1993-02-10",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Al Ahly",
-        "number": 6,
+        "number": 2,
         "tier": "core"
       },
       {
@@ -9454,7 +9576,7 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-04-30",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Zamalek",
         "number": 4,
@@ -9468,29 +9590,18 @@
         "caps": 7,
         "goals": 0,
         "club": "Al Masry",
-        "number": 2,
+        "number": 21,
         "tier": "core"
       },
       {
-        "name": "Ahmed Eid",
+        "name": "Tarek Alaa",
         "position": "DEF",
-        "age": 25,
-        "dob": "2001-01-02",
-        "caps": 5,
-        "goals": 0,
-        "club": "Al Masry",
-        "number": 24,
-        "tier": "core"
-      },
-      {
-        "name": "Mohamed Ismail",
-        "position": "DEF",
-        "age": 26,
-        "dob": "1999-08-01",
+        "age": 24,
+        "dob": "2002-01-05",
         "caps": 1,
         "goals": 0,
-        "club": "Zamalek",
-        "number": 28,
+        "club": "ZED",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -9498,7 +9609,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1994-09-29",
-        "caps": 60,
+        "caps": 61,
         "goals": 3,
         "club": "Al-Wakrah",
         "number": 14,
@@ -9509,7 +9620,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-08-12",
-        "caps": 31,
+        "caps": 32,
         "goals": 1,
         "club": "Al Ahly",
         "number": 19,
@@ -9520,7 +9631,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1998-02-20",
-        "caps": 25,
+        "caps": 26,
         "goals": 0,
         "club": "Al Ahly",
         "number": 8,
@@ -9531,7 +9642,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1996-05-29",
-        "caps": 19,
+        "caps": 20,
         "goals": 0,
         "club": "Pyramids",
         "number": 17,
@@ -9542,32 +9653,21 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-07-30",
-        "caps": 12,
+        "caps": 13,
         "goals": 1,
         "club": "ZED",
         "number": 27,
         "tier": "core"
       },
       {
-        "name": "Mohamed Shehata",
+        "name": "Ahmed Nabil Koka",
         "position": "MID",
-        "age": 25,
-        "dob": "2001-02-08",
-        "caps": 9,
+        "age": 24,
+        "dob": "2001-07-04",
+        "caps": 11,
         "goals": 0,
-        "club": "Zamalek",
+        "club": "Al Ahly",
         "number": 15,
-        "tier": "core"
-      },
-      {
-        "name": "Mohamed Salah (captain)",
-        "position": "FWD",
-        "age": 33,
-        "dob": "1992-06-15",
-        "caps": 116,
-        "goals": 67,
-        "club": "Liverpool",
-        "number": 10,
         "tier": "core"
       },
       {
@@ -9575,8 +9675,8 @@
         "position": "FWD",
         "age": 31,
         "dob": "1994-10-01",
-        "caps": 92,
-        "goals": 22,
+        "caps": 93,
+        "goals": 23,
         "club": "Al Ahly",
         "number": 7,
         "tier": "core"
@@ -9586,7 +9686,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-11-28",
-        "caps": 60,
+        "caps": 61,
         "goals": 14,
         "club": "Nantes",
         "number": 11,
@@ -9597,8 +9697,8 @@
         "position": "FWD",
         "age": 30,
         "dob": "1996-01-10",
-        "caps": 59,
-        "goals": 4,
+        "caps": 60,
+        "goals": 5,
         "club": "Al Ahly",
         "number": 25,
         "tier": "core"
@@ -9608,21 +9708,10 @@
         "position": "FWD",
         "age": 27,
         "dob": "1999-02-07",
-        "caps": 45,
-        "goals": 10,
+        "caps": 46,
+        "goals": 11,
         "club": "Manchester City",
         "number": 22,
-        "tier": "core"
-      },
-      {
-        "name": "Mostafa Fathi",
-        "position": "FWD",
-        "age": 31,
-        "dob": "1994-05-12",
-        "caps": 39,
-        "goals": 3,
-        "club": "Pyramids",
-        "number": 18,
         "tier": "core"
       },
       {
@@ -9630,33 +9719,54 @@
         "position": "FWD",
         "age": 24,
         "dob": "2001-04-23",
-        "caps": 21,
+        "caps": 22,
         "goals": 3,
         "club": "Nordsjælland",
         "number": 20,
         "tier": "core"
       },
       {
-        "name": "Osama Faisal",
+        "name": "Islam Issa",
         "position": "FWD",
-        "age": 25,
-        "dob": "2001-01-01",
-        "caps": 16,
-        "goals": 0,
-        "club": "National Bank of Egypt",
-        "number": 21,
+        "age": 30,
+        "dob": "1996-02-01",
+        "caps": 5,
+        "goals": 1,
+        "club": "Ceramica Cleopatra",
+        "number": 18,
         "tier": "core"
       },
       {
-        "name": "Salah Mohsen",
+        "name": "Haissem Hassan",
         "position": "FWD",
-        "age": 27,
-        "dob": "1998-09-01",
-        "caps": 10,
-        "goals": 1,
-        "club": "Al Masry",
+        "age": 24,
+        "dob": "2002-02-08",
+        "caps": 1,
+        "goals": 0,
+        "club": "Oviedo",
+        "number": 12,
+        "tier": "core"
+      },
+      {
+        "name": "Nasser Mansi",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2001-11-16",
+        "caps": 0,
+        "goals": 0,
+        "club": "Zamalek",
         "number": 9,
         "tier": "core"
+      },
+      {
+        "name": "Mohamed Sobhi",
+        "position": "GK",
+        "age": 26,
+        "dob": "1999-07-15",
+        "caps": 6,
+        "goals": 0,
+        "club": "Zamalek",
+        "tier": "extended"
       },
       {
         "name": "Mohamed Awad",
@@ -9699,6 +9809,16 @@
         "tier": "extended"
       },
       {
+        "name": "Mohamed Hamdy",
+        "position": "DEF",
+        "age": 31,
+        "dob": "1995-03-15",
+        "caps": 36,
+        "goals": 1,
+        "club": "Pyramids",
+        "tier": "extended"
+      },
+      {
         "name": "El-Wensh",
         "position": "DEF",
         "age": 30,
@@ -9709,13 +9829,13 @@
         "tier": "extended"
       },
       {
-        "name": "Ahmed Nabil Koka",
+        "name": "Ahmed Eid",
         "position": "DEF",
-        "age": 24,
-        "dob": "2001-07-04",
-        "caps": 9,
+        "age": 25,
+        "dob": "2001-01-02",
+        "caps": 5,
         "goals": 0,
-        "club": "Al Ahly",
+        "club": "Al Masry",
         "tier": "extended"
       },
       {
@@ -9776,6 +9896,16 @@
         "caps": 2,
         "goals": 0,
         "club": "ZED",
+        "tier": "extended"
+      },
+      {
+        "name": "Mohamed Ismail",
+        "position": "DEF",
+        "age": 26,
+        "dob": "1999-08-01",
+        "caps": 1,
+        "goals": 0,
+        "club": "Zamalek",
         "tier": "extended"
       },
       {
@@ -9869,23 +9999,13 @@
         "tier": "extended"
       },
       {
-        "name": "Ghanam Mohamed",
+        "name": "Mohamed Shehata",
         "position": "MID",
-        "age": 29,
-        "dob": "1997-03-12",
-        "caps": 4,
+        "age": 25,
+        "dob": "2001-02-08",
+        "caps": 9,
         "goals": 0,
-        "club": "Modern Sport",
-        "tier": "extended"
-      },
-      {
-        "name": "Islam Issa",
-        "position": "MID",
-        "age": 30,
-        "dob": "1996-02-01",
-        "caps": 4,
-        "goals": 0,
-        "club": "Ceramica Cleopatra",
+        "club": "Zamalek",
         "tier": "extended"
       },
       {
@@ -9896,6 +10016,16 @@
         "caps": 4,
         "goals": 1,
         "club": "Al Masry",
+        "tier": "extended"
+      },
+      {
+        "name": "Ghanam Mohamed",
+        "position": "MID",
+        "age": 29,
+        "dob": "1997-03-12",
+        "caps": 4,
+        "goals": 0,
+        "club": "Modern Sport",
         "tier": "extended"
       },
       {
@@ -9917,21 +10047,11 @@
         "goals": 0,
         "club": "Ceramica Cleopatra",
         "tier": "extended"
-      },
-      {
-        "name": "Mohamed Sherif",
-        "position": "FWD",
-        "age": 30,
-        "dob": "1996-02-04",
-        "caps": 23,
-        "goals": 3,
-        "club": "Al Ahly",
-        "tier": "extended"
       }
     ]
   },
   "irn": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -9940,7 +10060,7 @@
         "position": "GK",
         "age": 33,
         "dob": "1992-09-21",
-        "caps": 83,
+        "caps": 84,
         "goals": 0,
         "club": "Tractor",
         "number": 1,
@@ -9976,6 +10096,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Aluminium Arak",
+        "number": 30,
         "tier": "core"
       },
       {
@@ -9983,9 +10104,10 @@
         "position": "DEF",
         "age": 36,
         "dob": "1990-02-25",
-        "caps": 142,
+        "caps": 143,
         "goals": 7,
         "club": "Sepahan",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -9993,7 +10115,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-09-29",
-        "caps": 73,
+        "caps": 74,
         "goals": 1,
         "club": "Persepolis",
         "number": 5,
@@ -10004,9 +10126,10 @@
         "position": "DEF",
         "age": 36,
         "dob": "1990-03-21",
-        "caps": 70,
+        "caps": 71,
         "goals": 6,
         "club": "Foolad",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -10014,7 +10137,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1994-03-23",
-        "caps": 62,
+        "caps": 63,
         "goals": 6,
         "club": "Persepolis",
         "number": 13,
@@ -10025,7 +10148,7 @@
         "position": "DEF",
         "age": 36,
         "dob": "1989-05-14",
-        "caps": 54,
+        "caps": 55,
         "goals": 2,
         "club": "Tractor",
         "number": 4,
@@ -10036,7 +10159,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-12-26",
-        "caps": 16,
+        "caps": 17,
         "goals": 1,
         "club": "Esteghlal",
         "number": 2,
@@ -10050,7 +10173,7 @@
         "caps": 14,
         "goals": 0,
         "club": "Foolad",
-        "number": 3,
+        "number": 19,
         "tier": "core"
       },
       {
@@ -10058,10 +10181,10 @@
         "position": "DEF",
         "age": 23,
         "dob": "2002-04-22",
-        "caps": 11,
+        "caps": 12,
         "goals": 0,
         "club": "Sepahan",
-        "number": 23,
+        "number": 35,
         "tier": "core"
       },
       {
@@ -10082,7 +10205,7 @@
         "caps": 5,
         "goals": 0,
         "club": "Tractor",
-        "number": 26,
+        "number": 25,
         "tier": "core"
       },
       {
@@ -10093,6 +10216,7 @@
         "caps": 4,
         "goals": 0,
         "club": "Esteghlal",
+        "number": 27,
         "tier": "core"
       },
       {
@@ -10110,9 +10234,10 @@
         "position": "MID",
         "age": 32,
         "dob": "1993-08-11",
-        "caps": 96,
+        "caps": 97,
         "goals": 17,
         "club": "Dender",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -10123,7 +10248,6 @@
         "caps": 81,
         "goals": 1,
         "club": "Shabab Al Ahli",
-        "number": 6,
         "tier": "core"
       },
       {
@@ -10131,7 +10255,7 @@
         "position": "MID",
         "age": 32,
         "dob": "1993-09-06",
-        "caps": 65,
+        "caps": 66,
         "goals": 3,
         "club": "Kalba",
         "number": 14,
@@ -10152,9 +10276,10 @@
         "position": "MID",
         "age": 30,
         "dob": "1996-03-10",
-        "caps": 42,
+        "caps": 43,
         "goals": 6,
         "club": "Lech Poznań",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -10162,7 +10287,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-04-09",
-        "caps": 37,
+        "caps": 38,
         "goals": 1,
         "club": "Sepahan",
         "number": 21,
@@ -10173,9 +10298,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-12-20",
-        "caps": 33,
+        "caps": 34,
         "goals": 13,
         "club": "Rostov",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -10183,10 +10309,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-05-21",
-        "caps": 13,
+        "caps": 14,
         "goals": 0,
         "club": "Al Wahda",
-        "number": 16,
+        "number": 6,
         "tier": "core"
       },
       {
@@ -10208,6 +10334,7 @@
         "caps": 1,
         "goals": 0,
         "club": "Esteghlal",
+        "number": 28,
         "tier": "core"
       },
       {
@@ -10218,7 +10345,6 @@
         "caps": 0,
         "goals": 0,
         "club": "Chadormalou",
-        "number": 27,
         "tier": "core"
       },
       {
@@ -10226,8 +10352,8 @@
         "position": "FWD",
         "age": 33,
         "dob": "1992-07-18",
-        "caps": 101,
-        "goals": 56,
+        "caps": 102,
+        "goals": 57,
         "club": "Olympiacos",
         "number": 9,
         "tier": "core"
@@ -10237,9 +10363,10 @@
         "position": "FWD",
         "age": 27,
         "dob": "1998-12-05",
-        "caps": 27,
+        "caps": 28,
         "goals": 9,
         "club": "Al-Nasr",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -10247,9 +10374,10 @@
         "position": "FWD",
         "age": 31,
         "dob": "1994-12-21",
-        "caps": 18,
+        "caps": 19,
         "goals": 2,
         "club": "Kalba",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -10257,10 +10385,10 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-10-30",
-        "caps": 14,
+        "caps": 15,
         "goals": 5,
         "club": "Tractor",
-        "number": 10,
+        "number": 18,
         "tier": "core"
       },
       {
@@ -10271,7 +10399,6 @@
         "caps": 11,
         "goals": 1,
         "club": "Persepolis",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -10285,16 +10412,6 @@
         "tier": "core"
       },
       {
-        "name": "Amirhossein Mahmoudi",
-        "position": "FWD",
-        "age": 20,
-        "dob": "2006-01-01",
-        "caps": 0,
-        "goals": 0,
-        "club": "Persepolis",
-        "tier": "core"
-      },
-      {
         "name": "Ehsan Mahroughi",
         "position": "FWD",
         "age": 27,
@@ -10302,6 +10419,16 @@
         "caps": 0,
         "goals": 0,
         "club": "Foolad",
+        "tier": "core"
+      },
+      {
+        "name": "Amirhossein Mahmoudi",
+        "position": "FWD",
+        "age": 19,
+        "dob": "2006-07-12",
+        "caps": 0,
+        "goals": 0,
+        "club": "Persepolis",
         "tier": "core"
       },
       {
@@ -10507,7 +10634,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -10596,7 +10723,7 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-07-07",
-        "caps": 7,
+        "caps": 8,
         "goals": 0,
         "club": "Auckland FC",
         "tier": "core"
@@ -10606,7 +10733,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-09",
-        "caps": 5,
+        "caps": 6,
         "goals": 0,
         "club": "Brisbane Roar",
         "tier": "core"
@@ -10636,7 +10763,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-04-27",
-        "caps": 29,
+        "caps": 30,
         "goals": 1,
         "club": "Viking",
         "tier": "core"
@@ -10686,7 +10813,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-07-24",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Newcastle Jets",
         "tier": "core"
@@ -10696,7 +10823,7 @@
         "position": "FWD",
         "age": 36,
         "dob": "1990-02-19",
-        "caps": 72,
+        "caps": 73,
         "goals": 9,
         "club": "Western Sydney Wanderers",
         "tier": "core"
@@ -10716,7 +10843,7 @@
         "position": "FWD",
         "age": 27,
         "dob": "1998-05-28",
-        "caps": 16,
+        "caps": 17,
         "goals": 2,
         "club": "Auckland FC",
         "tier": "core"
@@ -10726,7 +10853,7 @@
         "position": "FWD",
         "age": 29,
         "dob": "1996-11-02",
-        "caps": 11,
+        "caps": 12,
         "goals": 2,
         "club": "Orlando Pirates",
         "tier": "core"
@@ -10736,7 +10863,7 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-08-19",
-        "caps": 7,
+        "caps": 8,
         "goals": 1,
         "club": "Auckland FC",
         "tier": "core"
@@ -10774,7 +10901,7 @@
       {
         "name": "Henry Gray",
         "position": "GK",
-        "age": 20,
+        "age": 21,
         "dob": "2005-03-28",
         "caps": 0,
         "goals": 0,
@@ -10914,7 +11041,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -10923,7 +11050,7 @@
         "position": "GK",
         "age": 39,
         "dob": "1986-06-03",
-        "caps": 84,
+        "caps": 85,
         "goals": 0,
         "club": "Chaves",
         "tier": "core"
@@ -10953,7 +11080,7 @@
         "position": "DEF",
         "age": 33,
         "dob": "1992-06-17",
-        "caps": 42,
+        "caps": 43,
         "goals": 0,
         "club": "Shamrock Rovers",
         "tier": "core"
@@ -10963,7 +11090,7 @@
         "position": "DEF",
         "age": 31,
         "dob": "1995-01-17",
-        "caps": 28,
+        "caps": 29,
         "goals": 2,
         "club": "Al Bataeh",
         "tier": "core"
@@ -10973,7 +11100,7 @@
         "position": "DEF",
         "age": 31,
         "dob": "1994-08-13",
-        "caps": 17,
+        "caps": 18,
         "goals": 0,
         "club": "Columbus Crew",
         "tier": "core"
@@ -10983,7 +11110,7 @@
         "position": "DEF",
         "age": 23,
         "dob": "2002-11-03",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Trabzonspor",
         "tier": "core"
@@ -10993,8 +11120,8 @@
         "position": "DEF",
         "age": 22,
         "dob": "2003-09-18",
-        "caps": 6,
-        "goals": 2,
+        "caps": 7,
+        "goals": 3,
         "club": "Benfica",
         "tier": "core"
       },
@@ -11009,6 +11136,16 @@
         "tier": "core"
       },
       {
+        "name": "Jorginho Soares",
+        "position": "DEF",
+        "age": 26,
+        "dob": "1999-07-18",
+        "caps": 1,
+        "goals": 0,
+        "club": "Montana",
+        "tier": "core"
+      },
+      {
         "name": "Jordan Mendes",
         "position": "DEF",
         "age": 22,
@@ -11019,21 +11156,11 @@
         "tier": "core"
       },
       {
-        "name": "Jorginho Soares",
-        "position": "DEF",
-        "age": 26,
-        "dob": "1999-07-18",
-        "caps": 0,
-        "goals": 0,
-        "club": "Montana",
-        "tier": "core"
-      },
-      {
         "name": "João Paulo",
         "position": "MID",
         "age": 27,
         "dob": "1998-05-26",
-        "caps": 38,
+        "caps": 39,
         "goals": 1,
         "club": "FCSB",
         "tier": "core"
@@ -11043,7 +11170,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-01-27",
-        "caps": 28,
+        "caps": 29,
         "goals": 2,
         "club": "Krasnodar",
         "tier": "core"
@@ -11053,7 +11180,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-07-04",
-        "caps": 28,
+        "caps": 29,
         "goals": 0,
         "club": "Ludogorets Razgrad",
         "tier": "core"
@@ -11063,7 +11190,7 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-06-21",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Vitória de Guimarães",
         "tier": "core"
@@ -11073,7 +11200,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-02-28",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Puskás Akadémia",
         "tier": "core"
@@ -11083,7 +11210,7 @@
         "position": "MID",
         "age": 30,
         "dob": "1995-12-29",
-        "caps": 8,
+        "caps": 9,
         "goals": 1,
         "club": "Farense",
         "tier": "core"
@@ -11103,7 +11230,7 @@
         "position": "FWD",
         "age": 36,
         "dob": "1990-01-08",
-        "caps": 92,
+        "caps": 93,
         "goals": 22,
         "club": "Iğdır",
         "tier": "core"
@@ -11113,7 +11240,7 @@
         "position": "FWD",
         "age": 35,
         "dob": "1990-11-27",
-        "caps": 57,
+        "caps": 58,
         "goals": 9,
         "club": "Apollon Limassol",
         "tier": "core"
@@ -11123,7 +11250,7 @@
         "position": "FWD",
         "age": 31,
         "dob": "1994-04-27",
-        "caps": 34,
+        "caps": 35,
         "goals": 2,
         "club": "Omonia",
         "tier": "core"
@@ -11143,8 +11270,8 @@
         "position": "FWD",
         "age": 24,
         "dob": "2001-05-04",
-        "caps": 19,
-        "goals": 6,
+        "caps": 20,
+        "goals": 7,
         "club": "Casa Pia",
         "tier": "core"
       },
@@ -11153,7 +11280,7 @@
         "position": "FWD",
         "age": 35,
         "dob": "1991-02-10",
-        "caps": 5,
+        "caps": 6,
         "goals": 1,
         "club": "İstanbul Başakşehir",
         "tier": "core"
@@ -11461,7 +11588,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -11725,7 +11852,7 @@
         "dob": "1991-10-10",
         "caps": 61,
         "goals": 0,
-        "club": "Al-Hilal",
+        "club": "Al-Ula",
         "tier": "extended"
       },
       {
@@ -11745,7 +11872,7 @@
         "dob": "1997-08-14",
         "caps": 7,
         "goals": 0,
-        "club": "Kawasaki Frontale",
+        "club": "Al-Hilal",
         "tier": "extended"
       },
       {
@@ -11755,7 +11882,7 @@
         "dob": "2003-07-06",
         "caps": 0,
         "goals": 0,
-        "club": "Daejeon Hana Citizen",
+        "club": "Al-Ittihad",
         "tier": "extended"
       },
       {
@@ -11775,7 +11902,7 @@
         "dob": "1992-03-25",
         "caps": 82,
         "goals": 2,
-        "club": "Al-Hilal",
+        "club": "Al-Qadsiah",
         "tier": "extended"
       },
       {
@@ -11785,7 +11912,7 @@
         "dob": "1989-11-21",
         "caps": 60,
         "goals": 2,
-        "club": "Al-Hilal",
+        "club": "Al Shabab",
         "tier": "extended"
       },
       {
@@ -11855,7 +11982,7 @@
         "dob": "1998-09-02",
         "caps": 10,
         "goals": 0,
-        "club": "Al-Taawoun",
+        "club": "Neom",
         "tier": "extended"
       },
       {
@@ -11895,7 +12022,7 @@
         "dob": "1994-10-11",
         "caps": 39,
         "goals": 0,
-        "club": "Al-Ettifaq",
+        "club": "Al-Hilal",
         "tier": "extended"
       },
       {
@@ -11965,7 +12092,7 @@
         "dob": "2002-07-23",
         "caps": 7,
         "goals": 0,
-        "club": "Al-Hilal",
+        "club": "Al-Taawoun",
         "tier": "extended"
       },
       {
@@ -11985,7 +12112,7 @@
         "dob": "1997-01-12",
         "caps": 5,
         "goals": 0,
-        "club": "Al-Ahli",
+        "club": "Al Shabab",
         "tier": "extended"
       },
       {
@@ -11995,7 +12122,7 @@
         "dob": "2001-06-02",
         "caps": 4,
         "goals": 0,
-        "club": "Al-Ittihad",
+        "club": "Al-Taawoun",
         "tier": "extended"
       },
       {
@@ -12005,7 +12132,7 @@
         "dob": "2004-01-30",
         "caps": 1,
         "goals": 0,
-        "club": "Al-Kholood",
+        "club": "Al Shabab",
         "tier": "extended"
       },
       {
@@ -12025,7 +12152,7 @@
         "dob": "2003-10-02",
         "caps": 0,
         "goals": 0,
-        "club": "Damac",
+        "club": "Neom",
         "tier": "extended"
       },
       {
@@ -12035,13 +12162,13 @@
         "dob": "2003-01-20",
         "caps": 23,
         "goals": 2,
-        "club": "Al-Ettifaq",
+        "club": "Al-Fayha",
         "tier": "extended"
       }
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12050,7 +12177,7 @@
         "position": "GK",
         "age": 35,
         "dob": "1991-01-04",
-        "caps": 38,
+        "caps": 39,
         "goals": 0,
         "club": "Navbahor",
         "number": 1,
@@ -12083,7 +12210,7 @@
         "position": "DEF",
         "age": 35,
         "dob": "1991-01-17",
-        "caps": 63,
+        "caps": 64,
         "goals": 1,
         "club": "Neftchi",
         "number": 4,
@@ -12094,7 +12221,7 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-04-19",
-        "caps": 49,
+        "caps": 50,
         "goals": 3,
         "club": "Pakhtakor",
         "number": 3,
@@ -12105,7 +12232,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-07-07",
-        "caps": 45,
+        "caps": 46,
         "goals": 1,
         "club": "Esteghlal",
         "number": 5,
@@ -12116,7 +12243,7 @@
         "position": "DEF",
         "age": 33,
         "dob": "1992-11-30",
-        "caps": 38,
+        "caps": 39,
         "goals": 0,
         "club": "Nasaf",
         "number": 15,
@@ -12127,7 +12254,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-07-23",
-        "caps": 33,
+        "caps": 34,
         "goals": 2,
         "club": "Pakhtakor",
         "number": 13,
@@ -12160,10 +12287,21 @@
         "position": "DEF",
         "age": 21,
         "dob": "2004-05-09",
-        "caps": 0,
-        "goals": 0,
+        "caps": 1,
+        "goals": 1,
         "club": "Dinamo",
         "number": 23,
+        "tier": "core"
+      },
+      {
+        "name": "Bekhruz Karimov",
+        "position": "DEF",
+        "age": 18,
+        "dob": "2007-08-07",
+        "caps": 1,
+        "goals": 0,
+        "club": "Surkhon",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -12178,22 +12316,11 @@
         "tier": "core"
       },
       {
-        "name": "Bekhruz Karimov",
-        "position": "DEF",
-        "age": 18,
-        "dob": "2007-08-07",
-        "caps": 0,
-        "goals": 0,
-        "club": "Surkhon",
-        "number": 25,
-        "tier": "core"
-      },
-      {
         "name": "Otabek Shukurov",
         "position": "MID",
         "age": 29,
         "dob": "1996-06-22",
-        "caps": 84,
+        "caps": 85,
         "goals": 9,
         "club": "Baniyas",
         "number": 7,
@@ -12204,7 +12331,7 @@
         "position": "MID",
         "age": 30,
         "dob": "1996-02-13",
-        "caps": 69,
+        "caps": 70,
         "goals": 1,
         "club": "Tractor",
         "number": 9,
@@ -12226,7 +12353,7 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-12-19",
-        "caps": 40,
+        "caps": 41,
         "goals": 10,
         "club": "Persepolis",
         "number": 11,
@@ -12237,7 +12364,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1996-07-24",
-        "caps": 34,
+        "caps": 35,
         "goals": 5,
         "club": "Pakhtakor",
         "number": 17,
@@ -12248,7 +12375,7 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-04-02",
-        "caps": 21,
+        "caps": 22,
         "goals": 1,
         "club": "Baniyas",
         "number": 6,
@@ -12259,7 +12386,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1998-02-22",
-        "caps": 20,
+        "caps": 21,
         "goals": 0,
         "club": "Al Bataeh",
         "number": 10,
@@ -12270,8 +12397,8 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-07-15",
-        "caps": 1,
-        "goals": 0,
+        "caps": 2,
+        "goals": 1,
         "club": "Neftchi",
         "number": 18,
         "tier": "core"
@@ -12281,7 +12408,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-08-18",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Sabah",
         "number": 19,
@@ -12303,8 +12430,8 @@
         "position": "FWD",
         "age": 30,
         "dob": "1995-06-29",
-        "caps": 88,
-        "goals": 43,
+        "caps": 89,
+        "goals": 44,
         "club": "İstanbul Başakşehir",
         "number": 14,
         "tier": "core"
@@ -12314,7 +12441,7 @@
         "position": "FWD",
         "age": 32,
         "dob": "1993-04-30",
-        "caps": 80,
+        "caps": 81,
         "goals": 23,
         "club": "Persepolis",
         "number": 21,
@@ -12574,7 +12701,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -12594,7 +12721,7 @@
         "position": "GK",
         "age": 37,
         "dob": "1989-03-09",
-        "caps": 39,
+        "caps": 40,
         "goals": 0,
         "club": "Atlas",
         "number": 12,
@@ -12616,7 +12743,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-06-12",
-        "caps": 75,
+        "caps": 76,
         "goals": 3,
         "club": "Galatasaray",
         "number": 23,
@@ -12627,7 +12754,7 @@
         "position": "DEF",
         "age": 34,
         "dob": "1992-01-13",
-        "caps": 65,
+        "caps": 66,
         "goals": 0,
         "club": "Independiente",
         "number": 4,
@@ -12638,7 +12765,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-05-26",
-        "caps": 42,
+        "caps": 43,
         "goals": 3,
         "club": "Crystal Palace",
         "number": 2,
@@ -12649,7 +12776,7 @@
         "position": "DEF",
         "age": 33,
         "dob": "1992-08-21",
-        "caps": 41,
+        "caps": 42,
         "goals": 1,
         "club": "Mallorca",
         "number": 17,
@@ -12660,7 +12787,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-06-26",
-        "caps": 34,
+        "caps": 35,
         "goals": 1,
         "club": "Bologna",
         "number": 3,
@@ -12671,7 +12798,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1993-09-02",
-        "caps": 12,
+        "caps": 13,
         "goals": 0,
         "club": "Nantes",
         "number": 22,
@@ -12704,7 +12831,7 @@
         "position": "MID",
         "age": 34,
         "dob": "1991-07-12",
-        "caps": 122,
+        "caps": 123,
         "goals": 31,
         "club": "Minnesota United",
         "number": 10,
@@ -12715,7 +12842,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1994-10-25",
-        "caps": 62,
+        "caps": 63,
         "goals": 5,
         "club": "Crystal Palace",
         "number": 16,
@@ -12726,7 +12853,7 @@
         "position": "MID",
         "age": 33,
         "dob": "1993-01-18",
-        "caps": 45,
+        "caps": 46,
         "goals": 6,
         "club": "River Plate",
         "number": 20,
@@ -12737,8 +12864,8 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-09-21",
-        "caps": 34,
-        "goals": 3,
+        "caps": 35,
+        "goals": 4,
         "club": "Palmeiras",
         "number": 11,
         "tier": "core"
@@ -12748,7 +12875,7 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-06-02",
-        "caps": 28,
+        "caps": 29,
         "goals": 2,
         "club": "Benfica",
         "number": 6,
@@ -12759,7 +12886,7 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-09-29",
-        "caps": 23,
+        "caps": 24,
         "goals": 0,
         "club": "River Plate",
         "number": 5,
@@ -12770,7 +12897,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-05-25",
-        "caps": 21,
+        "caps": 22,
         "goals": 2,
         "club": "Flamengo",
         "number": 8,
@@ -12792,7 +12919,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-07-26",
-        "caps": 2,
+        "caps": 3,
         "goals": 1,
         "club": "Racing de Santander",
         "number": 14,
@@ -12803,7 +12930,7 @@
         "position": "FWD",
         "age": 29,
         "dob": "1997-01-13",
-        "caps": 70,
+        "caps": 71,
         "goals": 21,
         "club": "Bayern Munich",
         "number": 7,
@@ -12825,7 +12952,7 @@
         "position": "FWD",
         "age": 32,
         "dob": "1993-05-11",
-        "caps": 19,
+        "caps": 20,
         "goals": 6,
         "club": "Krasnodar",
         "number": 9,
@@ -12836,7 +12963,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-12-02",
-        "caps": 8,
+        "caps": 9,
         "goals": 4,
         "club": "Sporting CP",
         "number": 24,
@@ -12847,7 +12974,7 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-09-12",
-        "caps": 4,
+        "caps": 5,
         "goals": 2,
         "club": "Vasco da Gama",
         "number": 26,
@@ -13017,7 +13144,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13026,7 +13153,7 @@
         "position": "GK",
         "age": 31,
         "dob": "1995-01-09",
-        "caps": 71,
+        "caps": 72,
         "goals": 0,
         "club": "Dinamo Zagreb",
         "number": 1,
@@ -13081,7 +13208,7 @@
         "position": "DEF",
         "age": 25,
         "dob": "2000-04-02",
-        "caps": 27,
+        "caps": 28,
         "goals": 0,
         "club": "Bayern Munich",
         "number": 2,
@@ -13092,7 +13219,7 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-09-11",
-        "caps": 16,
+        "caps": 17,
         "goals": 0,
         "club": "Fiorentina",
         "number": 3,
@@ -13103,7 +13230,7 @@
         "position": "DEF",
         "age": 28,
         "dob": "1998-01-24",
-        "caps": 11,
+        "caps": 12,
         "goals": 1,
         "club": "Midtjylland",
         "number": 25,
@@ -13114,8 +13241,8 @@
         "position": "DEF",
         "age": 19,
         "dob": "2007-02-24",
-        "caps": 2,
-        "goals": 0,
+        "caps": 3,
+        "goals": 1,
         "club": "Hamburger SV",
         "number": 22,
         "tier": "core"
@@ -13136,7 +13263,7 @@
         "position": "MID",
         "age": 40,
         "dob": "1985-09-09",
-        "caps": 194,
+        "caps": 195,
         "goals": 28,
         "club": "Milan",
         "number": 10,
@@ -13147,7 +13274,7 @@
         "position": "MID",
         "age": 31,
         "dob": "1995-02-09",
-        "caps": 81,
+        "caps": 82,
         "goals": 11,
         "club": "Atalanta",
         "number": 15,
@@ -13158,7 +13285,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-10-04",
-        "caps": 60,
+        "caps": 61,
         "goals": 10,
         "club": "Torino",
         "number": 13,
@@ -13180,7 +13307,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-09-08",
-        "caps": 18,
+        "caps": 19,
         "goals": 1,
         "club": "Real Sociedad",
         "number": 21,
@@ -13191,7 +13318,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2003-02-16",
-        "caps": 15,
+        "caps": 16,
         "goals": 1,
         "club": "Como",
         "number": 16,
@@ -13202,7 +13329,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-05-14",
-        "caps": 15,
+        "caps": 16,
         "goals": 2,
         "club": "FC Augsburg",
         "number": 18,
@@ -13213,7 +13340,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-10-25",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Inter Milan",
         "number": 17,
@@ -13224,7 +13351,7 @@
         "position": "MID",
         "age": 28,
         "dob": "1998-03-12",
-        "caps": 7,
+        "caps": 8,
         "goals": 0,
         "club": "Bologna",
         "number": 8,
@@ -13235,7 +13362,7 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-04-09",
-        "caps": 5,
+        "caps": 6,
         "goals": 1,
         "club": "Rijeka",
         "number": 19,
@@ -13246,7 +13373,7 @@
         "position": "FWD",
         "age": 37,
         "dob": "1989-02-02",
-        "caps": 150,
+        "caps": 151,
         "goals": 38,
         "club": "PSV Eindhoven",
         "number": 14,
@@ -13257,7 +13384,7 @@
         "position": "FWD",
         "age": 34,
         "dob": "1991-06-19",
-        "caps": 112,
+        "caps": 113,
         "goals": 36,
         "club": "TSG Hoffenheim",
         "number": 9,
@@ -13279,7 +13406,7 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-09-14",
-        "caps": 11,
+        "caps": 12,
         "goals": 1,
         "club": "Orlando City",
         "number": 24,
@@ -13290,7 +13417,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1998-03-04",
-        "caps": 8,
+        "caps": 9,
         "goals": 1,
         "club": "FC Dallas",
         "number": 26,
@@ -13301,8 +13428,8 @@
         "position": "FWD",
         "age": 22,
         "dob": "2003-03-31",
-        "caps": 7,
-        "goals": 1,
+        "caps": 8,
+        "goals": 2,
         "club": "SC Freiburg",
         "number": 20,
         "tier": "core"
@@ -13400,7 +13527,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -13409,7 +13536,7 @@
         "position": "GK",
         "age": 33,
         "dob": "1993-01-08",
-        "caps": 72,
+        "caps": 73,
         "goals": 0,
         "club": "Al-Hussein",
         "tier": "core"
@@ -13419,7 +13546,7 @@
         "position": "GK",
         "age": 26,
         "dob": "2000-01-22",
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "club": "Al-Wehdat",
         "tier": "core"
@@ -13439,7 +13566,7 @@
         "position": "DEF",
         "age": 30,
         "dob": "1996-01-31",
-        "caps": 76,
+        "caps": 77,
         "goals": 3,
         "club": "FC Seoul",
         "tier": "core"
@@ -13449,7 +13576,7 @@
         "position": "DEF",
         "age": 32,
         "dob": "1994-02-25",
-        "caps": 62,
+        "caps": 63,
         "goals": 3,
         "club": "Al-Zawraa",
         "tier": "core"
@@ -13459,7 +13586,7 @@
         "position": "DEF",
         "age": 25,
         "dob": "2000-05-13",
-        "caps": 15,
+        "caps": 16,
         "goals": 0,
         "club": "Al-Faisaly",
         "tier": "core"
@@ -13479,7 +13606,7 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-10-25",
-        "caps": 14,
+        "caps": 15,
         "goals": 0,
         "club": "Al-Hussein",
         "tier": "core"
@@ -13499,7 +13626,7 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-07-21",
-        "caps": 4,
+        "caps": 5,
         "goals": 0,
         "club": "Al-Hussein",
         "tier": "core"
@@ -13509,7 +13636,7 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-02-24",
-        "caps": 64,
+        "caps": 65,
         "goals": 3,
         "club": "Selangor",
         "tier": "core"
@@ -13519,7 +13646,7 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-04-27",
-        "caps": 54,
+        "caps": 55,
         "goals": 3,
         "club": "Al-Karma",
         "tier": "core"
@@ -13529,7 +13656,7 @@
         "position": "MID",
         "age": 30,
         "dob": "1995-05-09",
-        "caps": 53,
+        "caps": 54,
         "goals": 1,
         "club": "Al-Karma",
         "tier": "core"
@@ -13539,7 +13666,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1999-03-23",
-        "caps": 43,
+        "caps": 44,
         "goals": 4,
         "club": "Qatar",
         "tier": "core"
@@ -13549,9 +13676,19 @@
         "position": "MID",
         "age": 23,
         "dob": "2003-02-02",
-        "caps": 25,
+        "caps": 26,
         "goals": 1,
         "club": "Al-Quwa Al-Jawiya",
+        "tier": "core"
+      },
+      {
+        "name": "Amer Jamous",
+        "position": "MID",
+        "age": 23,
+        "dob": "2002-07-03",
+        "caps": 17,
+        "goals": 1,
+        "club": "Al-Zawraa",
         "tier": "core"
       },
       {
@@ -13589,7 +13726,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-06-10",
-        "caps": 88,
+        "caps": 89,
         "goals": 23,
         "club": "Rennes",
         "tier": "core"
@@ -13599,7 +13736,7 @@
         "position": "FWD",
         "age": 32,
         "dob": "1993-10-06",
-        "caps": 85,
+        "caps": 86,
         "goals": 9,
         "club": "Al-Hussein",
         "tier": "core"
@@ -13609,8 +13746,8 @@
         "position": "FWD",
         "age": 30,
         "dob": "1995-05-30",
-        "caps": 55,
-        "goals": 17,
+        "caps": 56,
+        "goals": 18,
         "club": "Al-Waab",
         "tier": "core"
       },
@@ -13619,7 +13756,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-12-30",
-        "caps": 38,
+        "caps": 39,
         "goals": 5,
         "club": "Raja Casablanca",
         "tier": "core"
@@ -13629,8 +13766,8 @@
         "position": "FWD",
         "age": 20,
         "dob": "2006-02-01",
-        "caps": 7,
-        "goals": 0,
+        "caps": 8,
+        "goals": 1,
         "club": "Lokomotiva Zagreb",
         "tier": "core"
       },
@@ -13639,7 +13776,7 @@
         "position": "FWD",
         "age": 20,
         "dob": "2005-11-22",
-        "caps": 6,
+        "caps": 7,
         "goals": 0,
         "club": "Pyramids",
         "tier": "core"
@@ -13765,16 +13902,6 @@
         "tier": "extended"
       },
       {
-        "name": "Amer Jamous",
-        "position": "MID",
-        "age": 23,
-        "dob": "2002-07-03",
-        "caps": 16,
-        "goals": 1,
-        "club": "Al-Zawraa",
-        "tier": "extended"
-      },
-      {
         "name": "Adham Al-Quraishi",
         "position": "MID",
         "age": 31,
@@ -13897,7 +14024,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14094,7 +14221,7 @@
       {
         "name": "Mostafa Meshaal",
         "position": "MID",
-        "age": 24,
+        "age": 25,
         "dob": "2001-03-28",
         "caps": 26,
         "goals": 2,
@@ -14324,7 +14451,7 @@
       {
         "name": "Abdullah Al-Yazidi",
         "position": "DEF",
-        "age": 23,
+        "age": 24,
         "dob": "2002-03-28",
         "caps": 5,
         "goals": 0,
@@ -14454,7 +14581,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -14906,7 +15033,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15101,16 +15228,6 @@
         "tier": "core"
       },
       {
-        "name": "Samir El Mourabet",
-        "position": "MID",
-        "age": 19,
-        "dob": "2006-08-06",
-        "caps": 0,
-        "goals": 0,
-        "club": "Strasbourg",
-        "tier": "core"
-      },
-      {
         "name": "Rayane Bounida",
         "position": "MID",
         "age": 20,
@@ -15118,6 +15235,16 @@
         "caps": 0,
         "goals": 0,
         "club": "Ajax",
+        "tier": "core"
+      },
+      {
+        "name": "Samir El Mourabet",
+        "position": "MID",
+        "age": 19,
+        "dob": "2006-08-06",
+        "caps": 0,
+        "goals": 0,
+        "club": "Strasbourg",
         "tier": "core"
       },
       {
@@ -15463,7 +15590,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -15970,7 +16097,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16551,7 +16678,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -16868,7 +16995,7 @@
       {
         "name": "Abdessalem Hallaoui",
         "position": "GK",
-        "age": 36,
+        "age": 37,
         "dob": "1989-03-28",
         "caps": 0,
         "goals": 0,
@@ -17108,7 +17235,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17215,7 +17342,7 @@
       {
         "name": "Joaquin Seys",
         "position": "DEF",
-        "age": 20,
+        "age": 21,
         "dob": "2005-03-28",
         "caps": 2,
         "goals": 0,
@@ -17343,16 +17470,6 @@
         "tier": "core"
       },
       {
-        "name": "Lucas Stassin",
-        "position": "FWD",
-        "age": 21,
-        "dob": "2004-11-29",
-        "caps": 0,
-        "goals": 0,
-        "club": "Saint-Étienne",
-        "tier": "core"
-      },
-      {
         "name": "Mika Godts",
         "position": "FWD",
         "age": 20,
@@ -17360,6 +17477,16 @@
         "caps": 0,
         "goals": 0,
         "club": "Ajax",
+        "tier": "core"
+      },
+      {
+        "name": "Lucas Stassin",
+        "position": "FWD",
+        "age": 21,
+        "dob": "2004-11-29",
+        "caps": 0,
+        "goals": 0,
+        "club": "Saint-Étienne",
         "tier": "core"
       },
       {
@@ -17495,7 +17622,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -17504,9 +17631,10 @@
         "position": "GK",
         "age": 29,
         "dob": "1996-11-29",
-        "caps": 27,
+        "caps": 28,
         "goals": 0,
         "club": "St. Gallen",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -17517,6 +17645,7 @@
         "caps": 8,
         "goals": 0,
         "club": "Hearts of Oak",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -17527,6 +17656,7 @@
         "caps": 1,
         "goals": 0,
         "club": "St Patrick's Athletic",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -17534,9 +17664,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-07-18",
-        "caps": 38,
+        "caps": 39,
         "goals": 0,
         "club": "Auxerre",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -17544,9 +17675,10 @@
         "position": "DEF",
         "age": 31,
         "dob": "1994-08-09",
-        "caps": 36,
+        "caps": 37,
         "goals": 4,
         "club": "Spartak Moscow",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -17554,9 +17686,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-10-14",
-        "caps": 9,
+        "caps": 10,
         "goals": 1,
         "club": "İstanbul Başakşehir",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -17564,9 +17697,10 @@
         "position": "DEF",
         "age": 22,
         "dob": "2003-12-13",
-        "caps": 7,
+        "caps": 8,
         "goals": 0,
         "club": "Wolfsburg",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -17577,6 +17711,7 @@
         "caps": 3,
         "goals": 0,
         "club": "Nice",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -17584,9 +17719,32 @@
         "position": "DEF",
         "age": 27,
         "dob": "1999-02-04",
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "club": "Union Berlin",
+        "number": 2,
+        "tier": "core"
+      },
+      {
+        "name": "Patric Pfeiffer",
+        "position": "DEF",
+        "age": 26,
+        "dob": "1999-08-20",
+        "caps": 1,
+        "goals": 0,
+        "club": "Darmstadt 98",
+        "number": 6,
+        "tier": "core"
+      },
+      {
+        "name": "Marvin Senaya",
+        "position": "DEF",
+        "age": 25,
+        "dob": "2001-01-28",
+        "caps": 1,
+        "goals": 0,
+        "club": "Auxerre",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -17597,26 +17755,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Pafos",
-        "tier": "core"
-      },
-      {
-        "name": "Patric Pfeiffer",
-        "position": "DEF",
-        "age": 26,
-        "dob": "1999-08-20",
-        "caps": 0,
-        "goals": 0,
-        "club": "Darmstadt 98",
-        "tier": "core"
-      },
-      {
-        "name": "Marvin Senaya",
-        "position": "DEF",
-        "age": 25,
-        "dob": "2001-01-28",
-        "caps": 0,
-        "goals": 0,
-        "club": "Auxerre",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -17624,19 +17763,10 @@
         "position": "MID",
         "age": 32,
         "dob": "1993-06-13",
-        "caps": 54,
+        "caps": 55,
         "goals": 15,
         "club": "Villarreal",
-        "tier": "core"
-      },
-      {
-        "name": "Kamaldeen Sulemana",
-        "position": "MID",
-        "age": 24,
-        "dob": "2002-02-15",
-        "caps": 25,
-        "goals": 1,
-        "club": "Atalanta",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -17644,9 +17774,10 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-11-07",
-        "caps": 17,
+        "caps": 18,
         "goals": 0,
         "club": "Auxerre",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -17654,9 +17785,10 @@
         "position": "MID",
         "age": 20,
         "dob": "2006-01-15",
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "club": "Nordsjælland",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -17664,9 +17796,10 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-05-22",
-        "caps": 6,
+        "caps": 7,
         "goals": 0,
         "club": "Cagliari",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -17674,9 +17807,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-06-24",
-        "caps": 5,
+        "caps": 6,
         "goals": 0,
         "club": "Oviedo",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -17684,9 +17818,10 @@
         "position": "FWD",
         "age": 34,
         "dob": "1991-09-11",
-        "caps": 115,
-        "goals": 32,
+        "caps": 116,
+        "goals": 33,
         "club": "Leicester City",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -17694,9 +17829,10 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-01-07",
-        "caps": 32,
+        "caps": 33,
         "goals": 3,
         "club": "Manchester City",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -17704,9 +17840,21 @@
         "position": "FWD",
         "age": 22,
         "dob": "2004-03-08",
-        "caps": 25,
+        "caps": 26,
         "goals": 2,
         "club": "Leicester City",
+        "number": 7,
+        "tier": "core"
+      },
+      {
+        "name": "Kamaldeen Sulemana",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2002-02-15",
+        "caps": 26,
+        "goals": 1,
+        "club": "Atalanta",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -17720,6 +17868,28 @@
         "tier": "core"
       },
       {
+        "name": "Christopher Bonsu Baah",
+        "position": "FWD",
+        "age": 21,
+        "dob": "2004-12-14",
+        "caps": 7,
+        "goals": 0,
+        "club": "Al-Qadsiah",
+        "number": 17,
+        "tier": "core"
+      },
+      {
+        "name": "Ransford-Yeboah Königsdörffer",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2001-09-13",
+        "caps": 7,
+        "goals": 0,
+        "club": "Hamburg",
+        "number": 24,
+        "tier": "core"
+      },
+      {
         "name": "Brandon Thomas-Asante",
         "position": "FWD",
         "age": 27,
@@ -17730,23 +17900,14 @@
         "tier": "core"
       },
       {
-        "name": "Christopher Bonsu Baah",
-        "position": "FWD",
-        "age": 21,
-        "dob": "2004-12-14",
-        "caps": 6,
-        "goals": 0,
-        "club": "Al-Qadsiah",
-        "tier": "core"
-      },
-      {
         "name": "Prince Adu",
         "position": "FWD",
         "age": 22,
         "dob": "2003-09-23",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Viktoria Plzeň",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -17757,6 +17918,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Kocaelispor",
+        "number": 27,
         "tier": "core"
       },
       {
@@ -18022,7 +18184,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18031,9 +18193,10 @@
         "position": "GK",
         "age": 35,
         "dob": "1991-03-16",
-        "caps": 55,
+        "caps": 56,
         "goals": 0,
         "club": "Nacional",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -18041,9 +18204,10 @@
         "position": "GK",
         "age": 31,
         "dob": "1994-12-25",
-        "caps": 44,
+        "caps": 45,
         "goals": 0,
         "club": "Al-Fayha",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -18054,6 +18218,7 @@
         "caps": 4,
         "goals": 0,
         "club": "Marathón",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -18061,9 +18226,10 @@
         "position": "DEF",
         "age": 34,
         "dob": "1991-03-31",
-        "caps": 103,
+        "caps": 104,
         "goals": 9,
         "club": "Plaza Amador",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -18074,6 +18240,7 @@
         "caps": 90,
         "goals": 9,
         "club": "Beşiktaş",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -18081,9 +18248,10 @@
         "position": "DEF",
         "age": 33,
         "dob": "1992-04-03",
-        "caps": 46,
+        "caps": 47,
         "goals": 2,
         "club": "Turan Tovuz",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -18091,9 +18259,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-10-16",
-        "caps": 46,
+        "caps": 47,
         "goals": 1,
         "club": "LASK",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -18101,9 +18270,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-02",
-        "caps": 35,
+        "caps": 36,
         "goals": 3,
         "club": "Slovan Bratislava",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -18111,9 +18281,10 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-06-03",
-        "caps": 28,
+        "caps": 29,
         "goals": 0,
         "club": "Norwich City",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -18124,6 +18295,7 @@
         "caps": 19,
         "goals": 0,
         "club": "Puerto Cabello",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -18131,9 +18303,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-09-01",
-        "caps": 15,
+        "caps": 16,
         "goals": 0,
         "club": "Deportivo La Guaira",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -18141,9 +18314,10 @@
         "position": "DEF",
         "age": 19,
         "dob": "2006-07-09",
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "club": "Atlético Levante",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -18151,9 +18325,10 @@
         "position": "MID",
         "age": 36,
         "dob": "1990-02-10",
-        "caps": 157,
+        "caps": 158,
         "goals": 4,
         "club": "San Diego",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -18161,9 +18336,10 @@
         "position": "MID",
         "age": 32,
         "dob": "1993-10-23",
-        "caps": 99,
-        "goals": 9,
+        "caps": 100,
+        "goals": 10,
         "club": "Mazatlán",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -18171,9 +18347,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-11-28",
-        "caps": 70,
+        "caps": 71,
         "goals": 3,
         "club": "UNAM",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -18184,6 +18361,7 @@
         "caps": 66,
         "goals": 8,
         "club": "Juárez",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -18191,9 +18369,10 @@
         "position": "MID",
         "age": 29,
         "dob": "1997-02-06",
-        "caps": 61,
+        "caps": 62,
         "goals": 2,
         "club": "Ironi Kiryat Shmona",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -18201,9 +18380,10 @@
         "position": "MID",
         "age": 30,
         "dob": "1996-01-28",
-        "caps": 54,
+        "caps": 55,
         "goals": 5,
         "club": "Cobresal",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -18211,9 +18391,10 @@
         "position": "MID",
         "age": 26,
         "dob": "2000-02-03",
-        "caps": 23,
+        "caps": 24,
         "goals": 2,
         "club": "Minnesota United",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -18221,9 +18402,10 @@
         "position": "FWD",
         "age": 32,
         "dob": "1993-08-18",
-        "caps": 63,
+        "caps": 64,
         "goals": 17,
         "club": "Universidad Católica",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -18234,6 +18416,7 @@
         "caps": 53,
         "goals": 17,
         "club": "León",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -18241,9 +18424,10 @@
         "position": "FWD",
         "age": 34,
         "dob": "1991-04-13",
-        "caps": 50,
+        "caps": 51,
         "goals": 14,
         "club": "Universidad de Concepción",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -18254,6 +18438,7 @@
         "caps": 2,
         "goals": 1,
         "club": "Botafogo",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -18579,7 +18764,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -18588,9 +18773,10 @@
         "position": "GK",
         "age": 39,
         "dob": "1986-06-16",
-        "caps": 133,
+        "caps": 134,
         "goals": 0,
         "club": "Estudiantes",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -18601,6 +18787,7 @@
         "caps": 34,
         "goals": 0,
         "club": "Internacional",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -18611,6 +18798,7 @@
         "caps": 8,
         "goals": 0,
         "club": "Monterrey",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -18618,9 +18806,10 @@
         "position": "DEF",
         "age": 31,
         "dob": "1995-01-20",
-        "caps": 97,
+        "caps": 98,
         "goals": 8,
         "club": "Atlético Madrid",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -18631,6 +18820,7 @@
         "caps": 43,
         "goals": 1,
         "club": "River Plate",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -18638,9 +18828,10 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-10-31",
-        "caps": 33,
+        "caps": 34,
         "goals": 2,
         "club": "Napoli",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -18648,9 +18839,10 @@
         "position": "DEF",
         "age": 33,
         "dob": "1993-03-24",
-        "caps": 26,
+        "caps": 27,
         "goals": 0,
         "club": "Flamengo",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -18658,9 +18850,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1999-03-07",
-        "caps": 25,
+        "caps": 26,
         "goals": 1,
         "club": "Barcelona",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -18671,6 +18864,7 @@
         "caps": 23,
         "goals": 0,
         "club": "América",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -18678,9 +18872,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-08-24",
-        "caps": 18,
+        "caps": 19,
         "goals": 0,
         "club": "Palmeiras",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -18701,6 +18896,7 @@
         "caps": 5,
         "goals": 0,
         "club": "Vasco da Gama",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -18708,9 +18904,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-07-22",
-        "caps": 71,
-        "goals": 8,
+        "caps": 72,
+        "goals": 9,
         "club": "Real Madrid",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -18718,9 +18915,10 @@
         "position": "MID",
         "age": 31,
         "dob": "1994-06-01",
-        "caps": 58,
+        "caps": 59,
         "goals": 13,
         "club": "Flamengo",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -18728,9 +18926,10 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-04-11",
-        "caps": 34,
+        "caps": 35,
         "goals": 1,
         "club": "Manchester United",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -18741,6 +18940,7 @@
         "caps": 33,
         "goals": 5,
         "club": "Flamengo",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -18748,9 +18948,10 @@
         "position": "MID",
         "age": 26,
         "dob": "2000-02-15",
-        "caps": 26,
+        "caps": 27,
         "goals": 3,
         "club": "Sporting CP",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -18758,9 +18959,10 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-08-17",
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "club": "Palmeiras",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -18771,6 +18973,7 @@
         "caps": 7,
         "goals": 0,
         "club": "Oviedo",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -18778,9 +18981,10 @@
         "position": "MID",
         "age": 25,
         "dob": "2000-03-29",
-        "caps": 3,
+        "caps": 4,
         "goals": 1,
         "club": "Real Salt Lake",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -18788,9 +18992,10 @@
         "position": "FWD",
         "age": 24,
         "dob": "2001-12-20",
-        "caps": 37,
+        "caps": 38,
         "goals": 2,
         "club": "Panathinaikos",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -18798,9 +19003,10 @@
         "position": "FWD",
         "age": 26,
         "dob": "1999-06-24",
-        "caps": 36,
+        "caps": 37,
         "goals": 13,
         "club": "Al-Hilal",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -18808,9 +19014,10 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-05-20",
-        "caps": 31,
+        "caps": 32,
         "goals": 4,
         "club": "América",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -18821,6 +19028,7 @@
         "caps": 23,
         "goals": 2,
         "club": "Austin FC",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -18828,19 +19036,10 @@
         "position": "FWD",
         "age": 27,
         "dob": "1998-10-01",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Fluminense",
-        "tier": "core"
-      },
-      {
-        "name": "Rodrigo Aguirre",
-        "position": "FWD",
-        "age": 31,
-        "dob": "1994-10-01",
-        "caps": 9,
-        "goals": 3,
-        "club": "UANL",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -18848,9 +19047,21 @@
         "position": "FWD",
         "age": 27,
         "dob": "1998-06-30",
-        "caps": 9,
+        "caps": 10,
         "goals": 2,
         "club": "Oviedo",
+        "number": 19,
+        "tier": "core"
+      },
+      {
+        "name": "Rodrigo Aguirre",
+        "position": "FWD",
+        "age": 31,
+        "dob": "1994-10-01",
+        "caps": 10,
+        "goals": 3,
+        "club": "UANL",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -19066,7 +19277,7 @@
       {
         "name": "Nicolás Azambuja",
         "position": "FWD",
-        "age": 17,
+        "age": 18,
         "dob": "2008-03-28",
         "caps": 0,
         "goals": 0,
@@ -19086,7 +19297,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19533,7 +19744,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -19542,9 +19753,10 @@
         "position": "GK",
         "age": 35,
         "dob": "1990-09-10",
-        "caps": 67,
+        "caps": 68,
         "goals": 0,
         "club": "Sevilla",
+        "number": 1,
         "tier": "core"
       },
       {
@@ -19555,6 +19767,7 @@
         "caps": 5,
         "goals": 0,
         "club": "Watford",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -19565,6 +19778,7 @@
         "caps": 0,
         "goals": 0,
         "club": "OB",
+        "number": 12,
         "tier": "core"
       },
       {
@@ -19572,9 +19786,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-04-17",
-        "caps": 48,
+        "caps": 49,
         "goals": 2,
         "club": "Brentford",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -19582,9 +19797,10 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-11-17",
-        "caps": 39,
+        "caps": 40,
         "goals": 1,
         "club": "Borussia Dortmund",
+        "number": 14,
         "tier": "core"
       },
       {
@@ -19592,9 +19808,10 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-11-28",
-        "caps": 34,
+        "caps": 35,
         "goals": 1,
         "club": "Genoa",
+        "number": 4,
         "tier": "core"
       },
       {
@@ -19605,6 +19822,7 @@
         "caps": 30,
         "goals": 0,
         "club": "Torino",
+        "number": 16,
         "tier": "core"
       },
       {
@@ -19612,9 +19830,10 @@
         "position": "DEF",
         "age": 23,
         "dob": "2002-04-23",
-        "caps": 18,
+        "caps": 19,
         "goals": 1,
         "club": "Wolverhampton Wanderers",
+        "number": 5,
         "tier": "core"
       },
       {
@@ -19622,9 +19841,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-08-21",
-        "caps": 17,
+        "caps": 18,
         "goals": 1,
         "club": "Bodø/Glimt",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -19632,9 +19852,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1999-01-12",
-        "caps": 11,
+        "caps": 12,
         "goals": 0,
         "club": "Bologna",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -19645,6 +19866,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Bodø/Glimt",
+        "number": 23,
         "tier": "core"
       },
       {
@@ -19655,6 +19877,7 @@
         "caps": 0,
         "goals": 0,
         "club": "Viking",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -19662,9 +19885,10 @@
         "position": "MID",
         "age": 28,
         "dob": "1998-02-14",
-        "caps": 62,
+        "caps": 63,
         "goals": 1,
         "club": "Fulham",
+        "number": 8,
         "tier": "core"
       },
       {
@@ -19672,9 +19896,10 @@
         "position": "MID",
         "age": 28,
         "dob": "1997-11-24",
-        "caps": 39,
+        "caps": 40,
         "goals": 0,
         "club": "Bodø/Glimt",
+        "number": 6,
         "tier": "core"
       },
       {
@@ -19682,9 +19907,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1999-03-13",
-        "caps": 33,
+        "caps": 34,
         "goals": 4,
         "club": "Sassuolo",
+        "number": 18,
         "tier": "core"
       },
       {
@@ -19695,6 +19921,7 @@
         "caps": 29,
         "goals": 0,
         "club": "Cremonese",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -19702,9 +19929,10 @@
         "position": "MID",
         "age": 20,
         "dob": "2005-04-17",
-        "caps": 20,
+        "caps": 21,
         "goals": 7,
         "club": "RB Leipzig",
+        "number": 20,
         "tier": "core"
       },
       {
@@ -19712,9 +19940,10 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-07-12",
-        "caps": 16,
+        "caps": 17,
         "goals": 2,
         "club": "Fulham",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -19722,9 +19951,10 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-10-12",
-        "caps": 13,
+        "caps": 14,
         "goals": 1,
         "club": "Bodø/Glimt",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -19732,9 +19962,10 @@
         "position": "MID",
         "age": 21,
         "dob": "2004-06-01",
-        "caps": 8,
-        "goals": 0,
+        "caps": 9,
+        "goals": 1,
         "club": "Benfica",
+        "number": 21,
         "tier": "core"
       },
       {
@@ -19742,9 +19973,10 @@
         "position": "MID",
         "age": 27,
         "dob": "1999-03-04",
-        "caps": 5,
+        "caps": 6,
         "goals": 2,
         "club": "Brann",
+        "number": 19,
         "tier": "core"
       },
       {
@@ -19752,9 +19984,10 @@
         "position": "FWD",
         "age": 30,
         "dob": "1995-12-05",
-        "caps": 68,
+        "caps": 69,
         "goals": 26,
         "club": "Atlético Madrid",
+        "number": 7,
         "tier": "core"
       },
       {
@@ -19772,9 +20005,10 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-02-06",
-        "caps": 24,
+        "caps": 25,
         "goals": 4,
         "club": "Crystal Palace",
+        "number": 11,
         "tier": "core"
       },
       {
@@ -19960,7 +20194,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -19985,6 +20219,16 @@
         "tier": "core"
       },
       {
+        "name": "Melvin Mastil",
+        "position": "GK",
+        "age": 26,
+        "dob": "2000-02-19",
+        "caps": 1,
+        "goals": 0,
+        "club": "Stade Nyonnais",
+        "tier": "core"
+      },
+      {
         "name": "Kilian Belazzoug",
         "position": "GK",
         "age": 19,
@@ -19992,16 +20236,6 @@
         "caps": 0,
         "goals": 0,
         "club": "Rennes B",
-        "tier": "core"
-      },
-      {
-        "name": "Melvin Mastil",
-        "position": "GK",
-        "age": 26,
-        "dob": "2000-02-19",
-        "caps": 0,
-        "goals": 0,
-        "club": "Stade Nyonnais",
         "tier": "core"
       },
       {
@@ -20019,7 +20253,7 @@
         "position": "DEF",
         "age": 30,
         "dob": "1995-04-16",
-        "caps": 79,
+        "caps": 80,
         "goals": 7,
         "club": "Borussia Dortmund",
         "tier": "core"
@@ -20029,7 +20263,7 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-06-06",
-        "caps": 25,
+        "caps": 26,
         "goals": 0,
         "club": "Manchester City",
         "tier": "core"
@@ -20039,7 +20273,7 @@
         "position": "DEF",
         "age": 23,
         "dob": "2002-06-07",
-        "caps": 9,
+        "caps": 10,
         "goals": 1,
         "club": "Hellas Verona",
         "tier": "core"
@@ -20049,7 +20283,7 @@
         "position": "DEF",
         "age": 27,
         "dob": "1999-03-20",
-        "caps": 7,
+        "caps": 8,
         "goals": 1,
         "club": "JS Kabylie",
         "tier": "core"
@@ -20059,8 +20293,8 @@
         "position": "DEF",
         "age": 26,
         "dob": "1999-06-15",
-        "caps": 4,
-        "goals": 0,
+        "caps": 5,
+        "goals": 1,
         "club": "USM Alger",
         "tier": "core"
       },
@@ -20069,7 +20303,7 @@
         "position": "DEF",
         "age": 25,
         "dob": "2001-02-09",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Bari",
         "tier": "core"
@@ -20089,7 +20323,7 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-05-26",
-        "caps": 49,
+        "caps": 50,
         "goals": 3,
         "club": "Twente",
         "tier": "core"
@@ -20119,8 +20353,8 @@
         "position": "MID",
         "age": 27,
         "dob": "1998-06-30",
-        "caps": 17,
-        "goals": 5,
+        "caps": 18,
+        "goals": 6,
         "club": "Al-Ittihad",
         "tier": "core"
       },
@@ -20129,7 +20363,7 @@
         "position": "MID",
         "age": 20,
         "dob": "2005-11-24",
-        "caps": 13,
+        "caps": 14,
         "goals": 2,
         "club": "Bayer Leverkusen",
         "tier": "core"
@@ -20139,7 +20373,7 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-07-26",
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "club": "Charleroi",
         "tier": "core"
@@ -20149,7 +20383,7 @@
         "position": "MID",
         "age": 23,
         "dob": "2002-07-15",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Schalke 04",
         "tier": "core"
@@ -20159,8 +20393,8 @@
         "position": "FWD",
         "age": 35,
         "dob": "1991-02-21",
-        "caps": 111,
-        "goals": 37,
+        "caps": 112,
+        "goals": 38,
         "club": "Al-Ahli",
         "tier": "core"
       },
@@ -20169,7 +20403,7 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-05-09",
-        "caps": 42,
+        "caps": 43,
         "goals": 19,
         "club": "VfL Wolfsburg",
         "tier": "core"
@@ -20179,8 +20413,8 @@
         "position": "FWD",
         "age": 26,
         "dob": "2000-02-16",
-        "caps": 19,
-        "goals": 6,
+        "caps": 20,
+        "goals": 8,
         "club": "Marseille",
         "tier": "core"
       },
@@ -20199,7 +20433,7 @@
         "position": "FWD",
         "age": 22,
         "dob": "2003-05-02",
-        "caps": 9,
+        "caps": 10,
         "goals": 6,
         "club": "Al-Duhail",
         "tier": "core"
@@ -20209,7 +20443,7 @@
         "position": "FWD",
         "age": 20,
         "dob": "2006-03-12",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Rosenborg",
         "tier": "core"
@@ -20219,8 +20453,8 @@
         "position": "FWD",
         "age": 25,
         "dob": "2000-04-17",
-        "caps": 0,
-        "goals": 0,
+        "caps": 1,
+        "goals": 1,
         "club": "Győr",
         "tier": "core"
       },
@@ -20229,8 +20463,8 @@
         "position": "FWD",
         "age": 23,
         "dob": "2002-09-06",
-        "caps": 0,
-        "goals": 0,
+        "caps": 1,
+        "goals": 1,
         "club": "Frosinone",
         "tier": "core"
       },
@@ -20517,7 +20751,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-03-27",
+    "lastUpdated": "2026-03-28",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
@@ -20526,7 +20760,7 @@
         "position": "GK",
         "age": 30,
         "dob": "1996-02-01",
-        "caps": 24,
+        "caps": 25,
         "goals": 0,
         "club": "Red Bull Salzburg",
         "number": 1,
@@ -20559,9 +20793,10 @@
         "position": "GK",
         "age": 25,
         "dob": "2001-03-21",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Viktoria Plzeň",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -20580,8 +20815,8 @@
         "position": "DEF",
         "age": 28,
         "dob": "1997-05-14",
-        "caps": 49,
-        "goals": 4,
+        "caps": 50,
+        "goals": 5,
         "club": "Mainz 05",
         "number": 5,
         "tier": "core"
@@ -20591,10 +20826,21 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-07-11",
-        "caps": 38,
+        "caps": 39,
         "goals": 3,
         "club": "SC Freiburg",
         "number": 15,
+        "tier": "core"
+      },
+      {
+        "name": "Kevin Danso",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1998-09-19",
+        "caps": 31,
+        "goals": 0,
+        "club": "Tottenham Hotspur",
+        "number": 3,
         "tier": "core"
       },
       {
@@ -20608,22 +20854,11 @@
         "tier": "core"
       },
       {
-        "name": "Kevin Danso",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1998-09-19",
-        "caps": 30,
-        "goals": 0,
-        "club": "Tottenham Hotspur",
-        "number": 3,
-        "tier": "core"
-      },
-      {
         "name": "Phillipp Mwene",
         "position": "DEF",
         "age": 32,
         "dob": "1994-01-29",
-        "caps": 27,
+        "caps": 28,
         "goals": 0,
         "club": "Mainz 05",
         "number": 16,
@@ -20634,9 +20869,10 @@
         "position": "DEF",
         "age": 24,
         "dob": "2001-05-26",
-        "caps": 16,
+        "caps": 17,
         "goals": 0,
         "club": "TSG Hoffenheim",
+        "number": 22,
         "tier": "core"
       },
       {
@@ -20644,10 +20880,10 @@
         "position": "DEF",
         "age": 28,
         "dob": "1998-03-16",
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "club": "Werder Bremen",
-        "number": 2,
+        "number": 23,
         "tier": "core"
       },
       {
@@ -20655,9 +20891,10 @@
         "position": "DEF",
         "age": 27,
         "dob": "1998-10-15",
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "club": "Venezia",
+        "number": 25,
         "tier": "core"
       },
       {
@@ -20665,9 +20902,10 @@
         "position": "DEF",
         "age": 25,
         "dob": "2001-03-19",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "Elche",
+        "number": 2,
         "tier": "core"
       },
       {
@@ -20675,8 +20913,8 @@
         "position": "MID",
         "age": 32,
         "dob": "1994-03-17",
-        "caps": 95,
-        "goals": 23,
+        "caps": 96,
+        "goals": 24,
         "club": "Borussia Dortmund",
         "number": 9,
         "tier": "core"
@@ -20686,7 +20924,7 @@
         "position": "MID",
         "age": 30,
         "dob": "1995-08-07",
-        "caps": 56,
+        "caps": 57,
         "goals": 1,
         "club": "Braga",
         "number": 10,
@@ -20697,7 +20935,7 @@
         "position": "MID",
         "age": 26,
         "dob": "1999-08-01",
-        "caps": 56,
+        "caps": 57,
         "goals": 19,
         "club": "RB Leipzig",
         "number": 19,
@@ -20730,8 +20968,8 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-05-04",
-        "caps": 44,
-        "goals": 0,
+        "caps": 45,
+        "goals": 1,
         "club": "RB Leipzig",
         "number": 6,
         "tier": "core"
@@ -20744,7 +20982,6 @@
         "caps": 35,
         "goals": 6,
         "club": "Wolfsberger AC",
-        "number": 23,
         "tier": "core"
       },
       {
@@ -20752,7 +20989,7 @@
         "position": "MID",
         "age": 26,
         "dob": "2000-01-27",
-        "caps": 31,
+        "caps": 32,
         "goals": 3,
         "club": "Werder Bremen",
         "number": 18,
@@ -20763,7 +21000,7 @@
         "position": "MID",
         "age": 24,
         "dob": "2001-05-30",
-        "caps": 28,
+        "caps": 29,
         "goals": 1,
         "club": "VfL Wolfsburg",
         "number": 21,
@@ -20774,9 +21011,10 @@
         "position": "MID",
         "age": 22,
         "dob": "2003-10-20",
-        "caps": 0,
-        "goals": 0,
+        "caps": 1,
+        "goals": 1,
         "club": "Borussia Dortmund",
+        "number": 17,
         "tier": "core"
       },
       {
@@ -20784,9 +21022,10 @@
         "position": "MID",
         "age": 20,
         "dob": "2005-12-23",
-        "caps": 0,
+        "caps": 1,
         "goals": 0,
         "club": "PSV",
+        "number": 24,
         "tier": "core"
       },
       {
@@ -20794,7 +21033,7 @@
         "position": "FWD",
         "age": 36,
         "dob": "1989-04-19",
-        "caps": 130,
+        "caps": 131,
         "goals": 47,
         "club": "Red Star Belgrade",
         "number": 7,
@@ -20805,8 +21044,8 @@
         "position": "FWD",
         "age": 31,
         "dob": "1994-04-18",
-        "caps": 72,
-        "goals": 23,
+        "caps": 73,
+        "goals": 24,
         "club": "Augsburg",
         "number": 11,
         "tier": "core"
@@ -20816,9 +21055,10 @@
         "position": "FWD",
         "age": 28,
         "dob": "1997-07-07",
-        "caps": 19,
+        "caps": 20,
         "goals": 4,
         "club": "LASK",
+        "number": 14,
         "tier": "core"
       },
       {
