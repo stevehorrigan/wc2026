@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1113,7 +1113,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1535,7 +1535,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2068,7 +2068,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2521,7 +2521,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -2737,7 +2737,7 @@
       {
         "name": "Angelo Stiller",
         "position": "MID",
-        "age": 24,
+        "age": 25,
         "dob": "2001-04-04",
         "caps": 7,
         "goals": 0,
@@ -3033,7 +3033,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3436,7 +3436,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3878,7 +3878,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4461,7 +4461,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -5044,7 +5044,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5487,7 +5487,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5927,7 +5927,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6399,7 +6399,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6982,7 +6982,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7381,7 +7381,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7824,7 +7824,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -7921,7 +7921,7 @@
         "dob": "2005-09-19",
         "caps": 10,
         "goals": 1,
-        "club": "Chicago Fire FC",
+        "club": "Chicago Fire",
         "number": 14,
         "tier": "core"
       },
@@ -8144,7 +8144,7 @@
         "dob": "2000-06-20",
         "caps": 19,
         "goals": 4,
-        "club": "Minnesota United FC",
+        "club": "Minnesota United",
         "number": 15,
         "tier": "core"
       },
@@ -8204,7 +8204,7 @@
       {
         "name": "Patrick Maswanganyi",
         "position": "FWD",
-        "age": 27,
+        "age": 28,
         "dob": "1998-04-04",
         "caps": 5,
         "goals": 2,
@@ -8404,7 +8404,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8986,7 +8986,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9569,7 +9569,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10152,7 +10152,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10743,7 +10743,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11173,7 +11173,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11215,6 +11215,16 @@
         "caps": 44,
         "goals": 0,
         "club": "Shamrock Rovers",
+        "tier": "core"
+      },
+      {
+        "name": "João Paulo",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1998-05-26",
+        "caps": 40,
+        "goals": 1,
+        "club": "FCSB",
         "tier": "core"
       },
       {
@@ -11268,16 +11278,6 @@
         "tier": "core"
       },
       {
-        "name": "Jordan Mendes",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2004-03-07",
-        "caps": 1,
-        "goals": 0,
-        "club": "Rodez",
-        "tier": "core"
-      },
-      {
         "name": "Jorginho Soares",
         "position": "DEF",
         "age": 26,
@@ -11285,16 +11285,6 @@
         "caps": 1,
         "goals": 0,
         "club": "Montana",
-        "tier": "core"
-      },
-      {
-        "name": "João Paulo",
-        "position": "MID",
-        "age": 27,
-        "dob": "1998-05-26",
-        "caps": 40,
-        "goals": 1,
-        "club": "FCSB",
         "tier": "core"
       },
       {
@@ -11345,6 +11335,16 @@
         "caps": 10,
         "goals": 1,
         "club": "Farense",
+        "tier": "core"
+      },
+      {
+        "name": "Jordan Mendes",
+        "position": "MID",
+        "age": 22,
+        "dob": "2004-03-07",
+        "caps": 1,
+        "goals": 0,
+        "club": "Rodez",
         "tier": "core"
       },
       {
@@ -11720,7 +11720,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12300,7 +12300,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12613,7 +12613,7 @@
       {
         "name": "Husniddin Aliqulov",
         "position": "DEF",
-        "age": 26,
+        "age": 27,
         "dob": "1999-04-04",
         "caps": 34,
         "goals": 3,
@@ -12803,7 +12803,7 @@
       {
         "name": "Rustam Turdimurodov",
         "position": "FWD",
-        "age": 21,
+        "age": 22,
         "dob": "2004-04-04",
         "caps": 0,
         "goals": 0,
@@ -12833,7 +12833,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13276,7 +13276,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13659,7 +13659,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14182,7 +14182,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14194,7 +14194,6 @@
         "caps": 52,
         "goals": 0,
         "club": "Al-Sadd",
-        "number": 22,
         "tier": "core"
       },
       {
@@ -14215,7 +14214,6 @@
         "caps": 3,
         "goals": 0,
         "club": "Al-Arabi",
-        "number": 21,
         "tier": "core"
       },
       {
@@ -14226,11 +14224,10 @@
         "caps": 1,
         "goals": 0,
         "club": "Al-Shahaniya",
-        "number": 1,
         "tier": "core"
       },
       {
-        "name": "Boualem Khoukhi (third captain)",
+        "name": "Boualem Khoukhi",
         "position": "DEF",
         "age": 35,
         "dob": "1990-07-09",
@@ -14247,17 +14244,6 @@
         "caps": 97,
         "goals": 3,
         "club": "Al-Sadd",
-        "tier": "core"
-      },
-      {
-        "name": "Tarek Salman",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-12-05",
-        "caps": 90,
-        "goals": 0,
-        "club": "Al-Sadd",
-        "number": 5,
         "tier": "core"
       },
       {
@@ -14278,7 +14264,6 @@
         "caps": 66,
         "goals": 3,
         "club": "Cultural Leonesa",
-        "number": 14,
         "tier": "core"
       },
       {
@@ -14289,29 +14274,6 @@
         "caps": 24,
         "goals": 1,
         "club": "Al-Wakrah",
-        "number": 3,
-        "tier": "core"
-      },
-      {
-        "name": "Sultan Al-Brake",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1996-04-07",
-        "caps": 16,
-        "goals": 0,
-        "club": "Al-Duhail",
-        "number": 18,
-        "tier": "core"
-      },
-      {
-        "name": "Yousef Aymen",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1999-03-21",
-        "caps": 9,
-        "goals": 1,
-        "club": "Al-Duhail",
-        "number": 15,
         "tier": "core"
       },
       {
@@ -14322,7 +14284,6 @@
         "caps": 6,
         "goals": 0,
         "club": "Al-Arabi",
-        "number": 16,
         "tier": "core"
       },
       {
@@ -14333,7 +14294,6 @@
         "caps": 4,
         "goals": 0,
         "club": "Al-Gharafa",
-        "number": 13,
         "tier": "core"
       },
       {
@@ -14344,7 +14304,6 @@
         "caps": 2,
         "goals": 0,
         "club": "Al-Arabi",
-        "number": 2,
         "tier": "core"
       },
       {
@@ -14378,35 +14337,13 @@
         "tier": "core"
       },
       {
-        "name": "Abdulaziz Hatem (vice-captain)",
-        "position": "MID",
-        "age": 35,
-        "dob": "1990-10-28",
-        "caps": 116,
-        "goals": 11,
-        "club": "Al-Rayyan",
-        "number": 6,
-        "tier": "core"
-      },
-      {
-        "name": "Karim Boudiaf (fourth captain)",
+        "name": "Karim Boudiaf",
         "position": "MID",
         "age": 35,
         "dob": "1990-09-16",
         "caps": 116,
         "goals": 5,
         "club": "Al-Duhail",
-        "tier": "core"
-      },
-      {
-        "name": "Mohammed Waad",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-09-18",
-        "caps": 49,
-        "goals": 0,
-        "club": "Al-Sadd",
-        "number": 4,
         "tier": "core"
       },
       {
@@ -14420,6 +14357,16 @@
         "tier": "core"
       },
       {
+        "name": "Mohammed Waad",
+        "position": "MID",
+        "age": 26,
+        "dob": "1999-09-18",
+        "caps": 49,
+        "goals": 0,
+        "club": "Al-Sadd",
+        "tier": "core"
+      },
+      {
         "name": "Ahmed Fathy",
         "position": "MID",
         "age": 33,
@@ -14427,18 +14374,6 @@
         "caps": 46,
         "goals": 0,
         "club": "Al-Arabi",
-        "number": 20,
-        "tier": "core"
-      },
-      {
-        "name": "Jassem Gaber",
-        "position": "MID",
-        "age": 24,
-        "dob": "2002-02-20",
-        "caps": 31,
-        "goals": 1,
-        "club": "Al-Rayyan",
-        "number": 8,
         "tier": "core"
       },
       {
@@ -14469,7 +14404,6 @@
         "caps": 8,
         "goals": 0,
         "club": "Al-Shamal",
-        "number": 17,
         "tier": "core"
       },
       {
@@ -14480,7 +14414,6 @@
         "caps": 2,
         "goals": 0,
         "club": "Al-Sailiya",
-        "number": 12,
         "tier": "core"
       },
       {
@@ -14504,14 +14437,13 @@
         "tier": "core"
       },
       {
-        "name": "Akram Afif (fifth captain)",
+        "name": "Akram Afif",
         "position": "FWD",
         "age": 29,
         "dob": "1996-11-18",
         "caps": 123,
         "goals": 39,
         "club": "Al-Sadd",
-        "number": 10,
         "tier": "core"
       },
       {
@@ -14522,28 +14454,6 @@
         "caps": 114,
         "goals": 55,
         "club": "Al-Duhail",
-        "tier": "core"
-      },
-      {
-        "name": "Mohammed Muntari",
-        "position": "FWD",
-        "age": 32,
-        "dob": "1993-12-20",
-        "caps": 67,
-        "goals": 16,
-        "club": "Al-Gharafa",
-        "number": 9,
-        "tier": "core"
-      },
-      {
-        "name": "Ahmed Alaaeldin",
-        "position": "FWD",
-        "age": 33,
-        "dob": "1993-01-31",
-        "caps": 66,
-        "goals": 9,
-        "club": "Al-Rayyan",
-        "number": 7,
         "tier": "core"
       },
       {
@@ -14564,7 +14474,6 @@
         "caps": 14,
         "goals": 0,
         "club": "Al-Duhail",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -14595,7 +14504,6 @@
         "caps": 7,
         "goals": 0,
         "club": "Al-Arabi",
-        "number": 19,
         "tier": "core"
       },
       {
@@ -14629,6 +14537,16 @@
         "tier": "extended"
       },
       {
+        "name": "Tarek Salman",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1997-12-05",
+        "caps": 90,
+        "goals": 0,
+        "club": "Al-Sadd",
+        "tier": "extended"
+      },
+      {
         "name": "Al-Mahdi Ali Mukhtar",
         "position": "DEF",
         "age": 34,
@@ -14636,6 +14554,16 @@
         "caps": 39,
         "goals": 2,
         "club": "Al-Wakrah",
+        "tier": "extended"
+      },
+      {
+        "name": "Sultan Al-Brake",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1996-04-07",
+        "caps": 16,
+        "goals": 0,
+        "club": "Al-Duhail",
         "tier": "extended"
       },
       {
@@ -14656,6 +14584,16 @@
         "caps": 11,
         "goals": 1,
         "club": "Al-Rayyan",
+        "tier": "extended"
+      },
+      {
+        "name": "Yousef Aymen",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1999-03-21",
+        "caps": 9,
+        "goals": 1,
+        "club": "Al-Duhail",
         "tier": "extended"
       },
       {
@@ -14689,16 +14627,6 @@
         "tier": "extended"
       },
       {
-        "name": "Nabil Irfan",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2004-02-07",
-        "caps": 1,
-        "goals": 0,
-        "club": "Al-Wakrah",
-        "tier": "extended"
-      },
-      {
         "name": "Mohammed Ayash",
         "position": "DEF",
         "age": 25,
@@ -14706,6 +14634,36 @@
         "caps": 1,
         "goals": 0,
         "club": "Al-Wakrah",
+        "tier": "extended"
+      },
+      {
+        "name": "Nabil Irfan",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2004-02-07",
+        "caps": 0,
+        "goals": 0,
+        "club": "Al-Wakrah",
+        "tier": "extended"
+      },
+      {
+        "name": "Abdulaziz Hatem",
+        "position": "MID",
+        "age": 35,
+        "dob": "1990-10-28",
+        "caps": 116,
+        "goals": 11,
+        "club": "Al-Rayyan",
+        "tier": "extended"
+      },
+      {
+        "name": "Jassem Gaber",
+        "position": "MID",
+        "age": 24,
+        "dob": "2002-02-20",
+        "caps": 31,
+        "goals": 1,
+        "club": "Al-Rayyan",
         "tier": "extended"
       },
       {
@@ -14757,11 +14715,31 @@
         "goals": 39,
         "club": "Qatar SC",
         "tier": "extended"
+      },
+      {
+        "name": "Ismaeel Mohammad",
+        "position": "FWD",
+        "age": 35,
+        "dob": "1990-04-05",
+        "caps": 84,
+        "goals": 4,
+        "club": "Al-Duhail",
+        "tier": "extended"
+      },
+      {
+        "name": "Mohammed Muntari",
+        "position": "FWD",
+        "age": 32,
+        "dob": "1993-12-20",
+        "caps": 67,
+        "goals": 16,
+        "club": "Al-Gharafa",
+        "tier": "extended"
       }
     ]
   },
   "sui": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15214,7 +15192,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15799,7 +15777,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16306,7 +16284,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16889,7 +16867,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17474,7 +17452,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17886,7 +17864,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18448,7 +18426,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -19028,7 +19006,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19561,7 +19539,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -20033,7 +20011,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20484,7 +20462,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -21041,7 +21019,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-04-03",
+    "lastUpdated": "2026-04-04",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
