@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1113,7 +1113,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1535,7 +1535,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2068,7 +2068,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2521,7 +2521,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3033,7 +3033,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3436,7 +3436,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3878,7 +3878,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4461,7 +4461,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4894,7 +4894,7 @@
       {
         "name": "Bryan González",
         "position": "DEF",
-        "age": 22,
+        "age": 23,
         "dob": "2003-04-10",
         "caps": 2,
         "goals": 0,
@@ -5044,7 +5044,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5119,7 +5119,7 @@
         "position": "DEF",
         "age": 29,
         "dob": "1996-11-12",
-        "caps": 48,
+        "caps": 49,
         "goals": 1,
         "club": "Dinamo Zagreb",
         "number": 26,
@@ -5487,7 +5487,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5797,7 +5797,7 @@
       {
         "name": "Stéphane Lambese",
         "position": "DEF",
-        "age": 30,
+        "age": 31,
         "dob": "1995-04-10",
         "caps": 24,
         "goals": 1,
@@ -5927,7 +5927,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6399,7 +6399,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6982,7 +6982,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7238,7 +7238,7 @@
       {
         "name": "Jearl Margaritha",
         "position": "FWD",
-        "age": 25,
+        "age": 26,
         "dob": "2000-04-10",
         "caps": 21,
         "goals": 5,
@@ -7381,7 +7381,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7824,7 +7824,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8404,7 +8404,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8986,7 +8986,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9569,7 +9569,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10152,7 +10152,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10743,7 +10743,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11173,7 +11173,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11720,7 +11720,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12277,7 +12277,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12810,7 +12810,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13253,7 +13253,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13636,7 +13636,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14159,7 +14159,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14576,7 +14576,7 @@
       {
         "name": "Abdullah Yousef",
         "position": "DEF",
-        "age": 23,
+        "age": 24,
         "dob": "2002-04-10",
         "caps": 6,
         "goals": 0,
@@ -14716,7 +14716,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15159,7 +15159,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15744,7 +15744,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16251,7 +16251,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16834,7 +16834,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -16911,7 +16911,7 @@
         "dob": "2001-07-24",
         "caps": 7,
         "goals": 0,
-        "club": "Shakhta Donetsk",
+        "club": "Shakhtar Donetsk",
         "number": 18,
         "tier": "core"
       },
@@ -17061,7 +17061,7 @@
       {
         "name": "Ismaël Gharbi",
         "position": "FWD",
-        "age": 21,
+        "age": 22,
         "dob": "2004-04-10",
         "caps": 15,
         "goals": 2,
@@ -17419,7 +17419,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17831,7 +17831,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18363,7 +18363,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18943,7 +18943,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19476,7 +19476,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19616,7 +19616,7 @@
         "position": "MID",
         "age": 36,
         "dob": "1989-09-26",
-        "caps": 130,
+        "caps": 131,
         "goals": 7,
         "club": "Everton",
         "number": 5,
@@ -19682,7 +19682,7 @@
         "position": "FWD",
         "age": 28,
         "dob": "1998-02-25",
-        "caps": 82,
+        "caps": 83,
         "goals": 19,
         "club": "Crystal Palace",
         "number": 18,
@@ -19705,7 +19705,7 @@
         "age": 29,
         "dob": "1996-11-16",
         "caps": 38,
-        "goals": 6,
+        "goals": 7,
         "club": "Lazio",
         "number": 9,
         "tier": "core"
@@ -19869,7 +19869,7 @@
       {
         "name": "Sadio Mané (third captain)",
         "position": "FWD",
-        "age": 33,
+        "age": 34,
         "dob": "1992-04-10",
         "caps": 126,
         "goals": 53,
@@ -19919,7 +19919,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20370,7 +20370,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20927,7 +20927,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-04-09",
+    "lastUpdated": "2026-04-10",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
