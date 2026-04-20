@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1113,7 +1113,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1535,7 +1535,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2068,7 +2068,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2521,7 +2521,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3033,7 +3033,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3436,7 +3436,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3848,7 +3848,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4431,7 +4431,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4713,7 +4713,7 @@
       {
         "name": "Armando González",
         "position": "FWD",
-        "age": 22,
+        "age": 23,
         "dob": "2003-04-20",
         "caps": 6,
         "goals": 1,
@@ -5014,7 +5014,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5457,7 +5457,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5897,7 +5897,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6369,7 +6369,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6952,7 +6952,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7351,7 +7351,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7794,7 +7794,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8374,7 +8374,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8956,7 +8956,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9539,7 +9539,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10122,7 +10122,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10259,17 +10259,6 @@
         "tier": "core"
       },
       {
-        "name": "Abolfazl Jalali",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1998-06-26",
-        "caps": 8,
-        "goals": 0,
-        "club": "Esteghlal",
-        "number": 33,
-        "tier": "core"
-      },
-      {
         "name": "Danial Esmaeilifar",
         "position": "DEF",
         "age": 33,
@@ -10281,14 +10270,13 @@
         "tier": "core"
       },
       {
-        "name": "Saman Fallah",
+        "name": "Aref Aghasi",
         "position": "DEF",
-        "age": 24,
-        "dob": "2001-05-12",
-        "caps": 4,
+        "age": 29,
+        "dob": "1997-01-02",
+        "caps": 6,
         "goals": 0,
         "club": "Esteghlal",
-        "number": 27,
         "tier": "core"
       },
       {
@@ -10303,35 +10291,23 @@
         "tier": "core"
       },
       {
-        "name": "Alireza Jahanbakhsh",
-        "position": "MID",
-        "age": 32,
-        "dob": "1993-08-11",
-        "caps": 98,
-        "goals": 17,
-        "club": "Dender",
-        "number": 7,
+        "name": "Danial Eiri",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2003-10-26",
+        "caps": 0,
+        "goals": 0,
+        "club": "Malavan",
         "tier": "core"
       },
       {
-        "name": "Saeid Ezatolahi",
-        "position": "MID",
-        "age": 29,
-        "dob": "1996-10-01",
-        "caps": 81,
-        "goals": 1,
-        "club": "Shabab Al-Ahli",
-        "tier": "core"
-      },
-      {
-        "name": "Saman Ghoddos",
-        "position": "MID",
-        "age": 32,
-        "dob": "1993-09-06",
-        "caps": 67,
-        "goals": 3,
-        "club": "Kalba",
-        "number": 14,
+        "name": "Masoud Mohebi",
+        "position": "DEF",
+        "age": 21,
+        "dob": "2005-02-06",
+        "caps": 0,
+        "goals": 0,
+        "club": "Kheybar",
         "tier": "core"
       },
       {
@@ -10346,14 +10322,13 @@
         "tier": "core"
       },
       {
-        "name": "Ali Gholizadeh",
+        "name": "Rouzbeh Cheshmi",
         "position": "MID",
-        "age": 30,
-        "dob": "1996-03-10",
-        "caps": 44,
-        "goals": 7,
-        "club": "Lech Poznań",
-        "number": 11,
+        "age": 32,
+        "dob": "1993-07-24",
+        "caps": 40,
+        "goals": 3,
+        "club": "Esteghlal",
         "tier": "core"
       },
       {
@@ -10368,28 +10343,6 @@
         "tier": "core"
       },
       {
-        "name": "Mohammad Mohebi",
-        "position": "MID",
-        "age": 27,
-        "dob": "1998-12-20",
-        "caps": 35,
-        "goals": 14,
-        "club": "Rostov",
-        "number": 8,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Ghorbani",
-        "position": "MID",
-        "age": 24,
-        "dob": "2001-05-21",
-        "caps": 14,
-        "goals": 0,
-        "club": "Al-Wahda",
-        "number": 6,
-        "tier": "core"
-      },
-      {
         "name": "Mehdi Hashemnejad",
         "position": "MID",
         "age": 24,
@@ -10398,6 +10351,16 @@
         "goals": 0,
         "club": "Tractor",
         "number": 17,
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Mehdi Mohebi",
+        "position": "MID",
+        "age": 26,
+        "dob": "2000-02-10",
+        "caps": 4,
+        "goals": 2,
+        "club": "Sepahan",
         "tier": "core"
       },
       {
@@ -10423,36 +10386,13 @@
         "tier": "core"
       },
       {
-        "name": "Mehdi Taremi (captain)",
-        "position": "FWD",
-        "age": 33,
-        "dob": "1992-07-18",
-        "caps": 103,
-        "goals": 59,
-        "club": "Olympiacos",
-        "number": 9,
-        "tier": "core"
-      },
-      {
-        "name": "Mehdi Ghayedi",
-        "position": "FWD",
+        "name": "Aref Haji Eydi",
+        "position": "MID",
         "age": 27,
-        "dob": "1998-12-05",
-        "caps": 29,
-        "goals": 10,
-        "club": "Al-Nasr",
-        "number": 10,
-        "tier": "core"
-      },
-      {
-        "name": "Shahriyar Moghanlou",
-        "position": "FWD",
-        "age": 31,
-        "dob": "1994-12-21",
-        "caps": 19,
-        "goals": 2,
-        "club": "Kalba",
-        "number": 15,
+        "dob": "1999-04-06",
+        "caps": 0,
+        "goals": 0,
+        "club": "Sepahan",
         "tier": "core"
       },
       {
@@ -10478,6 +10418,16 @@
         "tier": "core"
       },
       {
+        "name": "Kasra Taheri",
+        "position": "FWD",
+        "age": 19,
+        "dob": "2006-08-06",
+        "caps": 2,
+        "goals": 0,
+        "club": "Paykan",
+        "tier": "core"
+      },
+      {
         "name": "Amirhossein Mahmoudi",
         "position": "FWD",
         "age": 19,
@@ -10486,17 +10436,6 @@
         "goals": 0,
         "club": "Persepolis",
         "number": 31,
-        "tier": "core"
-      },
-      {
-        "name": "Dennis Eckert",
-        "position": "FWD",
-        "age": 29,
-        "dob": "1997-01-09",
-        "caps": 0,
-        "goals": 0,
-        "club": "Standard Liège",
-        "number": 24,
         "tier": "core"
       },
       {
@@ -10581,6 +10520,16 @@
         "tier": "extended"
       },
       {
+        "name": "Abolfazl Jalali",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1998-06-26",
+        "caps": 8,
+        "goals": 0,
+        "club": "Esteghlal",
+        "tier": "extended"
+      },
+      {
         "name": "Amin Hazbavi",
         "position": "DEF",
         "age": 22,
@@ -10591,11 +10540,11 @@
         "tier": "extended"
       },
       {
-        "name": "Aref Aghasi",
+        "name": "Saman Fallah",
         "position": "DEF",
-        "age": 29,
-        "dob": "1997-01-02",
-        "caps": 6,
+        "age": 24,
+        "dob": "2001-05-12",
+        "caps": 4,
         "goals": 0,
         "club": "Esteghlal",
         "tier": "extended"
@@ -10608,16 +10557,6 @@
         "caps": 3,
         "goals": 0,
         "club": "Tractor",
-        "tier": "extended"
-      },
-      {
-        "name": "Danial Eiri",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2003-10-26",
-        "caps": 0,
-        "goals": 0,
-        "club": "Malavan",
         "tier": "extended"
       },
       {
@@ -10641,13 +10580,63 @@
         "tier": "extended"
       },
       {
-        "name": "Rouzbeh Cheshmi",
+        "name": "Alireza Jahanbakhsh",
         "position": "MID",
         "age": 32,
-        "dob": "1993-07-24",
-        "caps": 40,
+        "dob": "1993-08-11",
+        "caps": 98,
+        "goals": 17,
+        "club": "Dender",
+        "tier": "extended"
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "position": "MID",
+        "age": 29,
+        "dob": "1996-10-01",
+        "caps": 81,
+        "goals": 1,
+        "club": "Shabab Al-Ahli",
+        "tier": "extended"
+      },
+      {
+        "name": "Saman Ghoddos",
+        "position": "MID",
+        "age": 32,
+        "dob": "1993-09-06",
+        "caps": 67,
         "goals": 3,
-        "club": "Esteghlal",
+        "club": "Kalba",
+        "tier": "extended"
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "position": "MID",
+        "age": 30,
+        "dob": "1996-03-10",
+        "caps": 44,
+        "goals": 7,
+        "club": "Lech Poznań",
+        "tier": "extended"
+      },
+      {
+        "name": "Mohammad Mohebi",
+        "position": "MID",
+        "age": 27,
+        "dob": "1998-12-20",
+        "caps": 35,
+        "goals": 14,
+        "club": "Rostov",
+        "tier": "extended"
+      },
+      {
+        "name": "Mohammad Ghorbani",
+        "position": "MID",
+        "age": 24,
+        "dob": "2001-05-21",
+        "caps": 14,
+        "goals": 0,
+        "club": "Al-Wahda",
         "tier": "extended"
       },
       {
@@ -10668,16 +10657,6 @@
         "caps": 5,
         "goals": 0,
         "club": "Dynamo Makhachkala",
-        "tier": "extended"
-      },
-      {
-        "name": "Mohammad Mehdi Mohebi",
-        "position": "MID",
-        "age": 26,
-        "dob": "2000-02-10",
-        "caps": 4,
-        "goals": 2,
-        "club": "Sepahan",
         "tier": "extended"
       },
       {
@@ -10709,11 +10688,21 @@
         "goals": 0,
         "club": "Gol Gohar",
         "tier": "extended"
+      },
+      {
+        "name": "Mohammad Khodabandelou",
+        "position": "MID",
+        "age": 26,
+        "dob": "1999-09-07",
+        "caps": 1,
+        "goals": 0,
+        "club": "Persepolis",
+        "tier": "extended"
       }
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11143,7 +11132,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11690,7 +11679,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12247,7 +12236,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12760,7 +12749,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13193,7 +13182,7 @@
       {
         "name": "Cucho Hernández",
         "position": "FWD",
-        "age": 26,
+        "age": 27,
         "dob": "1999-04-20",
         "caps": 7,
         "goals": 2,
@@ -13203,7 +13192,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13586,7 +13575,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14109,7 +14098,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14666,7 +14655,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15109,7 +15098,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15694,7 +15683,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16201,7 +16190,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16784,7 +16773,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17369,7 +17358,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17781,7 +17770,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18081,6 +18070,16 @@
         "tier": "core"
       },
       {
+        "name": "Kwame Peprah",
+        "position": "FWD",
+        "age": 25,
+        "dob": "2000-12-16",
+        "caps": 0,
+        "goals": 0,
+        "club": "Preah Khan Reach Svay Rieng F. C.",
+        "tier": "core"
+      },
+      {
         "name": "Alidu Seidu",
         "position": "DEF",
         "age": 25,
@@ -18313,7 +18312,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18893,7 +18892,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19426,7 +19425,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19869,7 +19868,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20240,7 +20239,7 @@
       {
         "name": "Aron Dønnum",
         "position": "MID",
-        "age": 27,
+        "age": 28,
         "dob": "1998-04-20",
         "caps": 18,
         "goals": 2,
@@ -20300,7 +20299,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20857,7 +20856,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-04-19",
+    "lastUpdated": "2026-04-20",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
