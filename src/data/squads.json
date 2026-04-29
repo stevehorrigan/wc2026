@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -693,7 +693,7 @@
       {
         "name": "Danilo Santos",
         "position": "MID",
-        "age": 24,
+        "age": 25,
         "dob": "2001-04-29",
         "caps": 2,
         "goals": 1,
@@ -1113,7 +1113,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1535,7 +1535,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2068,7 +2068,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2521,7 +2521,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3033,7 +3033,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3436,7 +3436,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3848,7 +3848,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4431,21 +4431,10 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
-      {
-        "name": "Guillermo Ochoa",
-        "position": "GK",
-        "age": 40,
-        "dob": "1985-07-13",
-        "caps": 151,
-        "goals": 0,
-        "club": "AEL Limassol",
-        "number": 13,
-        "tier": "core"
-      },
       {
         "name": "Raúl Rangel",
         "position": "GK",
@@ -4454,7 +4443,6 @@
         "caps": 11,
         "goals": 0,
         "club": "Guadalajara",
-        "number": 1,
         "tier": "core"
       },
       {
@@ -4465,7 +4453,16 @@
         "caps": 6,
         "goals": 0,
         "club": "Santos Laguna",
-        "number": 12,
+        "tier": "core"
+      },
+      {
+        "name": "Óscar García",
+        "position": "GK",
+        "age": 22,
+        "dob": "2003-07-02",
+        "caps": 0,
+        "goals": 0,
+        "club": "León",
         "tier": "core"
       },
       {
@@ -4476,40 +4473,6 @@
         "caps": 118,
         "goals": 3,
         "club": "Toluca",
-        "number": 23,
-        "tier": "core"
-      },
-      {
-        "name": "César Montes (vice-captain)",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1997-02-24",
-        "caps": 65,
-        "goals": 4,
-        "club": "Lokomotiv Moscow",
-        "number": 3,
-        "tier": "core"
-      },
-      {
-        "name": "Jorge Sánchez",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-12-10",
-        "caps": 56,
-        "goals": 3,
-        "club": "PAOK",
-        "number": 2,
-        "tier": "core"
-      },
-      {
-        "name": "Johan Vásquez (third captain)",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1998-10-22",
-        "caps": 44,
-        "goals": 1,
-        "club": "Genoa",
-        "number": 5,
         "tier": "core"
       },
       {
@@ -4520,73 +4483,66 @@
         "caps": 31,
         "goals": 2,
         "club": "América",
-        "number": 15,
         "tier": "core"
       },
       {
-        "name": "Jesús Alberto Angulo",
+        "name": "Denzell García",
         "position": "DEF",
-        "age": 28,
-        "dob": "1998-01-30",
-        "caps": 19,
+        "age": 22,
+        "dob": "2003-08-15",
+        "caps": 2,
         "goals": 0,
-        "club": "UANL",
-        "number": 27,
+        "club": "Juárez",
         "tier": "core"
       },
       {
-        "name": "Everardo López",
+        "name": "Eduardo Águila",
         "position": "DEF",
-        "age": 21,
-        "dob": "2005-03-23",
-        "caps": 3,
+        "age": 23,
+        "dob": "2002-05-17",
+        "caps": 1,
         "goals": 0,
-        "club": "Toluca",
-        "number": 21,
+        "club": "Atlético San Luis",
         "tier": "core"
       },
       {
-        "name": "Richard Ledezma",
+        "name": "Alejandro Gómez",
         "position": "DEF",
-        "age": 25,
-        "dob": "2000-09-06",
-        "caps": 3,
-        "goals": 1,
+        "age": 24,
+        "dob": "2002-01-31",
+        "caps": 1,
+        "goals": 0,
+        "club": "Tijuana",
+        "tier": "core"
+      },
+      {
+        "name": "Luis Rey",
+        "position": "DEF",
+        "age": 23,
+        "dob": "2002-09-14",
+        "caps": 0,
+        "goals": 0,
+        "club": "Puebla",
+        "tier": "core"
+      },
+      {
+        "name": "Roberto Alvarado",
+        "position": "MID",
+        "age": 27,
+        "dob": "1998-09-07",
+        "caps": 65,
+        "goals": 5,
         "club": "Guadalajara",
-        "number": 22,
         "tier": "core"
       },
       {
-        "name": "Orbelín Pineda",
+        "name": "Luis Romo",
         "position": "MID",
         "age": 30,
-        "dob": "1996-03-24",
-        "caps": 90,
-        "goals": 12,
-        "club": "AEK Athens",
-        "number": 17,
-        "tier": "core"
-      },
-      {
-        "name": "Carlos Rodríguez",
-        "position": "MID",
-        "age": 29,
-        "dob": "1997-01-03",
-        "caps": 67,
-        "goals": 0,
-        "club": "Cruz Azul",
-        "number": 8,
-        "tier": "core"
-      },
-      {
-        "name": "Érick Sánchez",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-09-27",
-        "caps": 38,
-        "goals": 3,
-        "club": "América",
-        "number": 14,
+        "dob": "1995-06-05",
+        "caps": 60,
+        "goals": 4,
+        "club": "Guadalajara",
         "tier": "core"
       },
       {
@@ -4597,18 +4553,6 @@
         "caps": 22,
         "goals": 0,
         "club": "Cruz Azul",
-        "number": 6,
-        "tier": "core"
-      },
-      {
-        "name": "Obed Vargas",
-        "position": "MID",
-        "age": 20,
-        "dob": "2005-08-05",
-        "caps": 5,
-        "goals": 0,
-        "club": "Atlético Madrid",
-        "number": 18,
         "tier": "core"
       },
       {
@@ -4619,51 +4563,46 @@
         "caps": 5,
         "goals": 1,
         "club": "Guadalajara",
-        "number": 24,
         "tier": "core"
       },
       {
-        "name": "Álvaro Fidalgo",
+        "name": "Gilberto Mora",
         "position": "MID",
-        "age": 29,
-        "dob": "1997-04-09",
+        "age": 17,
+        "dob": "2008-10-14",
+        "caps": 5,
+        "goals": 0,
+        "club": "Tijuana",
+        "tier": "core"
+      },
+      {
+        "name": "Kevin Castañeda",
+        "position": "MID",
+        "age": 26,
+        "dob": "1999-10-28",
         "caps": 2,
         "goals": 0,
-        "club": "Betis",
-        "number": 19,
+        "club": "Tijuana",
         "tier": "core"
       },
       {
-        "name": "Denzell García",
+        "name": "Jairo Torres",
         "position": "MID",
-        "age": 22,
-        "dob": "2003-08-15",
-        "caps": 2,
+        "age": 25,
+        "dob": "2000-07-05",
+        "caps": 1,
         "goals": 0,
         "club": "Juárez",
-        "number": 20,
         "tier": "core"
       },
       {
-        "name": "Raúl Jiménez",
-        "position": "FWD",
-        "age": 34,
-        "dob": "1991-05-05",
-        "caps": 123,
-        "goals": 44,
-        "club": "Fulham",
-        "number": 9,
-        "tier": "core"
-      },
-      {
-        "name": "Roberto Alvarado",
-        "position": "FWD",
-        "age": 27,
-        "dob": "1998-09-07",
-        "caps": 65,
-        "goals": 5,
-        "club": "Guadalajara",
-        "number": 25,
+        "name": "Iker Fimbres",
+        "position": "MID",
+        "age": 20,
+        "dob": "2005-06-02",
+        "caps": 0,
+        "goals": 0,
+        "club": "Monterrey",
         "tier": "core"
       },
       {
@@ -4674,29 +4613,6 @@
         "caps": 49,
         "goals": 7,
         "club": "Toluca",
-        "number": 10,
-        "tier": "core"
-      },
-      {
-        "name": "Julián Quiñones",
-        "position": "FWD",
-        "age": 29,
-        "dob": "1997-03-24",
-        "caps": 20,
-        "goals": 2,
-        "club": "Al-Qadsiah",
-        "number": 16,
-        "tier": "core"
-      },
-      {
-        "name": "Germán Berterame",
-        "position": "FWD",
-        "age": 27,
-        "dob": "1998-11-13",
-        "caps": 9,
-        "goals": 2,
-        "club": "Inter Miami",
-        "number": 7,
         "tier": "core"
       },
       {
@@ -4707,7 +4623,6 @@
         "caps": 9,
         "goals": 2,
         "club": "UNAM",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -4718,8 +4633,17 @@
         "caps": 6,
         "goals": 1,
         "club": "Guadalajara",
-        "number": 26,
         "tier": "core"
+      },
+      {
+        "name": "Guillermo Ochoa",
+        "position": "GK",
+        "age": 40,
+        "dob": "1985-07-13",
+        "caps": 151,
+        "goals": 0,
+        "club": "AEL Limassol",
+        "tier": "extended"
       },
       {
         "name": "Luis Malagón",
@@ -4782,6 +4706,36 @@
         "tier": "extended"
       },
       {
+        "name": "César Montes (vice-captain)",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1997-02-24",
+        "caps": 65,
+        "goals": 4,
+        "club": "Lokomotiv Moscow",
+        "tier": "extended"
+      },
+      {
+        "name": "Jorge Sánchez",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1997-12-10",
+        "caps": 56,
+        "goals": 3,
+        "club": "PAOK",
+        "tier": "extended"
+      },
+      {
+        "name": "Johan Vásquez (third captain)",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1998-10-22",
+        "caps": 44,
+        "goals": 1,
+        "club": "Genoa",
+        "tier": "extended"
+      },
+      {
         "name": "Gerardo Arteaga",
         "position": "DEF",
         "age": 27,
@@ -4789,6 +4743,16 @@
         "caps": 27,
         "goals": 2,
         "club": "Monterrey",
+        "tier": "extended"
+      },
+      {
+        "name": "Jesús Alberto Angulo",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1998-01-30",
+        "caps": 19,
+        "goals": 0,
+        "club": "UANL",
         "tier": "extended"
       },
       {
@@ -4849,6 +4813,26 @@
         "caps": 6,
         "goals": 0,
         "club": "Monterrey",
+        "tier": "extended"
+      },
+      {
+        "name": "Richard Ledezma",
+        "position": "DEF",
+        "age": 25,
+        "dob": "2000-09-06",
+        "caps": 3,
+        "goals": 1,
+        "club": "Guadalajara",
+        "tier": "extended"
+      },
+      {
+        "name": "Everardo López",
+        "position": "DEF",
+        "age": 21,
+        "dob": "2005-03-23",
+        "caps": 3,
+        "goals": 0,
+        "club": "Toluca",
         "tier": "extended"
       },
       {
@@ -4922,16 +4906,6 @@
         "tier": "extended"
       },
       {
-        "name": "Eduardo Águila",
-        "position": "DEF",
-        "age": 23,
-        "dob": "2002-05-17",
-        "caps": 1,
-        "goals": 0,
-        "club": "Atlético San Luis",
-        "tier": "extended"
-      },
-      {
         "name": "Juanjo Purata",
         "position": "DEF",
         "age": 28,
@@ -4939,16 +4913,6 @@
         "caps": 1,
         "goals": 0,
         "club": "UANL",
-        "tier": "extended"
-      },
-      {
-        "name": "Alejandro Gómez",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2002-01-31",
-        "caps": 1,
-        "goals": 0,
-        "club": "Tijuana",
         "tier": "extended"
       },
       {
@@ -4992,13 +4956,23 @@
         "tier": "extended"
       },
       {
-        "name": "Luis Romo",
+        "name": "Orbelín Pineda",
         "position": "MID",
         "age": 30,
-        "dob": "1995-06-05",
-        "caps": 60,
-        "goals": 4,
-        "club": "Guadalajara",
+        "dob": "1996-03-24",
+        "caps": 90,
+        "goals": 12,
+        "club": "AEK Athens",
+        "tier": "extended"
+      },
+      {
+        "name": "Carlos Rodríguez",
+        "position": "MID",
+        "age": 29,
+        "dob": "1997-01-03",
+        "caps": 67,
+        "goals": 0,
+        "club": "Cruz Azul",
         "tier": "extended"
       },
       {
@@ -5014,7 +4988,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5457,7 +5431,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5897,7 +5871,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6369,7 +6343,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6952,7 +6926,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7351,7 +7325,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7794,7 +7768,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8374,7 +8348,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8956,7 +8930,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9539,7 +9513,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10122,7 +10096,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10702,7 +10676,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11132,7 +11106,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11679,7 +11653,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12236,7 +12210,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12749,7 +12723,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13192,7 +13166,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13575,7 +13549,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14098,7 +14072,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14655,7 +14629,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15098,7 +15072,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15683,7 +15657,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -15980,7 +15954,7 @@
       {
         "name": "Christopher Opéri",
         "position": "DEF",
-        "age": 28,
+        "age": 29,
         "dob": "1997-04-29",
         "caps": 11,
         "goals": 0,
@@ -16190,7 +16164,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16773,7 +16747,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17358,7 +17332,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17770,7 +17744,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18302,7 +18276,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18882,7 +18856,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19415,7 +19389,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19858,7 +19832,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20289,7 +20263,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20792,7 +20766,7 @@
       {
         "name": "Elias Benkara",
         "position": "DEF",
-        "age": 18,
+        "age": 19,
         "dob": "2007-04-29",
         "caps": 0,
         "goals": 0,
@@ -20872,7 +20846,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
