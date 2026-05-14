@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -312,7 +312,7 @@
       {
         "name": "Aaron Ramsdale",
         "position": "GK",
-        "age": 27,
+        "age": 28,
         "dob": "1998-05-14",
         "caps": 5,
         "goals": 0,
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -609,7 +609,7 @@
       {
         "name": "Marquinhos",
         "position": "DEF",
-        "age": 31,
+        "age": 32,
         "dob": "1994-05-14",
         "caps": 104,
         "goals": 7,
@@ -1089,7 +1089,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1511,7 +1511,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2068,7 +2068,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2521,7 +2521,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3033,7 +3033,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3346,7 +3346,7 @@
       {
         "name": "Rúben Dias",
         "position": "DEF",
-        "age": 28,
+        "age": 29,
         "dob": "1997-05-14",
         "caps": 74,
         "goals": 3,
@@ -3436,7 +3436,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3848,7 +3848,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4241,7 +4241,7 @@
       {
         "name": "Kristoffer Lund",
         "position": "DEF",
-        "age": 23,
+        "age": 24,
         "dob": "2002-05-14",
         "caps": 7,
         "goals": 0,
@@ -4431,7 +4431,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4988,7 +4988,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5431,7 +5431,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5871,12 +5871,12 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
       {
-        "name": "Gatito Fernández",
+        "name": "Roberto Fernández",
         "position": "GK",
         "age": 38,
         "dob": "1988-03-29",
@@ -6126,7 +6126,7 @@
         "tier": "core"
       },
       {
-        "name": "Kaku",
+        "name": "Alejandro Romero Gamarra",
         "position": "MID",
         "age": 31,
         "dob": "1995-01-11",
@@ -6428,7 +6428,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7011,7 +7011,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7410,7 +7410,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7602,7 +7602,7 @@
       {
         "name": "Alan Minda",
         "position": "MID",
-        "age": 22,
+        "age": 23,
         "dob": "2003-05-14",
         "caps": 19,
         "goals": 2,
@@ -7853,7 +7853,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8433,7 +8433,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -9015,7 +9015,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9598,7 +9598,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10181,7 +10181,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10276,7 +10276,7 @@
       {
         "name": "Shojae Khalilzadeh",
         "position": "DEF",
-        "age": 36,
+        "age": 37,
         "dob": "1989-05-14",
         "caps": 56,
         "goals": 2,
@@ -10767,7 +10767,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -10805,6 +10805,28 @@
         "tier": "core"
       },
       {
+        "name": "Michael Boxall",
+        "position": "DEF",
+        "age": 37,
+        "dob": "1988-08-18",
+        "caps": 61,
+        "goals": 1,
+        "club": "Minnesota United",
+        "number": 5,
+        "tier": "core"
+      },
+      {
+        "name": "Tommy Smith",
+        "position": "DEF",
+        "age": 36,
+        "dob": "1990-03-31",
+        "caps": 56,
+        "goals": 2,
+        "club": "Braintree Town",
+        "number": 26,
+        "tier": "core"
+      },
+      {
         "name": "Tim Payne",
         "position": "DEF",
         "age": 32,
@@ -10816,14 +10838,14 @@
         "tier": "core"
       },
       {
-        "name": "Bill Tuiloma",
+        "name": "Liberato Cacace",
         "position": "DEF",
-        "age": 31,
-        "dob": "1995-03-27",
-        "caps": 47,
-        "goals": 4,
-        "club": "Wellington Phoenix",
-        "number": 21,
+        "age": 25,
+        "dob": "2000-09-27",
+        "caps": 35,
+        "goals": 1,
+        "club": "Wrexham",
+        "number": 13,
         "tier": "core"
       },
       {
@@ -10835,6 +10857,17 @@
         "goals": 3,
         "club": "Sheffield United",
         "number": 4,
+        "tier": "core"
+      },
+      {
+        "name": "Nando Pijnaker",
+        "position": "DEF",
+        "age": 27,
+        "dob": "1999-02-25",
+        "caps": 23,
+        "goals": 0,
+        "club": "Auckland FC",
+        "number": 15,
         "tier": "core"
       },
       {
@@ -10871,17 +10904,6 @@
         "tier": "core"
       },
       {
-        "name": "James McGarry",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1998-04-09",
-        "caps": 7,
-        "goals": 0,
-        "club": "Brisbane Roar",
-        "number": 15,
-        "tier": "core"
-      },
-      {
         "name": "Elijah Just",
         "position": "MID",
         "age": 26,
@@ -10904,6 +10926,17 @@
         "tier": "core"
       },
       {
+        "name": "Matthew Garbett",
+        "position": "MID",
+        "age": 24,
+        "dob": "2002-04-13",
+        "caps": 35,
+        "goals": 5,
+        "club": "Peterborough United",
+        "number": 7,
+        "tier": "core"
+      },
+      {
         "name": "Joe Bell",
         "position": "MID",
         "age": 27,
@@ -10923,6 +10956,17 @@
         "goals": 4,
         "club": "Silkeborg",
         "number": 20,
+        "tier": "core"
+      },
+      {
+        "name": "Sarpreet Singh",
+        "position": "MID",
+        "age": 27,
+        "dob": "1999-02-20",
+        "caps": 26,
+        "goals": 3,
+        "club": "Wellington Phoenix",
+        "number": 10,
         "tier": "core"
       },
       {
@@ -10966,7 +11010,18 @@
         "caps": 2,
         "goals": 0,
         "club": "Newcastle Jets",
-        "number": 10,
+        "number": 25,
+        "tier": "core"
+      },
+      {
+        "name": "Chris Wood (captain)",
+        "position": "FWD",
+        "age": 34,
+        "dob": "1991-12-07",
+        "caps": 88,
+        "goals": 45,
+        "club": "Nottingham Forest",
+        "number": 9,
         "tier": "core"
       },
       {
@@ -10992,28 +11047,6 @@
         "tier": "core"
       },
       {
-        "name": "Logan Rogerson",
-        "position": "FWD",
-        "age": 27,
-        "dob": "1998-05-28",
-        "caps": 18,
-        "goals": 2,
-        "club": "Auckland FC",
-        "number": 7,
-        "tier": "core"
-      },
-      {
-        "name": "Andre de Jong",
-        "position": "FWD",
-        "age": 29,
-        "dob": "1996-11-02",
-        "caps": 13,
-        "goals": 2,
-        "club": "Orlando Pirates",
-        "number": 25,
-        "tier": "core"
-      },
-      {
         "name": "Jesse Randall",
         "position": "FWD",
         "age": 23,
@@ -11021,7 +11054,7 @@
         "caps": 9,
         "goals": 2,
         "club": "Auckland FC",
-        "number": 9,
+        "number": 21,
         "tier": "core"
       },
       {
@@ -11065,43 +11098,13 @@
         "tier": "extended"
       },
       {
-        "name": "Michael Boxall",
+        "name": "Bill Tuiloma",
         "position": "DEF",
-        "age": 37,
-        "dob": "1988-08-18",
-        "caps": 61,
-        "goals": 1,
-        "club": "Minnesota United",
-        "tier": "extended"
-      },
-      {
-        "name": "Tommy Smith",
-        "position": "DEF",
-        "age": 36,
-        "dob": "1990-03-31",
-        "caps": 56,
-        "goals": 2,
-        "club": "Braintree Town",
-        "tier": "extended"
-      },
-      {
-        "name": "Liberato Cacace",
-        "position": "DEF",
-        "age": 25,
-        "dob": "2000-09-27",
-        "caps": 35,
-        "goals": 1,
-        "club": "Wrexham",
-        "tier": "extended"
-      },
-      {
-        "name": "Nando Pijnaker",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1999-02-25",
-        "caps": 23,
-        "goals": 0,
-        "club": "Auckland FC",
+        "age": 31,
+        "dob": "1995-03-27",
+        "caps": 47,
+        "goals": 4,
+        "club": "Wellington Phoenix",
         "tier": "extended"
       },
       {
@@ -11112,6 +11115,16 @@
         "caps": 18,
         "goals": 0,
         "club": "Central Coast Mariners",
+        "tier": "extended"
+      },
+      {
+        "name": "James McGarry",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1998-04-09",
+        "caps": 7,
+        "goals": 0,
+        "club": "Brisbane Roar",
         "tier": "extended"
       },
       {
@@ -11145,26 +11158,6 @@
         "tier": "extended"
       },
       {
-        "name": "Matthew Garbett",
-        "position": "MID",
-        "age": 24,
-        "dob": "2002-04-13",
-        "caps": 35,
-        "goals": 5,
-        "club": "Peterborough United",
-        "tier": "extended"
-      },
-      {
-        "name": "Sarpreet Singh",
-        "position": "MID",
-        "age": 27,
-        "dob": "1999-02-20",
-        "caps": 26,
-        "goals": 3,
-        "club": "Wellington Phoenix",
-        "tier": "extended"
-      },
-      {
         "name": "Owen Parker-Price",
         "position": "MID",
         "age": 27,
@@ -11175,13 +11168,23 @@
         "tier": "extended"
       },
       {
-        "name": "Chris Wood (captain)",
+        "name": "Logan Rogerson",
         "position": "FWD",
-        "age": 34,
-        "dob": "1991-12-07",
-        "caps": 88,
-        "goals": 45,
-        "club": "Nottingham Forest",
+        "age": 27,
+        "dob": "1998-05-28",
+        "caps": 18,
+        "goals": 2,
+        "club": "Auckland FC",
+        "tier": "extended"
+      },
+      {
+        "name": "Andre de Jong",
+        "position": "FWD",
+        "age": 29,
+        "dob": "1996-11-02",
+        "caps": 13,
+        "goals": 2,
+        "club": "Orlando Pirates",
         "tier": "extended"
       },
       {
@@ -11197,7 +11200,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11744,7 +11747,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -11911,7 +11914,7 @@
       {
         "name": "Ayman Yahya",
         "position": "MID",
-        "age": 24,
+        "age": 25,
         "dob": "2001-05-14",
         "caps": 25,
         "goals": 0,
@@ -12021,7 +12024,7 @@
       {
         "name": "Firas Al-Buraikan",
         "position": "FWD",
-        "age": 25,
+        "age": 26,
         "dob": "2000-05-14",
         "caps": 68,
         "goals": 15,
@@ -12301,7 +12304,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12838,7 +12841,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13281,7 +13284,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13464,7 +13467,7 @@
       {
         "name": "Kristijan Jakić",
         "position": "MID",
-        "age": 28,
+        "age": 29,
         "dob": "1997-05-14",
         "caps": 16,
         "goals": 2,
@@ -13664,7 +13667,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14187,7 +14190,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14744,7 +14747,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15187,7 +15190,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15772,7 +15775,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16279,7 +16282,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16802,7 +16805,7 @@
       {
         "name": "Kōta Tawaratsumida",
         "position": "MID",
-        "age": 21,
+        "age": 22,
         "dob": "2004-05-14",
         "caps": 3,
         "goals": 0,
@@ -16862,7 +16865,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17447,7 +17450,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17844,7 +17847,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18401,7 +18404,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18981,7 +18984,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19374,7 +19377,7 @@
       {
         "name": "Brian Barboza",
         "position": "DEF",
-        "age": 17,
+        "age": 18,
         "dob": "2008-05-14",
         "caps": 0,
         "goals": 0,
@@ -19514,7 +19517,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19957,7 +19960,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20388,7 +20391,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20971,7 +20974,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-05-13",
+    "lastUpdated": "2026-05-14",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
@@ -21033,7 +21036,7 @@
       {
         "name": "Stefan Posch",
         "position": "DEF",
-        "age": 28,
+        "age": 29,
         "dob": "1997-05-14",
         "caps": 51,
         "goals": 5,
