@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -532,7 +532,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1089,7 +1089,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1496,7 +1496,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2053,7 +2053,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2506,7 +2506,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3018,7 +3018,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3421,7 +3421,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3833,7 +3833,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4416,7 +4416,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4973,7 +4973,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5346,7 +5346,7 @@
       {
         "name": "Josh Doig",
         "position": "DEF",
-        "age": 23,
+        "age": 24,
         "dob": "2002-05-18",
         "caps": 1,
         "goals": 0,
@@ -5416,7 +5416,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5853,7 +5853,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6410,7 +6410,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6527,7 +6527,7 @@
       {
         "name": "Kai Trewin",
         "position": "DEF",
-        "age": 24,
+        "age": 25,
         "dob": "2001-05-18",
         "caps": 4,
         "goals": 0,
@@ -6993,7 +6993,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7271,7 +7271,7 @@
       {
         "name": "Sontje Hansen",
         "position": "FWD",
-        "age": 23,
+        "age": 24,
         "dob": "2002-05-18",
         "caps": 5,
         "goals": 1,
@@ -7392,7 +7392,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7835,7 +7835,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8415,7 +8415,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8427,7 +8427,6 @@
         "caps": 85,
         "goals": 0,
         "club": "FC Tokyo",
-        "number": 1,
         "tier": "core"
       },
       {
@@ -8438,7 +8437,6 @@
         "caps": 47,
         "goals": 0,
         "club": "Ulsan HD",
-        "number": 12,
         "tier": "core"
       },
       {
@@ -8449,7 +8447,6 @@
         "caps": 2,
         "goals": 0,
         "club": "Jeonbuk Hyundai Motors",
-        "number": 21,
         "tier": "core"
       },
       {
@@ -8460,7 +8457,6 @@
         "caps": 77,
         "goals": 4,
         "club": "Bayern Munich",
-        "number": 3,
         "tier": "core"
       },
       {
@@ -8471,7 +8467,6 @@
         "caps": 34,
         "goals": 0,
         "club": "Daejeon Hana Citizen",
-        "number": 15,
         "tier": "core"
       },
       {
@@ -8482,7 +8477,6 @@
         "caps": 32,
         "goals": 0,
         "club": "Red Star Belgrade",
-        "number": 22,
         "tier": "core"
       },
       {
@@ -8493,7 +8487,6 @@
         "caps": 18,
         "goals": 0,
         "club": "Sharjah",
-        "number": 4,
         "tier": "core"
       },
       {
@@ -8504,7 +8497,6 @@
         "caps": 14,
         "goals": 1,
         "club": "Austria Wien",
-        "number": 13,
         "tier": "core"
       },
       {
@@ -8515,7 +8507,6 @@
         "caps": 12,
         "goals": 1,
         "club": "Zhejiang FC",
-        "number": 16,
         "tier": "core"
       },
       {
@@ -8526,7 +8517,6 @@
         "caps": 7,
         "goals": 0,
         "club": "Kashima Antlers",
-        "number": 5,
         "tier": "core"
       },
       {
@@ -8537,7 +8527,6 @@
         "caps": 6,
         "goals": 0,
         "club": "Midtjylland",
-        "number": 23,
         "tier": "core"
       },
       {
@@ -8548,7 +8537,6 @@
         "caps": 5,
         "goals": 0,
         "club": "Borussia Mönchengladbach",
-        "number": 2,
         "tier": "core"
       },
       {
@@ -8559,7 +8547,6 @@
         "caps": 1,
         "goals": 0,
         "club": "Gangwon FC",
-        "number": 14,
         "tier": "core"
       },
       {
@@ -8570,7 +8557,6 @@
         "caps": 103,
         "goals": 15,
         "club": "Mainz 05",
-        "number": 10,
         "tier": "core"
       },
       {
@@ -8581,7 +8567,6 @@
         "caps": 77,
         "goals": 16,
         "club": "Wolverhampton Wanderers",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -8592,7 +8577,6 @@
         "caps": 71,
         "goals": 6,
         "club": "Feyenoord",
-        "number": 6,
         "tier": "core"
       },
       {
@@ -8603,7 +8587,6 @@
         "caps": 46,
         "goals": 11,
         "club": "Paris Saint-Germain",
-        "number": 19,
         "tier": "core"
       },
       {
@@ -8614,7 +8597,6 @@
         "caps": 25,
         "goals": 3,
         "club": "Birmingham City",
-        "number": 8,
         "tier": "core"
       },
       {
@@ -8625,7 +8607,6 @@
         "caps": 20,
         "goals": 3,
         "club": "Jeonbuk Hyundai Motors",
-        "number": 24,
         "tier": "core"
       },
       {
@@ -8636,7 +8617,6 @@
         "caps": 16,
         "goals": 3,
         "club": "Ulsan HD",
-        "number": 25,
         "tier": "core"
       },
       {
@@ -8647,7 +8627,6 @@
         "caps": 12,
         "goals": 2,
         "club": "Stoke City",
-        "number": 17,
         "tier": "core"
       },
       {
@@ -8658,7 +8637,6 @@
         "caps": 8,
         "goals": 2,
         "club": "Swansea City",
-        "number": 18,
         "tier": "core"
       },
       {
@@ -8669,7 +8647,6 @@
         "caps": 8,
         "goals": 0,
         "club": "Celtic",
-        "number": 26,
         "tier": "core"
       },
       {
@@ -8680,7 +8657,6 @@
         "caps": 142,
         "goals": 54,
         "club": "Los Angeles FC",
-        "number": 7,
         "tier": "core"
       },
       {
@@ -8691,7 +8667,6 @@
         "caps": 42,
         "goals": 10,
         "club": "Midtjylland",
-        "number": 9,
         "tier": "core"
       },
       {
@@ -8702,7 +8677,6 @@
         "caps": 26,
         "goals": 6,
         "club": "Beşiktaş",
-        "number": 20,
         "tier": "core"
       },
       {
@@ -8998,7 +8972,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9581,7 +9555,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10164,7 +10138,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10742,7 +10716,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11175,7 +11149,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11722,7 +11696,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12279,7 +12253,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12816,7 +12790,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -12853,7 +12827,7 @@
       {
         "name": "Kevin Mier",
         "position": "GK",
-        "age": 25,
+        "age": 26,
         "dob": "2000-05-18",
         "caps": 3,
         "goals": 0,
@@ -13373,7 +13347,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13756,7 +13730,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -13768,7 +13742,6 @@
         "caps": 74,
         "goals": 0,
         "club": "Al-Hussein",
-        "number": 1,
         "tier": "core"
       },
       {
@@ -13779,271 +13752,6 @@
         "caps": 11,
         "goals": 0,
         "club": "Al-Wehdat",
-        "number": 22,
-        "tier": "core"
-      },
-      {
-        "name": "Abdel Rahman Al-Talalga",
-        "position": "GK",
-        "age": 23,
-        "dob": "2003-04-12",
-        "caps": 0,
-        "goals": 0,
-        "club": "Al-Faisaly",
-        "number": 12,
-        "tier": "core"
-      },
-      {
-        "name": "Yazan Al-Arab",
-        "position": "DEF",
-        "age": 30,
-        "dob": "1996-01-31",
-        "caps": 78,
-        "goals": 3,
-        "club": "FC Seoul",
-        "number": 5,
-        "tier": "core"
-      },
-      {
-        "name": "Abdallah Nasib",
-        "position": "DEF",
-        "age": 32,
-        "dob": "1994-02-25",
-        "caps": 64,
-        "goals": 3,
-        "club": "Al-Zawraa",
-        "number": 3,
-        "tier": "core"
-      },
-      {
-        "name": "Husam Abu Dahab",
-        "position": "DEF",
-        "age": 26,
-        "dob": "2000-05-13",
-        "caps": 16,
-        "goals": 0,
-        "club": "Al-Faisaly",
-        "number": 4,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Abualnadi",
-        "position": "DEF",
-        "age": 25,
-        "dob": "2001-02-08",
-        "caps": 16,
-        "goals": 0,
-        "club": "Selangor",
-        "number": 16,
-        "tier": "core"
-      },
-      {
-        "name": "Yousef Abu Al-Jazar",
-        "position": "DEF",
-        "age": 26,
-        "dob": "1999-10-25",
-        "caps": 15,
-        "goals": 0,
-        "club": "Al-Hussein",
-        "number": 6,
-        "tier": "core"
-      },
-      {
-        "name": "Salim Obaid",
-        "position": "DEF",
-        "age": 34,
-        "dob": "1992-01-17",
-        "caps": 9,
-        "goals": 0,
-        "club": "Al-Hussein",
-        "number": 19,
-        "tier": "core"
-      },
-      {
-        "name": "Ahmad Assaf",
-        "position": "DEF",
-        "age": 26,
-        "dob": "1999-07-21",
-        "caps": 6,
-        "goals": 0,
-        "club": "Al-Hussein",
-        "number": 17,
-        "tier": "core"
-      },
-      {
-        "name": "Noor Al-Rawabdeh",
-        "position": "MID",
-        "age": 29,
-        "dob": "1997-02-24",
-        "caps": 66,
-        "goals": 3,
-        "club": "Selangor",
-        "number": 8,
-        "tier": "core"
-      },
-      {
-        "name": "Ibrahim Sa'deh",
-        "position": "MID",
-        "age": 26,
-        "dob": "2000-04-27",
-        "caps": 55,
-        "goals": 3,
-        "club": "Al-Karma",
-        "number": 15,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Abu Hashish",
-        "position": "MID",
-        "age": 31,
-        "dob": "1995-05-09",
-        "caps": 54,
-        "goals": 1,
-        "club": "Al-Karma",
-        "number": 2,
-        "tier": "core"
-      },
-      {
-        "name": "Nizar Al-Rashdan",
-        "position": "MID",
-        "age": 27,
-        "dob": "1999-03-23",
-        "caps": 45,
-        "goals": 4,
-        "club": "Qatar SC",
-        "number": 21,
-        "tier": "core"
-      },
-      {
-        "name": "Mohannad Abu Taha",
-        "position": "MID",
-        "age": 23,
-        "dob": "2003-02-02",
-        "caps": 27,
-        "goals": 1,
-        "club": "Al-Quwa Al-Jawiya",
-        "number": 20,
-        "tier": "core"
-      },
-      {
-        "name": "Amer Jamous",
-        "position": "MID",
-        "age": 23,
-        "dob": "2002-07-03",
-        "caps": 18,
-        "goals": 1,
-        "club": "Al-Zawraa",
-        "number": 23,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Al-Dawoud",
-        "position": "MID",
-        "age": 33,
-        "dob": "1992-12-04",
-        "caps": 11,
-        "goals": 1,
-        "club": "Al-Wehdat",
-        "number": 25,
-        "tier": "core"
-      },
-      {
-        "name": "Yousef Qashi",
-        "position": "MID",
-        "age": 21,
-        "dob": "2005-04-15",
-        "caps": 0,
-        "goals": 0,
-        "club": "Al-Hussein",
-        "number": 26,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Taha",
-        "position": "MID",
-        "age": 20,
-        "dob": "2005-07-13",
-        "caps": 0,
-        "goals": 0,
-        "club": "Al-Hussein",
-        "number": 14,
-        "tier": "core"
-      },
-      {
-        "name": "Musa Al-Taamari (captain)",
-        "position": "FWD",
-        "age": 28,
-        "dob": "1997-06-10",
-        "caps": 90,
-        "goals": 24,
-        "club": "Rennes",
-        "number": 10,
-        "tier": "core"
-      },
-      {
-        "name": "Mahmoud Al-Mardi",
-        "position": "FWD",
-        "age": 32,
-        "dob": "1993-10-06",
-        "caps": 87,
-        "goals": 9,
-        "club": "Al-Hussein",
-        "number": 13,
-        "tier": "core"
-      },
-      {
-        "name": "Baha' Faisal",
-        "position": "FWD",
-        "age": 30,
-        "dob": "1995-05-30",
-        "caps": 57,
-        "goals": 18,
-        "club": "Al-Waab",
-        "number": 9,
-        "tier": "core"
-      },
-      {
-        "name": "Mohammad Abu Zrayq",
-        "position": "FWD",
-        "age": 28,
-        "dob": "1997-12-30",
-        "caps": 39,
-        "goals": 5,
-        "club": "Raja Casablanca",
-        "number": 7,
-        "tier": "core"
-      },
-      {
-        "name": "Ibrahim Sabra",
-        "position": "FWD",
-        "age": 20,
-        "dob": "2006-02-01",
-        "caps": 9,
-        "goals": 1,
-        "club": "Lokomotiva Zagreb",
-        "number": 18,
-        "tier": "core"
-      },
-      {
-        "name": "Odeh Al-Fakhouri",
-        "position": "FWD",
-        "age": 20,
-        "dob": "2005-11-22",
-        "caps": 8,
-        "goals": 0,
-        "club": "Pyramids",
-        "number": 11,
-        "tier": "core"
-      },
-      {
-        "name": "Ali Azaizeh",
-        "position": "FWD",
-        "age": 22,
-        "dob": "2004-04-13",
-        "caps": 2,
-        "goals": 0,
-        "club": "Al-Shabab",
-        "number": 24,
         "tier": "core"
       },
       {
@@ -14054,7 +13762,287 @@
         "caps": 4,
         "goals": 0,
         "club": "Al-Faisaly",
-        "tier": "extended"
+        "tier": "core"
+      },
+      {
+        "name": "Ahmad Al-Juaidi",
+        "position": "GK",
+        "age": 25,
+        "dob": "2001-04-09",
+        "caps": 0,
+        "goals": 0,
+        "club": "Shabab Al-Ordon",
+        "tier": "core"
+      },
+      {
+        "name": "Ihsan Haddad",
+        "position": "DEF",
+        "age": 32,
+        "dob": "1994-02-05",
+        "caps": 90,
+        "goals": 2,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Yazan Al-Arab",
+        "position": "DEF",
+        "age": 30,
+        "dob": "1996-01-31",
+        "caps": 78,
+        "goals": 3,
+        "club": "FC Seoul",
+        "tier": "core"
+      },
+      {
+        "name": "Abdallah Nasib",
+        "position": "DEF",
+        "age": 32,
+        "dob": "1994-02-25",
+        "caps": 64,
+        "goals": 3,
+        "club": "Al-Zawraa",
+        "tier": "core"
+      },
+      {
+        "name": "Saed Al-Rosan",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1997-02-01",
+        "caps": 19,
+        "goals": 2,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Husam Abu Dahab",
+        "position": "DEF",
+        "age": 26,
+        "dob": "2000-05-13",
+        "caps": 16,
+        "goals": 0,
+        "club": "Al-Faisaly",
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Abualnadi",
+        "position": "DEF",
+        "age": 25,
+        "dob": "2001-02-08",
+        "caps": 16,
+        "goals": 0,
+        "club": "Selangor",
+        "tier": "core"
+      },
+      {
+        "name": "Yousef Abu Al-Jazar",
+        "position": "DEF",
+        "age": 26,
+        "dob": "1999-10-25",
+        "caps": 15,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Salim Obaid",
+        "position": "DEF",
+        "age": 34,
+        "dob": "1992-01-17",
+        "caps": 9,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Ahmad Assaf",
+        "position": "DEF",
+        "age": 26,
+        "dob": "1999-07-21",
+        "caps": 6,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Anas Badawi",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1997-09-13",
+        "caps": 0,
+        "goals": 0,
+        "club": "Al-Faisaly",
+        "tier": "core"
+      },
+      {
+        "name": "Rajaei Ayed",
+        "position": "MID",
+        "age": 32,
+        "dob": "1993-07-25",
+        "caps": 72,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Noor Al-Rawabdeh",
+        "position": "MID",
+        "age": 29,
+        "dob": "1997-02-24",
+        "caps": 66,
+        "goals": 3,
+        "club": "Selangor",
+        "tier": "core"
+      },
+      {
+        "name": "Ibrahim Sa'deh",
+        "position": "MID",
+        "age": 26,
+        "dob": "2000-04-27",
+        "caps": 55,
+        "goals": 3,
+        "club": "Al-Karma",
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Abu Hashish",
+        "position": "MID",
+        "age": 31,
+        "dob": "1995-05-09",
+        "caps": 54,
+        "goals": 1,
+        "club": "Al-Karma",
+        "tier": "core"
+      },
+      {
+        "name": "Nizar Al-Rashdan",
+        "position": "MID",
+        "age": 27,
+        "dob": "1999-03-23",
+        "caps": 45,
+        "goals": 4,
+        "club": "Qatar SC",
+        "tier": "core"
+      },
+      {
+        "name": "Mohannad Abu Taha",
+        "position": "MID",
+        "age": 23,
+        "dob": "2003-02-02",
+        "caps": 27,
+        "goals": 1,
+        "club": "Al-Quwa Al-Jawiya",
+        "tier": "core"
+      },
+      {
+        "name": "Amer Jamous",
+        "position": "MID",
+        "age": 23,
+        "dob": "2002-07-03",
+        "caps": 18,
+        "goals": 1,
+        "club": "Al-Zawraa",
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Al-Dawoud",
+        "position": "MID",
+        "age": 33,
+        "dob": "1992-12-04",
+        "caps": 11,
+        "goals": 1,
+        "club": "Al-Wehdat",
+        "tier": "core"
+      },
+      {
+        "name": "Yousef Qashi",
+        "position": "MID",
+        "age": 21,
+        "dob": "2005-04-15",
+        "caps": 0,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Taha",
+        "position": "MID",
+        "age": 20,
+        "dob": "2005-07-13",
+        "caps": 0,
+        "goals": 0,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Musa Al-Taamari (captain)",
+        "position": "FWD",
+        "age": 28,
+        "dob": "1997-06-10",
+        "caps": 90,
+        "goals": 24,
+        "club": "Rennes",
+        "tier": "core"
+      },
+      {
+        "name": "Mahmoud Al-Mardi",
+        "position": "FWD",
+        "age": 32,
+        "dob": "1993-10-06",
+        "caps": 87,
+        "goals": 9,
+        "club": "Al-Hussein",
+        "tier": "core"
+      },
+      {
+        "name": "Ali Olwan",
+        "position": "FWD",
+        "age": 26,
+        "dob": "2000-03-26",
+        "caps": 64,
+        "goals": 29,
+        "club": "Al-Sailiya",
+        "tier": "core"
+      },
+      {
+        "name": "Mohammad Abu Zrayq",
+        "position": "FWD",
+        "age": 28,
+        "dob": "1997-12-30",
+        "caps": 39,
+        "goals": 5,
+        "club": "Raja Casablanca",
+        "tier": "core"
+      },
+      {
+        "name": "Ibrahim Sabra",
+        "position": "FWD",
+        "age": 20,
+        "dob": "2006-02-01",
+        "caps": 9,
+        "goals": 1,
+        "club": "Lokomotiva Zagreb",
+        "tier": "core"
+      },
+      {
+        "name": "Odeh Al-Fakhouri",
+        "position": "FWD",
+        "age": 20,
+        "dob": "2005-11-22",
+        "caps": 8,
+        "goals": 0,
+        "club": "Pyramids",
+        "tier": "core"
+      },
+      {
+        "name": "Ali Azaizeh",
+        "position": "FWD",
+        "age": 22,
+        "dob": "2004-04-13",
+        "caps": 2,
+        "goals": 0,
+        "club": "Al-Shabab",
+        "tier": "core"
       },
       {
         "name": "Mohammad Al-Emwasi",
@@ -14077,13 +14065,13 @@
         "tier": "extended"
       },
       {
-        "name": "Ihsan Haddad (captain)",
-        "position": "DEF",
-        "age": 32,
-        "dob": "1994-02-05",
-        "caps": 90,
-        "goals": 2,
-        "club": "Al-Hussein",
+        "name": "Abdel Rahman Al-Talalga",
+        "position": "GK",
+        "age": 23,
+        "dob": "2003-04-12",
+        "caps": 0,
+        "goals": 0,
+        "club": "Al-Faisaly",
         "tier": "extended"
       },
       {
@@ -14094,16 +14082,6 @@
         "caps": 20,
         "goals": 2,
         "club": "Al-Faisaly",
-        "tier": "extended"
-      },
-      {
-        "name": "Saed Al-Rosan",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1997-02-01",
-        "caps": 19,
-        "goals": 2,
-        "club": "Al-Hussein",
         "tier": "extended"
       },
       {
@@ -14134,26 +14112,6 @@
         "caps": 0,
         "goals": 0,
         "club": "Al-Ramtha",
-        "tier": "extended"
-      },
-      {
-        "name": "Anas Badawi",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1997-09-13",
-        "caps": 0,
-        "goals": 0,
-        "club": "Al-Faisaly",
-        "tier": "extended"
-      },
-      {
-        "name": "Rajaei Ayed",
-        "position": "MID",
-        "age": 32,
-        "dob": "1993-07-25",
-        "caps": 72,
-        "goals": 0,
-        "club": "Al-Hussein",
         "tier": "extended"
       },
       {
@@ -14207,13 +14165,13 @@
         "tier": "extended"
       },
       {
-        "name": "Ali Olwan",
+        "name": "Baha' Faisal",
         "position": "FWD",
-        "age": 26,
-        "dob": "2000-03-26",
-        "caps": 64,
-        "goals": 29,
-        "club": "Al-Sailiya",
+        "age": 30,
+        "dob": "1995-05-30",
+        "caps": 57,
+        "goals": 18,
+        "club": "Al-Waab",
         "tier": "extended"
       },
       {
@@ -14279,7 +14237,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14836,7 +14794,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15279,7 +15237,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15864,7 +15822,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16371,7 +16329,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16928,7 +16886,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17485,7 +17443,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17882,7 +17840,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18439,7 +18397,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -19019,7 +18977,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19552,7 +19510,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19995,7 +19953,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20426,7 +20384,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -21009,7 +20967,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-05-17",
+    "lastUpdated": "2026-05-18",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
