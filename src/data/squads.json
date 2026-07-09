@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -523,7 +523,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1106,7 +1106,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1117,7 +1117,7 @@
         "dob": "1995-07-03",
         "caps": 45,
         "goals": 0,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 16,
         "tier": "core"
       },
@@ -1260,7 +1260,7 @@
         "dob": "1995-04-03",
         "caps": 63,
         "goals": 7,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 14,
         "tier": "core"
       },
@@ -1483,7 +1483,7 @@
         "dob": "1997-11-14",
         "caps": 18,
         "goals": 2,
-        "club": "Milan",
+        "club": "AC Milan",
         "tier": "extended"
       },
       {
@@ -1509,7 +1509,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2092,7 +2092,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2625,7 +2625,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3108,7 +3108,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3339,7 +3339,7 @@
         "dob": "1999-06-10",
         "caps": 49,
         "goals": 6,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 17,
         "tier": "core"
       },
@@ -3372,7 +3372,7 @@
         "dob": "2001-06-20",
         "caps": 27,
         "goals": 11,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 9,
         "tier": "core"
       },
@@ -3441,7 +3441,7 @@
       {
         "name": "João Palhinha",
         "position": "MID",
-        "age": 30,
+        "age": 31,
         "dob": "1995-07-09",
         "caps": 37,
         "goals": 2,
@@ -3511,7 +3511,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3944,7 +3944,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4437,7 +4437,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -5020,7 +5020,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5042,7 +5042,7 @@
         "dob": "1996-01-22",
         "caps": 25,
         "goals": 0,
-        "club": "Unattached",
+        "club": "San Jose Earthquakes",
         "number": 1,
         "tier": "core"
       },
@@ -5453,7 +5453,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5856,7 +5856,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6105,7 +6105,7 @@
       {
         "name": "Gabriel Ávalos",
         "position": "FWD",
-        "age": 34,
+        "age": 35,
         "dob": "1991-07-09",
         "caps": 26,
         "goals": 2,
@@ -6439,7 +6439,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7022,7 +7022,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7425,7 +7425,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7918,7 +7918,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8501,7 +8501,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8792,16 +8792,6 @@
         "tier": "core"
       },
       {
-        "name": "Lee Chang-geun",
-        "position": "GK",
-        "age": 32,
-        "dob": "1993-08-30",
-        "caps": 3,
-        "goals": 0,
-        "club": "Daejeon Hana Citizen",
-        "tier": "extended"
-      },
-      {
         "name": "Yun Ki-wook",
         "position": "GK",
         "age": 19,
@@ -8809,16 +8799,6 @@
         "caps": 0,
         "goals": 0,
         "club": "FC Seoul",
-        "tier": "extended"
-      },
-      {
-        "name": "Kim Dong-heon",
-        "position": "GK",
-        "age": 29,
-        "dob": "1997-03-03",
-        "caps": 0,
-        "goals": 0,
-        "club": "Incheon United",
         "tier": "extended"
       },
       {
@@ -8852,16 +8832,6 @@
         "tier": "extended"
       },
       {
-        "name": "Park Seung-wook",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1997-05-07",
-        "caps": 5,
-        "goals": 0,
-        "club": "Shimizu S-Pulse",
-        "tier": "extended"
-      },
-      {
         "name": "Jeong Sang-bin",
         "position": "DEF",
         "age": 24,
@@ -8882,36 +8852,6 @@
         "tier": "extended"
       },
       {
-        "name": "Cho Hyun-taek",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2001-08-02",
-        "caps": 1,
-        "goals": 0,
-        "club": "Ulsan HD",
-        "tier": "extended"
-      },
-      {
-        "name": "Kim Tae-hyun",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1996-12-19",
-        "caps": 1,
-        "goals": 0,
-        "club": "Jeonbuk Hyundai Motors",
-        "tier": "extended"
-      },
-      {
-        "name": "Seo Myung-gwan",
-        "position": "DEF",
-        "age": 23,
-        "dob": "2002-11-23",
-        "caps": 1,
-        "goals": 0,
-        "club": "Ulsan HD",
-        "tier": "extended"
-      },
-      {
         "name": "Kim Ji-soo",
         "position": "DEF",
         "age": 21,
@@ -8922,16 +8862,6 @@
         "tier": "extended"
       },
       {
-        "name": "Na Sang-ho",
-        "position": "MID",
-        "age": 29,
-        "dob": "1996-08-12",
-        "caps": 30,
-        "goals": 2,
-        "club": "Fagiano Okayama",
-        "tier": "extended"
-      },
-      {
         "name": "Park Yong-woo",
         "position": "MID",
         "age": 32,
@@ -8939,16 +8869,6 @@
         "caps": 24,
         "goals": 0,
         "club": "Unattached",
-        "tier": "extended"
-      },
-      {
-        "name": "Moon Seon-min",
-        "position": "MID",
-        "age": 34,
-        "dob": "1992-06-09",
-        "caps": 21,
-        "goals": 2,
-        "club": "FC Seoul",
         "tier": "extended"
       },
       {
@@ -9012,66 +8932,6 @@
         "tier": "extended"
       },
       {
-        "name": "Jeon Jin-woo",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-09-09",
-        "caps": 2,
-        "goals": 0,
-        "club": "Oxford United",
-        "tier": "extended"
-      },
-      {
-        "name": "Jeong Seung-won",
-        "position": "MID",
-        "age": 29,
-        "dob": "1997-02-27",
-        "caps": 2,
-        "goals": 0,
-        "club": "FC Seoul",
-        "tier": "extended"
-      },
-      {
-        "name": "Kim Bong-soo",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-12-26",
-        "caps": 2,
-        "goals": 0,
-        "club": "Daejeon Hana Citizen",
-        "tier": "extended"
-      },
-      {
-        "name": "Lee Seung-won",
-        "position": "MID",
-        "age": 23,
-        "dob": "2003-03-06",
-        "caps": 2,
-        "goals": 0,
-        "club": "Gangwon FC",
-        "tier": "extended"
-      },
-      {
-        "name": "Mo Jae-hyeon",
-        "position": "MID",
-        "age": 29,
-        "dob": "1996-09-24",
-        "caps": 2,
-        "goals": 0,
-        "club": "Gangwon FC",
-        "tier": "extended"
-      },
-      {
-        "name": "Joo Min-kyu",
-        "position": "FWD",
-        "age": 36,
-        "dob": "1990-04-13",
-        "caps": 11,
-        "goals": 3,
-        "club": "Daejeon Hana Citizen",
-        "tier": "extended"
-      },
-      {
         "name": "Oh Se-hun",
         "position": "FWD",
         "age": 27,
@@ -9084,7 +8944,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9607,12 +9467,12 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
       {
-        "name": "Mohamed El Shenawy (fifth captain)",
+        "name": "Mohamed El Shenawy",
         "position": "GK",
         "age": 37,
         "dob": "1988-12-18",
@@ -9656,7 +9516,7 @@
         "tier": "core"
       },
       {
-        "name": "Ramy Rabia (fourth captain)",
+        "name": "Ramy Rabia",
         "position": "DEF",
         "age": 33,
         "dob": "1993-05-20",
@@ -9832,7 +9692,7 @@
         "tier": "core"
       },
       {
-        "name": "Trézéguet (third captain)",
+        "name": "Trézéguet",
         "position": "FWD",
         "age": 31,
         "dob": "1994-10-01",
@@ -9854,7 +9714,7 @@
         "tier": "core"
       },
       {
-        "name": "Omar Marmoush (sixth captain)",
+        "name": "Omar Marmoush",
         "position": "FWD",
         "age": 27,
         "dob": "1999-02-07",
@@ -10088,7 +9948,7 @@
         "tier": "extended"
       },
       {
-        "name": "Mohamed Elneny (vice-captain)",
+        "name": "Mohamed Elneny",
         "position": "MID",
         "age": 33,
         "dob": "1992-07-11",
@@ -10190,7 +10050,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10773,7 +10633,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11206,7 +11066,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11619,7 +11479,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12202,7 +12062,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12715,7 +12575,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13298,7 +13158,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13711,7 +13571,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -13788,7 +13648,7 @@
         "dob": "1997-02-01",
         "caps": 22,
         "goals": 2,
-        "club": "Al-Hussein",
+        "club": "Al-Quwa Al-Jawiya",
         "number": 19,
         "tier": "core"
       },
@@ -13854,7 +13714,7 @@
         "dob": "1993-07-25",
         "caps": 72,
         "goals": 0,
-        "club": "Unattached",
+        "club": "Al-Talaba",
         "number": 14,
         "tier": "core"
       },
@@ -14224,7 +14084,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14264,7 +14124,7 @@
       {
         "name": "Boualem Khoukhi",
         "position": "DEF",
-        "age": 35,
+        "age": 36,
         "dob": "1990-07-09",
         "caps": 119,
         "goals": 21,
@@ -14797,7 +14657,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15200,7 +15060,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15783,7 +15643,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16266,7 +16126,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16431,7 +16291,7 @@
         "dob": "1996-08-05",
         "caps": 53,
         "goals": 14,
-        "club": "Unattached",
+        "club": "Crystal Palace",
         "number": 15,
         "tier": "core"
       },
@@ -16557,16 +16417,6 @@
         "tier": "core"
       },
       {
-        "name": "Alexandre Pisano",
-        "position": "GK",
-        "age": 20,
-        "dob": "2006-01-10",
-        "caps": 1,
-        "goals": 0,
-        "club": "Nagoya Grampus",
-        "tier": "extended"
-      },
-      {
         "name": "Leo Kokubo",
         "position": "GK",
         "age": 25,
@@ -16594,16 +16444,6 @@
         "caps": 127,
         "goals": 12,
         "club": "LA Galaxy",
-        "tier": "extended"
-      },
-      {
-        "name": "Naomichi Ueda",
-        "position": "DEF",
-        "age": 31,
-        "dob": "1994-10-24",
-        "caps": 18,
-        "goals": 1,
-        "club": "Kashima Antlers",
         "tier": "extended"
       },
       {
@@ -16644,26 +16484,6 @@
         "caps": 3,
         "goals": 0,
         "club": "Holstein Kiel",
-        "tier": "extended"
-      },
-      {
-        "name": "Taiyo Koga",
-        "position": "DEF",
-        "age": 27,
-        "dob": "1998-10-28",
-        "caps": 3,
-        "goals": 0,
-        "club": "Kashiwa Reysol",
-        "tier": "extended"
-      },
-      {
-        "name": "Yuto Tsunashima",
-        "position": "DEF",
-        "age": 25,
-        "dob": "2000-08-15",
-        "caps": 1,
-        "goals": 0,
-        "club": "Antwerp",
         "tier": "extended"
       },
       {
@@ -16717,16 +16537,6 @@
         "tier": "extended"
       },
       {
-        "name": "Hayao Kawabe",
-        "position": "MID",
-        "age": 30,
-        "dob": "1995-09-08",
-        "caps": 8,
-        "goals": 1,
-        "club": "Sanfrecce Hiroshima",
-        "tier": "extended"
-      },
-      {
         "name": "Ryūnosuke Satō",
         "position": "MID",
         "age": 19,
@@ -16747,26 +16557,6 @@
         "tier": "extended"
       },
       {
-        "name": "Sho Inagaki",
-        "position": "MID",
-        "age": 34,
-        "dob": "1991-12-25",
-        "caps": 4,
-        "goals": 3,
-        "club": "Nagoya Grampus",
-        "tier": "extended"
-      },
-      {
-        "name": "Kōta Tawaratsumida",
-        "position": "MID",
-        "age": 22,
-        "dob": "2004-05-14",
-        "caps": 3,
-        "goals": 0,
-        "club": "FC Tokyo",
-        "tier": "extended"
-      },
-      {
         "name": "Kodai Sano",
         "position": "MID",
         "age": 22,
@@ -16774,36 +16564,6 @@
         "caps": 2,
         "goals": 0,
         "club": "NEC",
-        "tier": "extended"
-      },
-      {
-        "name": "Sōta Nakamura",
-        "position": "MID",
-        "age": 23,
-        "dob": "2002-10-15",
-        "caps": 2,
-        "goals": 1,
-        "club": "Sanfrecce Hiroshima",
-        "tier": "extended"
-      },
-      {
-        "name": "Yuto Ozeki",
-        "position": "MID",
-        "age": 21,
-        "dob": "2005-02-06",
-        "caps": 2,
-        "goals": 0,
-        "club": "Kawasaki Frontale",
-        "tier": "extended"
-      },
-      {
-        "name": "Zento Uno",
-        "position": "MID",
-        "age": 22,
-        "dob": "2003-11-20",
-        "caps": 2,
-        "goals": 0,
-        "club": "Borussia Mönchengladbach",
         "tier": "extended"
       },
       {
@@ -16827,29 +16587,19 @@
         "tier": "extended"
       },
       {
-        "name": "Tojiro Kubo",
-        "position": "MID",
-        "age": 27,
-        "dob": "1999-04-05",
-        "caps": 1,
-        "goals": 0,
+        "name": "Mao Hosoya",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2001-09-07",
+        "caps": 9,
+        "goals": 3,
         "club": "Kashiwa Reysol",
-        "tier": "extended"
-      },
-      {
-        "name": "Satoshi Tanaka",
-        "position": "MID",
-        "age": 23,
-        "dob": "2002-08-13",
-        "caps": 1,
-        "goals": 0,
-        "club": "Schalke 04",
         "tier": "extended"
       }
     ]
   },
   "tun": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17432,7 +17182,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17825,7 +17575,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18118,7 +17868,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18491,7 +18241,7 @@
       {
         "name": "Martín Krug",
         "position": "DEF",
-        "age": 19,
+        "age": 20,
         "dob": "2006-07-09",
         "caps": 2,
         "goals": 0,
@@ -18701,7 +18451,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19224,7 +18974,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19657,7 +19407,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20070,7 +19820,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20653,7 +20403,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-07-08",
+    "lastUpdated": "2026-07-09",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
