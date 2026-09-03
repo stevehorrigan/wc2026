@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -523,7 +523,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1106,7 +1106,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1509,7 +1509,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2090,7 +2090,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2401,16 +2401,6 @@
         "tier": "extended"
       },
       {
-        "name": "Dani Carvajal",
-        "position": "DEF",
-        "age": 34,
-        "dob": "1992-01-11",
-        "caps": 52,
-        "goals": 1,
-        "club": "Unattached",
-        "tier": "extended"
-      },
-      {
         "name": "Robin Le Normand",
         "position": "DEF",
         "age": 29,
@@ -2571,16 +2561,6 @@
         "tier": "extended"
       },
       {
-        "name": "Álvaro Morata",
-        "position": "FWD",
-        "age": 33,
-        "dob": "1992-10-23",
-        "caps": 87,
-        "goals": 37,
-        "club": "Leganés",
-        "tier": "extended"
-      },
-      {
         "name": "Samu Aghehowa",
         "position": "FWD",
         "age": 22,
@@ -2619,11 +2599,31 @@
         "goals": 0,
         "club": "Rayo Vallecano",
         "tier": "extended"
+      },
+      {
+        "name": "Dani Carvajal",
+        "position": "DEF",
+        "age": 34,
+        "dob": "1992-01-11",
+        "caps": 52,
+        "goals": 1,
+        "club": "Unattached",
+        "tier": "potential"
+      },
+      {
+        "name": "Álvaro Morata",
+        "position": "FWD",
+        "age": 33,
+        "dob": "1992-10-23",
+        "caps": 87,
+        "goals": 37,
+        "club": "Leganés",
+        "tier": "potential"
       }
     ]
   },
   "deu": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -2964,16 +2964,6 @@
         "tier": "extended"
       },
       {
-        "name": "Maximilian Mittelstädt",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1997-03-18",
-        "caps": 15,
-        "goals": 1,
-        "club": "VfB Stuttgart",
-        "tier": "extended"
-      },
-      {
         "name": "Ridle Baku",
         "position": "DEF",
         "age": 28,
@@ -2991,16 +2981,6 @@
         "caps": 2,
         "goals": 0,
         "club": "VfB Stuttgart",
-        "tier": "extended"
-      },
-      {
-        "name": "Nnamdi Collins",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2004-01-10",
-        "caps": 1,
-        "goals": 0,
-        "club": "Eintracht Frankfurt",
         "tier": "extended"
       },
       {
@@ -3064,16 +3044,6 @@
         "tier": "extended"
       },
       {
-        "name": "Paul Nebel",
-        "position": "MID",
-        "age": 23,
-        "dob": "2002-10-10",
-        "caps": 0,
-        "goals": 0,
-        "club": "Mainz 05",
-        "tier": "extended"
-      },
-      {
         "name": "Jonathan Burkardt",
         "position": "FWD",
         "age": 26,
@@ -3094,6 +3064,36 @@
         "tier": "extended"
       },
       {
+        "name": "Maximilian Mittelstädt",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1997-03-18",
+        "caps": 15,
+        "goals": 1,
+        "club": "VfB Stuttgart",
+        "tier": "potential"
+      },
+      {
+        "name": "Nnamdi Collins",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2004-01-10",
+        "caps": 1,
+        "goals": 0,
+        "club": "Eintracht Frankfurt",
+        "tier": "potential"
+      },
+      {
+        "name": "Paul Nebel",
+        "position": "MID",
+        "age": 23,
+        "dob": "2002-10-10",
+        "caps": 0,
+        "goals": 0,
+        "club": "Mainz 05",
+        "tier": "potential"
+      },
+      {
         "name": "Niclas Füllkrug",
         "position": "FWD",
         "age": 33,
@@ -3106,7 +3106,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3509,7 +3509,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3910,16 +3910,6 @@
         "tier": "extended"
       },
       {
-        "name": "Sem Steijn",
-        "position": "MID",
-        "age": 24,
-        "dob": "2001-11-12",
-        "caps": 1,
-        "goals": 0,
-        "club": "Feyenoord",
-        "tier": "extended"
-      },
-      {
         "name": "Emmanuel Emegha",
         "position": "FWD",
         "age": 23,
@@ -3938,11 +3928,21 @@
         "goals": 0,
         "club": "AZ",
         "tier": "extended"
+      },
+      {
+        "name": "Sem Steijn",
+        "position": "MID",
+        "age": 24,
+        "dob": "2001-11-12",
+        "caps": 1,
+        "goals": 0,
+        "club": "Feyenoord",
+        "tier": "potential"
       }
     ]
   },
   "usa": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4435,7 +4435,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -5018,7 +5018,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5451,7 +5451,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5854,7 +5854,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6437,7 +6437,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7000,7 +7000,7 @@
       {
         "name": "Deni Jurić",
         "position": "FWD",
-        "age": 28,
+        "age": 29,
         "dob": "1997-09-03",
         "caps": 2,
         "goals": 0,
@@ -7020,7 +7020,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7423,7 +7423,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7916,7 +7916,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8499,7 +8499,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8876,7 +8876,7 @@
         "dob": "1999-06-16",
         "caps": 16,
         "goals": 0,
-        "club": "Mainz 05",
+        "club": "Midtjylland",
         "tier": "extended"
       },
       {
@@ -8942,7 +8942,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9465,7 +9465,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10048,7 +10048,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10631,7 +10631,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11064,7 +11064,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11477,7 +11477,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12060,7 +12060,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12573,7 +12573,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13156,7 +13156,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13569,7 +13569,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14062,7 +14062,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14403,16 +14403,6 @@
         "tier": "extended"
       },
       {
-        "name": "Al-Mahdi Ali Mukhtar",
-        "position": "DEF",
-        "age": 34,
-        "dob": "1992-03-02",
-        "caps": 39,
-        "goals": 2,
-        "club": "Al-Wakrah",
-        "tier": "extended"
-      },
-      {
         "name": "Ahmed Suhail",
         "position": "DEF",
         "age": 27,
@@ -14440,16 +14430,6 @@
         "caps": 9,
         "goals": 1,
         "club": "Al-Duhail",
-        "tier": "extended"
-      },
-      {
-        "name": "Abdullah Yousef",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2002-04-10",
-        "caps": 6,
-        "goals": 0,
-        "club": "Al-Rayyan",
         "tier": "extended"
       },
       {
@@ -14631,11 +14611,31 @@
         "goals": 0,
         "club": "Al-Duhail",
         "tier": "extended"
+      },
+      {
+        "name": "Al-Mahdi Ali Mukhtar",
+        "position": "DEF",
+        "age": 34,
+        "dob": "1992-03-02",
+        "caps": 39,
+        "goals": 2,
+        "club": "Al-Wakrah",
+        "tier": "potential"
+      },
+      {
+        "name": "Abdullah Yousef",
+        "position": "DEF",
+        "age": 24,
+        "dob": "2002-04-10",
+        "caps": 6,
+        "goals": 0,
+        "club": "Al-Rayyan",
+        "tier": "potential"
       }
     ]
   },
   "sui": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15038,7 +15038,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15621,7 +15621,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -15665,7 +15665,7 @@
         "dob": "1995-12-27",
         "caps": 57,
         "goals": 0,
-        "club": "Gil Vicente",
+        "club": "Wolverhampton Wanderers",
         "number": 3,
         "tier": "core"
       },
@@ -15841,7 +15841,7 @@
         "dob": "2002-01-01",
         "caps": 30,
         "goals": 5,
-        "club": "Sunderland",
+        "club": "Ajax",
         "number": 10,
         "tier": "core"
       },
@@ -16104,7 +16104,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16577,7 +16577,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17160,7 +17160,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17553,7 +17553,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -17846,7 +17846,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18429,7 +18429,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -18952,7 +18952,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19265,7 +19265,7 @@
       {
         "name": "Nobel Mendy",
         "position": "DEF",
-        "age": 21,
+        "age": 22,
         "dob": "2004-09-03",
         "caps": 1,
         "goals": 0,
@@ -19385,7 +19385,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -19594,7 +19594,7 @@
         "dob": "2002-05-02",
         "caps": 9,
         "goals": 6,
-        "club": "Rangers",
+        "club": "Anderlecht",
         "number": 19,
         "tier": "core"
       },
@@ -19798,7 +19798,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20381,7 +20381,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-09-02",
+    "lastUpdated": "2026-09-03",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
@@ -20458,7 +20458,7 @@
         "dob": "1998-09-19",
         "caps": 36,
         "goals": 0,
-        "club": "Tottenham Hotspur",
+        "club": "Sunderland",
         "number": 3,
         "tier": "core"
       },
@@ -20513,7 +20513,7 @@
         "dob": "2001-03-19",
         "caps": 1,
         "goals": 0,
-        "club": "Elche",
+        "club": "Fulham",
         "number": 2,
         "tier": "core"
       },
@@ -20667,7 +20667,7 @@
         "dob": "1997-07-07",
         "caps": 25,
         "goals": 5,
-        "club": "Wolverhampton Wanderers",
+        "club": "LASK",
         "number": 14,
         "tier": "core"
       },
