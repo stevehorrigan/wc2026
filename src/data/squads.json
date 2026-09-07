@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -523,7 +523,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1106,7 +1106,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1509,7 +1509,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -1569,7 +1569,7 @@
         "tier": "core"
       },
       {
-        "name": "Cristian Romero",
+        "name": "Cristian Romero (captain)",
         "position": "DEF",
         "age": 28,
         "dob": "1998-04-27",
@@ -2090,7 +2090,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2623,7 +2623,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3096,7 +3096,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3499,7 +3499,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3932,7 +3932,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4325,7 +4325,7 @@
       {
         "name": "Diego Luna",
         "position": "MID",
-        "age": 22,
+        "age": 23,
         "dob": "2003-09-07",
         "caps": 18,
         "goals": 4,
@@ -4425,7 +4425,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4553,7 +4553,7 @@
       {
         "name": "Roberto Alvarado",
         "position": "MID",
-        "age": 27,
+        "age": 28,
         "dob": "1998-09-07",
         "caps": 72,
         "goals": 5,
@@ -5008,7 +5008,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5441,7 +5441,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5844,7 +5844,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6427,7 +6427,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7010,7 +7010,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7413,7 +7413,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7906,7 +7906,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8144,7 +8144,7 @@
         "name": "Lyle Foster",
         "position": "FWD",
         "age": 26,
-        "dob": "2000-05-09",
+        "dob": "2000-09-03",
         "caps": 28,
         "goals": 10,
         "club": "Houston Dynamo",
@@ -8463,7 +8463,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8906,7 +8906,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9429,7 +9429,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10012,7 +10012,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10535,7 +10535,7 @@
       {
         "name": "Mohammad Khodabandelou",
         "position": "MID",
-        "age": 26,
+        "age": 27,
         "dob": "1999-09-07",
         "caps": 1,
         "goals": 0,
@@ -10595,7 +10595,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11028,7 +11028,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11441,7 +11441,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12024,7 +12024,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12537,7 +12537,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13120,7 +13120,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13533,7 +13533,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14026,7 +14026,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14599,7 +14599,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15002,7 +15002,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15585,7 +15585,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16068,7 +16068,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16531,7 +16531,7 @@
       {
         "name": "Mao Hosoya",
         "position": "FWD",
-        "age": 24,
+        "age": 25,
         "dob": "2001-09-07",
         "caps": 9,
         "goals": 3,
@@ -16541,7 +16541,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17124,7 +17124,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17517,7 +17517,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -17810,7 +17810,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18393,7 +18393,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -18950,7 +18950,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19383,7 +19383,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -19756,7 +19756,7 @@
       {
         "name": "Kristian Arnstad",
         "position": "MID",
-        "age": 22,
+        "age": 23,
         "dob": "2003-09-07",
         "caps": 1,
         "goals": 0,
@@ -19796,7 +19796,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20379,7 +20379,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-09-06",
+    "lastUpdated": "2026-09-07",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
