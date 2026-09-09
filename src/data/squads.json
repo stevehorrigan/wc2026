@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -523,7 +523,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1106,7 +1106,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1509,7 +1509,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2090,7 +2090,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2623,7 +2623,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3096,7 +3096,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3473,7 +3473,7 @@
         "dob": "1998-06-28",
         "caps": 4,
         "goals": 0,
-        "club": "Sporting CP",
+        "club": "Fiorentina",
         "tier": "extended"
       },
       {
@@ -3499,7 +3499,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3932,7 +3932,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4419,13 +4419,13 @@
         "dob": "2004-07-06",
         "caps": 6,
         "goals": 0,
-        "club": "Southampton",
+        "club": "St. Louis City",
         "tier": "extended"
       }
     ]
   },
   "mex": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -5008,7 +5008,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5441,7 +5441,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5844,7 +5844,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6427,7 +6427,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7010,7 +7010,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7413,7 +7413,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7431,7 +7431,7 @@
       {
         "name": "Moisés Ramírez",
         "position": "GK",
-        "age": 25,
+        "age": 26,
         "dob": "2000-09-09",
         "caps": 7,
         "goals": 0,
@@ -7906,7 +7906,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8463,7 +8463,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8906,7 +8906,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9001,7 +9001,7 @@
       {
         "name": "Niko Sigur",
         "position": "DEF",
-        "age": 22,
+        "age": 23,
         "dob": "2003-09-09",
         "caps": 22,
         "goals": 2,
@@ -9429,7 +9429,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10012,7 +10012,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10595,7 +10595,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11028,7 +11028,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11441,7 +11441,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12024,7 +12024,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12537,7 +12537,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13120,7 +13120,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13227,7 +13227,7 @@
       {
         "name": "Luka Modrić (captain)",
         "position": "MID",
-        "age": 40,
+        "age": 41,
         "dob": "1985-09-09",
         "caps": 202,
         "goals": 29,
@@ -13507,7 +13507,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14000,7 +14000,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14573,7 +14573,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -14976,7 +14976,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15559,7 +15559,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -15724,7 +15724,7 @@
         "dob": "1995-05-07",
         "caps": 34,
         "goals": 7,
-        "club": "Rennes",
+        "club": "Porto",
         "number": 6,
         "tier": "core"
       },
@@ -16042,7 +16042,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -16515,7 +16515,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17098,7 +17098,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -17208,7 +17208,7 @@
         "dob": "2002-06-12",
         "caps": 8,
         "goals": 0,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 16,
         "tier": "core"
       },
@@ -17307,7 +17307,7 @@
         "dob": "2004-08-06",
         "caps": 4,
         "goals": 0,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 19,
         "tier": "core"
       },
@@ -17373,7 +17373,7 @@
         "dob": "1999-06-27",
         "caps": 28,
         "goals": 3,
-        "club": "Milan",
+        "club": "AC Milan",
         "number": 22,
         "tier": "core"
       },
@@ -17491,7 +17491,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -17784,7 +17784,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18367,7 +18367,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -18924,7 +18924,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19241,7 +19241,7 @@
         "dob": "2004-09-03",
         "caps": 1,
         "goals": 0,
-        "club": "Rayo Vallecano",
+        "club": "Hull City",
         "tier": "extended"
       },
       {
@@ -19251,7 +19251,7 @@
         "dob": "1992-06-23",
         "caps": 35,
         "goals": 0,
-        "club": "Unattached",
+        "club": "Metz",
         "tier": "extended"
       },
       {
@@ -19291,7 +19291,7 @@
         "dob": "2000-01-19",
         "caps": 0,
         "goals": 0,
-        "club": "Hellas Verona",
+        "club": "Gençlerbirliği",
         "tier": "extended"
       },
       {
@@ -19301,7 +19301,7 @@
         "dob": "1995-06-18",
         "caps": 40,
         "goals": 9,
-        "club": "Metz",
+        "club": "Le Mans",
         "tier": "extended"
       },
       {
@@ -19311,7 +19311,7 @@
         "dob": "1996-11-16",
         "caps": 38,
         "goals": 7,
-        "club": "Lazio",
+        "club": "Rennes",
         "tier": "extended"
       },
       {
@@ -19341,7 +19341,7 @@
         "dob": "2000-07-05",
         "caps": 0,
         "goals": 0,
-        "club": "Brøndby",
+        "club": "Jagiellonia Białystok",
         "tier": "extended"
       },
       {
@@ -19351,13 +19351,13 @@
         "dob": "1996-05-04",
         "caps": 33,
         "goals": 2,
-        "club": "Umm-Salal",
+        "club": "Abha",
         "tier": "potential"
       }
     ]
   },
   "nor": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -19770,7 +19770,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20353,7 +20353,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
