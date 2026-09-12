@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -523,7 +523,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1080,7 +1080,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1473,7 +1473,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2056,7 +2056,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2569,7 +2569,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3012,7 +3012,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3415,7 +3415,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -3838,7 +3838,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4261,7 +4261,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -4844,7 +4844,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5277,7 +5277,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -5640,7 +5640,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6223,7 +6223,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -6806,7 +6806,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -6822,17 +6822,6 @@
         "tier": "core"
       },
       {
-        "name": "Trevor Doornbusch",
-        "position": "GK",
-        "age": 27,
-        "dob": "1999-07-06",
-        "caps": 8,
-        "goals": 0,
-        "club": "VVV-Venlo",
-        "number": 26,
-        "tier": "core"
-      },
-      {
         "name": "Tyrick Bodak",
         "position": "GK",
         "age": 24,
@@ -6841,6 +6830,17 @@
         "goals": 0,
         "club": "Vitesse",
         "number": 25,
+        "tier": "core"
+      },
+      {
+        "name": "Tiyani Zeggen",
+        "position": "GK",
+        "age": 19,
+        "dob": "2006-10-15",
+        "caps": 0,
+        "goals": 0,
+        "club": "Jong AZ",
+        "number": 26,
         "tier": "core"
       },
       {
@@ -6888,6 +6888,16 @@
         "tier": "core"
       },
       {
+        "name": "Jurich Carolina",
+        "position": "DEF",
+        "age": 28,
+        "dob": "1998-07-15",
+        "caps": 15,
+        "goals": 1,
+        "club": "Borac Banja Luka",
+        "tier": "core"
+      },
+      {
         "name": "Shurandy Sambo",
         "position": "DEF",
         "age": 25,
@@ -6907,28 +6917,6 @@
         "goals": 0,
         "club": "PSV",
         "number": 18,
-        "tier": "core"
-      },
-      {
-        "name": "Riechedly Bazoer",
-        "position": "DEF",
-        "age": 29,
-        "dob": "1996-10-12",
-        "caps": 6,
-        "goals": 0,
-        "club": "Konyaspor",
-        "number": 23,
-        "tier": "core"
-      },
-      {
-        "name": "Deveron Fonville",
-        "position": "DEF",
-        "age": 23,
-        "dob": "2003-05-16",
-        "caps": 5,
-        "goals": 0,
-        "club": "NEC",
-        "number": 24,
         "tier": "core"
       },
       {
@@ -6954,17 +6942,6 @@
         "tier": "core"
       },
       {
-        "name": "Godfried Roemeratoe",
-        "position": "MID",
-        "age": 27,
-        "dob": "1999-08-19",
-        "caps": 29,
-        "goals": 1,
-        "club": "RKC Waalwijk",
-        "number": 6,
-        "tier": "core"
-      },
-      {
         "name": "Livano Comenencia",
         "position": "MID",
         "age": 22,
@@ -6973,17 +6950,6 @@
         "goals": 3,
         "club": "Zürich",
         "number": 8,
-        "tier": "core"
-      },
-      {
-        "name": "Kevin Felida",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-11-11",
-        "caps": 19,
-        "goals": 1,
-        "club": "Den Bosch",
-        "number": 22,
         "tier": "core"
       },
       {
@@ -7009,6 +6975,16 @@
         "tier": "core"
       },
       {
+        "name": "Nicky Souren",
+        "position": "MID",
+        "age": 26,
+        "dob": "1999-12-18",
+        "caps": 1,
+        "goals": 0,
+        "club": "SC Cambuur",
+        "tier": "core"
+      },
+      {
         "name": "Kenji Gorré",
         "position": "FWD",
         "age": 31,
@@ -7017,28 +6993,6 @@
         "goals": 6,
         "club": "Maccabi Haifa",
         "number": 14,
-        "tier": "core"
-      },
-      {
-        "name": "Brandley Kuwas",
-        "position": "FWD",
-        "age": 33,
-        "dob": "1992-09-19",
-        "caps": 36,
-        "goals": 2,
-        "club": "Volendam",
-        "number": 17,
-        "tier": "core"
-      },
-      {
-        "name": "Gervane Kastaneer",
-        "position": "FWD",
-        "age": 30,
-        "dob": "1996-06-09",
-        "caps": 32,
-        "goals": 9,
-        "club": "Terengganu",
-        "number": 19,
         "tier": "core"
       },
       {
@@ -7086,15 +7040,34 @@
         "tier": "core"
       },
       {
-        "name": "Sontje Hansen",
+        "name": "Jordi Paulina",
         "position": "FWD",
-        "age": 24,
-        "dob": "2002-05-18",
-        "caps": 7,
-        "goals": 1,
-        "club": "Gaziantep",
-        "number": 12,
+        "age": 21,
+        "dob": "2004-09-23",
+        "caps": 2,
+        "goals": 2,
+        "club": "Fortuna Dusseldorf",
         "tier": "core"
+      },
+      {
+        "name": "Nigel Thomas",
+        "position": "FWD",
+        "age": 25,
+        "dob": "2001-02-01",
+        "caps": 0,
+        "goals": 0,
+        "club": "Ado Den Haag",
+        "tier": "core"
+      },
+      {
+        "name": "Trevor Doornbusch",
+        "position": "GK",
+        "age": 27,
+        "dob": "1999-07-06",
+        "caps": 8,
+        "goals": 0,
+        "club": "VVV-Venlo",
+        "tier": "extended"
       },
       {
         "name": "Leandro Merencia",
@@ -7104,6 +7077,26 @@
         "caps": 0,
         "goals": 0,
         "club": "Twente",
+        "tier": "extended"
+      },
+      {
+        "name": "Riechedly Bazoer",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1996-10-12",
+        "caps": 6,
+        "goals": 0,
+        "club": "Konyaspor",
+        "tier": "extended"
+      },
+      {
+        "name": "Deveron Fonville",
+        "position": "DEF",
+        "age": 23,
+        "dob": "2003-05-16",
+        "caps": 5,
+        "goals": 0,
+        "club": "NEC",
         "tier": "extended"
       },
       {
@@ -7117,99 +7110,59 @@
         "tier": "extended"
       },
       {
-        "name": "Jordi Paulina",
-        "position": "FWD",
-        "age": 21,
-        "dob": "2004-09-23",
-        "caps": 2,
-        "goals": 2,
-        "club": "Fortuna Dusseldorf",
+        "name": "Godfried Roemeratoe",
+        "position": "MID",
+        "age": 27,
+        "dob": "1999-08-19",
+        "caps": 29,
+        "goals": 1,
+        "club": "RKC Waalwijk",
         "tier": "extended"
       },
       {
-        "name": "Cuco Martina",
-        "position": "DEF",
-        "age": 36,
-        "dob": "1989-09-25",
-        "caps": 67,
-        "goals": 1,
-        "club": "Victory Boys",
-        "tier": "potential"
-      },
-      {
-        "name": "Jurich Carolina",
-        "position": "DEF",
-        "age": 28,
-        "dob": "1998-07-15",
-        "caps": 15,
-        "goals": 1,
-        "club": "Borac Banja Luka",
-        "tier": "potential"
-      },
-      {
-        "name": "Tyrique Mercera",
-        "position": "DEF",
-        "age": 22,
-        "dob": "2003-12-19",
-        "caps": 1,
-        "goals": 0,
-        "club": "Groningen",
-        "tier": "potential"
-      },
-      {
-        "name": "Tommy St. Jago",
-        "position": "DEF",
-        "age": 26,
-        "dob": "2000-01-03",
-        "caps": 0,
-        "goals": 0,
-        "club": "Mechelen",
-        "tier": "potential"
-      },
-      {
-        "name": "Rayvien Rosario",
+        "name": "Kevin Felida",
         "position": "MID",
-        "age": 22,
-        "dob": "2004-04-11",
-        "caps": 2,
-        "goals": 0,
-        "club": "Zimbru Chisinau",
-        "tier": "potential"
-      },
-      {
-        "name": "Rangelo Janga",
-        "position": "FWD",
-        "age": 34,
-        "dob": "1992-04-16",
-        "caps": 43,
-        "goals": 21,
-        "club": "Eindhoven",
-        "tier": "potential"
-      },
-      {
-        "name": "Joshua Zimmerman",
-        "position": "FWD",
-        "age": 25,
-        "dob": "2001-05-23",
-        "caps": 13,
+        "age": 26,
+        "dob": "1999-11-11",
+        "caps": 19,
         "goals": 1,
-        "club": "Livingston",
-        "tier": "potential"
+        "club": "Den Bosch",
+        "tier": "extended"
       },
       {
-        "name": "Xander Severina",
+        "name": "Brandley Kuwas",
         "position": "FWD",
-        "age": 25,
-        "dob": "2001-04-12",
-        "caps": 5,
+        "age": 33,
+        "dob": "1992-09-19",
+        "caps": 36,
+        "goals": 2,
+        "club": "Volendam",
+        "tier": "extended"
+      },
+      {
+        "name": "Gervane Kastaneer",
+        "position": "FWD",
+        "age": 30,
+        "dob": "1996-06-09",
+        "caps": 32,
+        "goals": 9,
+        "club": "Terengganu",
+        "tier": "extended"
+      },
+      {
+        "name": "Sontje Hansen",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2002-05-18",
+        "caps": 7,
         "goals": 1,
-        "club": "Sabah",
-        "tier": "potential"
+        "club": "Gaziantep",
+        "tier": "extended"
       }
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7702,7 +7655,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8039,7 +7992,7 @@
       {
         "name": "Tashreeq Matthews",
         "position": "FWD",
-        "age": 25,
+        "age": 26,
         "dob": "2000-09-12",
         "caps": 0,
         "goals": 0,
@@ -8233,7 +8186,7 @@
         "dob": "2000-03-10",
         "caps": 9,
         "goals": 0,
-        "club": "Portsmouth",
+        "club": "Cercle Brugge",
         "tier": "extended"
       },
       {
@@ -8259,7 +8212,7 @@
     ]
   },
   "kor": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8672,7 +8625,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9175,7 +9128,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -9738,7 +9691,7 @@
       {
         "name": "Zalaka",
         "position": "MID",
-        "age": 26,
+        "age": 27,
         "dob": "1999-09-12",
         "caps": 3,
         "goals": 0,
@@ -9758,7 +9711,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10341,7 +10294,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -10774,7 +10727,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11187,7 +11140,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -11770,7 +11723,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -12283,7 +12236,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -12510,7 +12463,7 @@
       {
         "name": "Juan Portilla",
         "position": "MID",
-        "age": 27,
+        "age": 28,
         "dob": "1998-09-12",
         "caps": 10,
         "goals": 0,
@@ -12565,7 +12518,7 @@
       {
         "name": "Andrés Gómez",
         "position": "FWD",
-        "age": 23,
+        "age": 24,
         "dob": "2002-09-12",
         "caps": 9,
         "goals": 2,
@@ -12866,7 +12819,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -13253,7 +13206,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -13746,7 +13699,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -14279,7 +14232,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -14682,7 +14635,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -15205,7 +15158,7 @@
       {
         "name": "Omar El Hilali",
         "position": "DEF",
-        "age": 22,
+        "age": 23,
         "dob": "2003-09-12",
         "caps": 1,
         "goals": 0,
@@ -15265,7 +15218,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -15728,7 +15681,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -15768,7 +15721,7 @@
       {
         "name": "Yūto Nagatomo",
         "position": "DEF",
-        "age": 39,
+        "age": 40,
         "dob": "1986-09-12",
         "caps": 146,
         "goals": 4,
@@ -16171,7 +16124,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -16754,7 +16707,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -16794,7 +16747,7 @@
       {
         "name": "Thomas Meunier",
         "position": "DEF",
-        "age": 34,
+        "age": 35,
         "dob": "1991-09-12",
         "caps": 83,
         "goals": 10,
@@ -17147,7 +17100,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -17440,7 +17393,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18023,7 +17976,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -18580,7 +18533,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -19003,7 +18956,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -19406,7 +19359,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -19989,7 +19942,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-09-11",
+    "lastUpdated": "2026-09-12",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
