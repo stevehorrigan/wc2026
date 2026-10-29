@@ -1,6 +1,6 @@
 {
   "eng": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Thomas Tuchel",
     "players": [
@@ -538,7 +538,7 @@
     ]
   },
   "bra": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Dorival Júnior",
     "players": [
@@ -1120,7 +1120,7 @@
     ]
   },
   "fra": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Didier Deschamps",
     "players": [
@@ -1578,7 +1578,7 @@
     ]
   },
   "arg": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Lionel Scaloni",
     "players": [
@@ -2169,7 +2169,7 @@
     ]
   },
   "esp": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Luis de la Fuente",
     "players": [
@@ -2729,7 +2729,7 @@
     ]
   },
   "deu": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Julian Nagelsmann",
     "players": [
@@ -3309,7 +3309,7 @@
     ]
   },
   "prt": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Roberto Martínez",
     "players": [
@@ -3729,7 +3729,7 @@
     ]
   },
   "nld": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Ronald Koeman",
     "players": [
@@ -4199,7 +4199,7 @@
     ]
   },
   "usa": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Mauricio Pochettino",
     "players": [
@@ -4764,7 +4764,7 @@
     ]
   },
   "mex": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Javier Aguirre",
     "players": [
@@ -5346,7 +5346,7 @@
     ]
   },
   "sco": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Steve Clarke",
     "players": [
@@ -5826,7 +5826,7 @@
     ]
   },
   "hti": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Marc Collat",
     "players": [
@@ -6246,7 +6246,7 @@
     ]
   },
   "pry": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Alfaro Moreno",
     "players": [
@@ -6829,7 +6829,7 @@
     ]
   },
   "aus": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Tony Popovic",
     "players": [
@@ -7151,7 +7151,7 @@
       {
         "name": "Jordan Bos",
         "position": "DEF",
-        "age": 23,
+        "age": 24,
         "dob": "2002-10-29",
         "caps": 31,
         "goals": 4,
@@ -7411,7 +7411,7 @@
     ]
   },
   "cuw": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Dick Advocaat",
     "players": [
@@ -7760,7 +7760,7 @@
     ]
   },
   "ecu": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Sebastián Beccacece",
     "players": [
@@ -7888,7 +7888,7 @@
       {
         "name": "Deinner Ordóñez",
         "position": "DEF",
-        "age": 16,
+        "age": 17,
         "dob": "2009-10-29",
         "caps": 0,
         "goals": 0,
@@ -8271,7 +8271,7 @@
     ]
   },
   "rsa": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Hugo Broos",
     "players": [
@@ -8309,6 +8309,16 @@
         "tier": "core"
       },
       {
+        "name": "Thakasani Mbanjwa",
+        "position": "GK",
+        "age": 30,
+        "dob": "1996-05-07",
+        "caps": 0,
+        "goals": 0,
+        "club": "Lamontville Golden Arrows",
+        "tier": "core"
+      },
+      {
         "name": "Aubrey Modiba",
         "position": "DEF",
         "age": 31,
@@ -8342,6 +8352,16 @@
         "tier": "core"
       },
       {
+        "name": "Mbekezeli Mbokazi",
+        "position": "DEF",
+        "age": 21,
+        "dob": "2005-09-19",
+        "caps": 15,
+        "goals": 1,
+        "club": "Chicago Fire",
+        "tier": "core"
+      },
+      {
         "name": "Ime Okon",
         "position": "DEF",
         "age": 22,
@@ -8361,17 +8381,6 @@
         "goals": 1,
         "club": "Molde",
         "number": 18,
-        "tier": "core"
-      },
-      {
-        "name": "Kamogelo Sebelebele",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2002-07-21",
-        "caps": 7,
-        "goals": 0,
-        "club": "Orlando Pirates",
-        "number": 25,
         "tier": "core"
       },
       {
@@ -8430,6 +8439,26 @@
         "tier": "core"
       },
       {
+        "name": "Aden McCarthy",
+        "position": "DEF",
+        "age": 22,
+        "dob": "2003-12-04",
+        "caps": 1,
+        "goals": 0,
+        "club": "Sabah",
+        "tier": "core"
+      },
+      {
+        "name": "Nkosikhona Radebe",
+        "position": "DEF",
+        "age": 25,
+        "dob": "2001-02-11",
+        "caps": 0,
+        "goals": 0,
+        "club": "AmaZulu",
+        "tier": "core"
+      },
+      {
         "name": "Teboho Mokoena",
         "position": "MID",
         "age": 29,
@@ -8452,6 +8481,16 @@
         "tier": "core"
       },
       {
+        "name": "Thalente Mbatha",
+        "position": "MID",
+        "age": 26,
+        "dob": "2000-03-06",
+        "caps": 20,
+        "goals": 3,
+        "club": "Orlando Pirates",
+        "tier": "core"
+      },
+      {
         "name": "Bathusi Aubaas",
         "position": "MID",
         "age": 28,
@@ -8460,6 +8499,26 @@
         "goals": 1,
         "club": "Mamelodi Sundowns",
         "number": 30,
+        "tier": "core"
+      },
+      {
+        "name": "Lebohang Maboe",
+        "position": "MID",
+        "age": 32,
+        "dob": "1994-09-17",
+        "caps": 17,
+        "goals": 3,
+        "club": "Kaizer Chiefs",
+        "tier": "core"
+      },
+      {
+        "name": "Luke Le Roux",
+        "position": "MID",
+        "age": 26,
+        "dob": "2000-03-10",
+        "caps": 9,
+        "goals": 0,
+        "club": "Cercle Brugge",
         "tier": "core"
       },
       {
@@ -8493,6 +8552,16 @@
         "goals": 8,
         "club": "Orlando Pirates",
         "number": 7,
+        "tier": "core"
+      },
+      {
+        "name": "Lyle Foster",
+        "position": "FWD",
+        "age": 26,
+        "dob": "2000-09-03",
+        "caps": 30,
+        "goals": 11,
+        "club": "Houston Dynamo",
         "tier": "core"
       },
       {
@@ -8551,17 +8620,6 @@
         "tier": "core"
       },
       {
-        "name": "Yanela Mbuthuma",
-        "position": "FWD",
-        "age": 24,
-        "dob": "2002-02-23",
-        "caps": 3,
-        "goals": 0,
-        "club": "Orlando Pirates",
-        "number": 9,
-        "tier": "core"
-      },
-      {
         "name": "Cassius Mailula",
         "position": "FWD",
         "age": 25,
@@ -8584,17 +8642,6 @@
         "tier": "core"
       },
       {
-        "name": "Shandre Campbell",
-        "position": "FWD",
-        "age": 21,
-        "dob": "2005-07-15",
-        "caps": 1,
-        "goals": 0,
-        "club": "Kortrijk",
-        "number": 26,
-        "tier": "core"
-      },
-      {
         "name": "Tashreeq Matthews",
         "position": "FWD",
         "age": 26,
@@ -8603,6 +8650,36 @@
         "goals": 0,
         "club": "Mamelodi Sundowns",
         "number": 29,
+        "tier": "core"
+      },
+      {
+        "name": "Devin Titus",
+        "position": "FWD",
+        "age": 25,
+        "dob": "2001-05-18",
+        "caps": 1,
+        "goals": 0,
+        "club": "Maghreb Fez",
+        "tier": "core"
+      },
+      {
+        "name": "Boitumelo Radiopane",
+        "position": "FWD",
+        "age": 24,
+        "dob": "2002-01-21",
+        "caps": 0,
+        "goals": 0,
+        "club": "Orlando Pirates",
+        "tier": "core"
+      },
+      {
+        "name": "Nqaba Xulu",
+        "position": "FWD",
+        "age": 23,
+        "dob": "2003-08-13",
+        "caps": 0,
+        "goals": 0,
+        "club": "Richards Bay",
         "tier": "core"
       },
       {
@@ -8646,23 +8723,23 @@
         "tier": "extended"
       },
       {
-        "name": "Mbekezeli Mbokazi",
-        "position": "DEF",
-        "age": 21,
-        "dob": "2005-09-19",
-        "caps": 15,
-        "goals": 1,
-        "club": "Chicago Fire",
-        "tier": "extended"
-      },
-      {
         "name": "Siyabonga Ngezana",
         "position": "DEF",
         "age": 29,
         "dob": "1997-07-15",
-        "caps": 11,
+        "caps": 12,
         "goals": 0,
         "club": "FCSB",
+        "tier": "extended"
+      },
+      {
+        "name": "Kamogelo Sebelebele",
+        "position": "DEF",
+        "age": 24,
+        "dob": "2002-07-21",
+        "caps": 7,
+        "goals": 0,
+        "club": "Orlando Pirates",
         "tier": "extended"
       },
       {
@@ -8766,36 +8843,6 @@
         "tier": "extended"
       },
       {
-        "name": "Thalente Mbatha",
-        "position": "MID",
-        "age": 26,
-        "dob": "2000-03-06",
-        "caps": 20,
-        "goals": 3,
-        "club": "Orlando Pirates",
-        "tier": "extended"
-      },
-      {
-        "name": "Lebohang Maboe",
-        "position": "MID",
-        "age": 32,
-        "dob": "1994-09-17",
-        "caps": 17,
-        "goals": 3,
-        "club": "Kaizer Chiefs",
-        "tier": "extended"
-      },
-      {
-        "name": "Luke Le Roux",
-        "position": "MID",
-        "age": 26,
-        "dob": "2000-03-10",
-        "caps": 9,
-        "goals": 0,
-        "club": "Cercle Brugge",
-        "tier": "extended"
-      },
-      {
         "name": "Sipho Mbule",
         "position": "MID",
         "age": 28,
@@ -8804,61 +8851,11 @@
         "goals": 0,
         "club": "Zakho",
         "tier": "extended"
-      },
-      {
-        "name": "Ndamulelo Maphangule",
-        "position": "MID",
-        "age": 27,
-        "dob": "1999-10-22",
-        "caps": 3,
-        "goals": 0,
-        "club": "Polokwane City",
-        "tier": "extended"
-      },
-      {
-        "name": "Mduduzi Shabalala",
-        "position": "MID",
-        "age": 22,
-        "dob": "2004-01-20",
-        "caps": 1,
-        "goals": 0,
-        "club": "Kaizer Chiefs",
-        "tier": "extended"
-      },
-      {
-        "name": "Cemran Dansin",
-        "position": "MID",
-        "age": 21,
-        "dob": "2005-03-30",
-        "caps": 0,
-        "goals": 0,
-        "club": "Orlando Pirates",
-        "tier": "extended"
-      },
-      {
-        "name": "Mthetheleli Mthiyane",
-        "position": "MID",
-        "age": 25,
-        "dob": "2001-01-21",
-        "caps": 0,
-        "goals": 0,
-        "club": "Orlando Pirates",
-        "tier": "extended"
-      },
-      {
-        "name": "Sphesihle Maduna",
-        "position": "MID",
-        "age": 26,
-        "dob": "1999-12-26",
-        "caps": 0,
-        "goals": 0,
-        "club": "AmaZulu",
-        "tier": "extended"
       }
     ]
   },
   "kor": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Hong Myung-bo",
     "players": [
@@ -8870,7 +8867,6 @@
         "caps": 92,
         "goals": 0,
         "club": "FC Tokyo",
-        "number": 1,
         "tier": "core"
       },
       {
@@ -8881,18 +8877,6 @@
         "caps": 49,
         "goals": 0,
         "club": "Ulsan HD",
-        "number": 21,
-        "tier": "core"
-      },
-      {
-        "name": "Gu Sung-yun",
-        "position": "GK",
-        "age": 32,
-        "dob": "1994-06-27",
-        "caps": 5,
-        "goals": 0,
-        "club": "FC Seoul",
-        "number": 23,
         "tier": "core"
       },
       {
@@ -8903,7 +8887,6 @@
         "caps": 4,
         "goals": 0,
         "club": "Jeonbuk Hyundai Motors",
-        "number": 12,
         "tier": "core"
       },
       {
@@ -8914,7 +8897,6 @@
         "caps": 85,
         "goals": 4,
         "club": "Bayern Munich",
-        "number": 4,
         "tier": "core"
       },
       {
@@ -8925,18 +8907,6 @@
         "caps": 40,
         "goals": 0,
         "club": "FC Augsburg",
-        "number": 22,
-        "tier": "core"
-      },
-      {
-        "name": "Lee Tae-seok",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2002-07-28",
-        "caps": 19,
-        "goals": 1,
-        "club": "Austria Wien",
-        "number": 13,
         "tier": "core"
       },
       {
@@ -8947,18 +8917,16 @@
         "caps": 15,
         "goals": 0,
         "club": "Club Brugge",
-        "number": 2,
         "tier": "core"
       },
       {
-        "name": "Kim Tae-hyeon",
+        "name": "Lee Myung-jae",
         "position": "DEF",
-        "age": 26,
-        "dob": "2000-09-17",
-        "caps": 11,
+        "age": 32,
+        "dob": "1993-11-04",
+        "caps": 10,
         "goals": 0,
-        "club": "Kashima Antlers",
-        "number": 5,
+        "club": "Daejeon Hana Citizen",
         "tier": "core"
       },
       {
@@ -8969,7 +8937,6 @@
         "caps": 5,
         "goals": 0,
         "club": "Ulsan HD",
-        "number": 26,
         "tier": "core"
       },
       {
@@ -8980,40 +8947,26 @@
         "caps": 4,
         "goals": 0,
         "club": "FC Seoul",
-        "number": 15,
         "tier": "core"
       },
       {
-        "name": "Kim Tae-hyun",
+        "name": "Kim Ji-soo",
         "position": "DEF",
-        "age": 29,
-        "dob": "1996-12-19",
-        "caps": 3,
-        "goals": 0,
-        "club": "Jeonbuk Hyundai Motors",
-        "number": 3,
-        "tier": "core"
-      },
-      {
-        "name": "Cho Wi-je",
-        "position": "DEF",
-        "age": 25,
-        "dob": "2001-08-25",
-        "caps": 3,
-        "goals": 0,
-        "club": "Jeonbuk Hyundai Motors",
-        "number": 28,
-        "tier": "core"
-      },
-      {
-        "name": "Kim Geon-hui",
-        "position": "DEF",
-        "age": 24,
-        "dob": "2002-09-16",
+        "age": 21,
+        "dob": "2004-12-24",
         "caps": 0,
         "goals": 0,
-        "club": "Incheon United",
-        "number": 25,
+        "club": "Brentford",
+        "tier": "core"
+      },
+      {
+        "name": "Shin Min-ha",
+        "position": "DEF",
+        "age": 21,
+        "dob": "2005-09-15",
+        "caps": 0,
+        "goals": 0,
+        "club": "Gangwon FC",
         "tier": "core"
       },
       {
@@ -9024,7 +8977,6 @@
         "caps": 110,
         "goals": 15,
         "club": "Mainz 05",
-        "number": 10,
         "tier": "core"
       },
       {
@@ -9035,7 +8987,6 @@
         "caps": 85,
         "goals": 17,
         "club": "Schalke 04",
-        "number": 11,
         "tier": "core"
       },
       {
@@ -9046,7 +8997,6 @@
         "caps": 78,
         "goals": 7,
         "club": "Porto",
-        "number": 6,
         "tier": "core"
       },
       {
@@ -9057,7 +9007,16 @@
         "caps": 53,
         "goals": 11,
         "club": "Atlético Madrid",
-        "number": 19,
+        "tier": "core"
+      },
+      {
+        "name": "Jeong Woo-yeong",
+        "position": "MID",
+        "age": 27,
+        "dob": "1999-09-20",
+        "caps": 22,
+        "goals": 4,
+        "club": "Union Berlin",
         "tier": "core"
       },
       {
@@ -9068,7 +9027,6 @@
         "caps": 20,
         "goals": 1,
         "club": "Zhejiang FC",
-        "number": 16,
         "tier": "core"
       },
       {
@@ -9079,7 +9037,16 @@
         "caps": 16,
         "goals": 1,
         "club": "Nacional",
-        "number": 17,
+        "tier": "core"
+      },
+      {
+        "name": "Eom Ji-sung",
+        "position": "MID",
+        "age": 24,
+        "dob": "2002-05-09",
+        "caps": 11,
+        "goals": 2,
+        "club": "Swansea City",
         "tier": "core"
       },
       {
@@ -9090,29 +9057,6 @@
         "caps": 6,
         "goals": 0,
         "club": "Daejeon Hana Citizen",
-        "number": 24,
-        "tier": "core"
-      },
-      {
-        "name": "Jeong Seung-won",
-        "position": "MID",
-        "age": 29,
-        "dob": "1997-02-27",
-        "caps": 5,
-        "goals": 0,
-        "club": "FC Seoul",
-        "number": 29,
-        "tier": "core"
-      },
-      {
-        "name": "Kim Min-su",
-        "position": "MID",
-        "age": 20,
-        "dob": "2006-01-19",
-        "caps": 3,
-        "goals": 0,
-        "club": "Rangers",
-        "number": 27,
         "tier": "core"
       },
       {
@@ -9123,7 +9067,16 @@
         "caps": 2,
         "goals": 0,
         "club": "Gimcheon Sangmu",
-        "number": 30,
+        "tier": "core"
+      },
+      {
+        "name": "Son Jeong-beom",
+        "position": "MID",
+        "age": 19,
+        "dob": "2007-09-28",
+        "caps": 0,
+        "goals": 0,
+        "club": "FC Seoul",
         "tier": "core"
       },
       {
@@ -9134,7 +9087,6 @@
         "caps": 151,
         "goals": 59,
         "club": "Los Angeles FC",
-        "number": 7,
         "tier": "core"
       },
       {
@@ -9145,7 +9097,6 @@
         "caps": 34,
         "goals": 8,
         "club": "Beşiktaş",
-        "number": 18,
         "tier": "core"
       },
       {
@@ -9156,7 +9107,6 @@
         "caps": 21,
         "goals": 5,
         "club": "Ulsan HD",
-        "number": 14,
         "tier": "core"
       },
       {
@@ -9167,8 +9117,17 @@
         "caps": 14,
         "goals": 3,
         "club": "Shimizu S-Pulse",
-        "number": 20,
         "tier": "core"
+      },
+      {
+        "name": "Gu Sung-yun",
+        "position": "GK",
+        "age": 32,
+        "dob": "1994-06-27",
+        "caps": 5,
+        "goals": 0,
+        "club": "FC Seoul",
+        "tier": "extended"
       },
       {
         "name": "Yun Ki-wook",
@@ -9191,6 +9150,16 @@
         "tier": "extended"
       },
       {
+        "name": "Lee Tae-seok",
+        "position": "DEF",
+        "age": 24,
+        "dob": "2002-07-28",
+        "caps": 19,
+        "goals": 1,
+        "club": "Austria Wien",
+        "tier": "extended"
+      },
+      {
         "name": "Cho Yu-min",
         "position": "DEF",
         "age": 29,
@@ -9201,13 +9170,13 @@
         "tier": "extended"
       },
       {
-        "name": "Lee Myung-jae",
+        "name": "Kim Tae-hyeon",
         "position": "DEF",
-        "age": 32,
-        "dob": "1993-11-04",
-        "caps": 10,
+        "age": 26,
+        "dob": "2000-09-17",
+        "caps": 11,
         "goals": 0,
-        "club": "Daejeon Hana Citizen",
+        "club": "Kashima Antlers",
         "tier": "extended"
       },
       {
@@ -9238,6 +9207,36 @@
         "caps": 6,
         "goals": 0,
         "club": "Gangwon FC",
+        "tier": "extended"
+      },
+      {
+        "name": "Cho Wi-je",
+        "position": "DEF",
+        "age": 25,
+        "dob": "2001-08-25",
+        "caps": 3,
+        "goals": 0,
+        "club": "Jeonbuk Hyundai Motors",
+        "tier": "extended"
+      },
+      {
+        "name": "Kim Tae-hyun",
+        "position": "DEF",
+        "age": 29,
+        "dob": "1996-12-19",
+        "caps": 3,
+        "goals": 0,
+        "club": "Jeonbuk Hyundai Motors",
+        "tier": "extended"
+      },
+      {
+        "name": "Kim Geon-hui",
+        "position": "DEF",
+        "age": 24,
+        "dob": "2002-09-16",
+        "caps": 0,
+        "goals": 0,
+        "club": "Incheon United",
         "tier": "extended"
       },
       {
@@ -9281,16 +9280,6 @@
         "tier": "extended"
       },
       {
-        "name": "Eom Ji-sung",
-        "position": "MID",
-        "age": 24,
-        "dob": "2002-05-09",
-        "caps": 11,
-        "goals": 2,
-        "club": "Swansea City",
-        "tier": "extended"
-      },
-      {
         "name": "Won Du-jae",
         "position": "MID",
         "age": 28,
@@ -9311,6 +9300,16 @@
         "tier": "extended"
       },
       {
+        "name": "Jeong Seung-won",
+        "position": "MID",
+        "age": 29,
+        "dob": "1997-02-27",
+        "caps": 5,
+        "goals": 0,
+        "club": "FC Seoul",
+        "tier": "extended"
+      },
+      {
         "name": "Seo Min-woo",
         "position": "MID",
         "age": 28,
@@ -9318,6 +9317,16 @@
         "caps": 4,
         "goals": 0,
         "club": "Gangwon FC",
+        "tier": "extended"
+      },
+      {
+        "name": "Kim Min-su",
+        "position": "MID",
+        "age": 20,
+        "dob": "2006-01-19",
+        "caps": 3,
+        "goals": 0,
+        "club": "Rangers",
         "tier": "extended"
       },
       {
@@ -9363,7 +9372,7 @@
     ]
   },
   "can": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Jesse Marsch",
     "players": [
@@ -9933,7 +9942,7 @@
     ]
   },
   "egy": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Hossam Hassan",
     "players": [
@@ -10514,7 +10523,7 @@
     ]
   },
   "irn": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Amir Ghalenoei",
     "players": [
@@ -10607,7 +10616,7 @@
         "tier": "core"
       },
       {
-        "name": "Aria Yousefi",
+        "name": "Arya Yousefi",
         "position": "DEF",
         "age": 24,
         "dob": "2002-04-22",
@@ -10840,7 +10849,7 @@
         "dob": "1996-06-20",
         "caps": 30,
         "goals": 0,
-        "club": "Unattached",
+        "club": "Free agent",
         "tier": "extended"
       },
       {
@@ -11096,7 +11105,7 @@
     ]
   },
   "nzl": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Darren Bazeley",
     "players": [
@@ -11546,7 +11555,7 @@
     ]
   },
   "cpv": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Bubista",
     "players": [
@@ -11903,7 +11912,7 @@
     ]
   },
   "sau": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Roberto Mancini",
     "players": [
@@ -12460,7 +12469,7 @@
     ]
   },
   "uzb": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Srecko Katanec",
     "players": [
@@ -13044,7 +13053,7 @@
     ]
   },
   "col": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Néstor Lorenzo",
     "players": [
@@ -13627,7 +13636,7 @@
     ]
   },
   "hrv": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Zlatko Dalić",
     "players": [
@@ -14024,7 +14033,7 @@
     ]
   },
   "jor": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Hussein Ammouta",
     "players": [
@@ -14548,7 +14557,7 @@
     ]
   },
   "qat": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Luis García",
     "players": [
@@ -15110,7 +15119,7 @@
     ]
   },
   "sui": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Murat Yakın",
     "players": [
@@ -15530,7 +15539,7 @@
     ]
   },
   "mar": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Walid Regragui",
     "players": [
@@ -16116,7 +16125,7 @@
     ]
   },
   "civ": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Emerse Faé",
     "players": [
@@ -16607,7 +16616,7 @@
     ]
   },
   "jpn": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Hajime Moriyasu",
     "players": [
@@ -17112,7 +17121,7 @@
     ]
   },
   "tun": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Faouzi Benzarti",
     "players": [
@@ -17692,7 +17701,7 @@
     ]
   },
   "bel": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Domenico Tedesco",
     "players": [
@@ -18112,7 +18121,7 @@
     ]
   },
   "gha": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Otto Addo",
     "players": [
@@ -18372,7 +18381,7 @@
     ]
   },
   "pan": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Thomas Christiansen",
     "players": [
@@ -18954,7 +18963,7 @@
     ]
   },
   "ury": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Marcelo Bielsa",
     "players": [
@@ -19511,7 +19520,7 @@
     ]
   },
   "sen": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Aliou Cissé",
     "players": [
@@ -20003,7 +20012,7 @@
     ]
   },
   "nor": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Ståle Solbakken",
     "players": [
@@ -20385,7 +20394,7 @@
     ]
   },
   "dza": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Vladimir Petković",
     "players": [
@@ -20967,7 +20976,7 @@
     ]
   },
   "aut": {
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "status": "preliminary",
     "manager": "Ralf Rangnick",
     "players": [
